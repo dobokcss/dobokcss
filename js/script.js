@@ -4,9 +4,9 @@
 * script for ZuniCSS 
 * ------------------------------------------------------
 *
-* Estefanio NS <estefanions AT gmail DOT com 
-* project: https://github.com/4app/zunicss
-* page:    http://4app.github.io/zunicss
+* Author:  Estefanio NS <estefanions AT gmail DOT com> 
+* Project: https://github.com/zunicss/zunicss
+* Page:    http://zunicss.github.io
 */
 
 $( document ).ready(function() {
