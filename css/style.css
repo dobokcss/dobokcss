@@ -4,10 +4,10 @@
 * Zuni CSS 
 * ------------------------------------------------------
 *
-* Author:  Estefanio NS <estefanions AT gmail DOT com> 
-* Project: https://github.com/zunicss/zunicss
-* Page:    http://zunicss.github.io
-* Reset:   https://github.com/estefanions/resetcss
+* author:  Estefanio NS <estefanions AT gmail DOT com> 
+* project: https://github.com/zunicss/zunicss
+* page:    http://zunicss.github.io
+* reset:   https://github.com/estefanions/resetcss
 */
 
 *{
@@ -260,7 +260,6 @@ background: #ccc
 background: #d6d6d6
 }
 
-
 .bt_primary{background: #06a}
 .bt_secondary{ background: #a00}
 .bt_dark{background: #222}
@@ -270,6 +269,25 @@ background: #d6d6d6
 .bt_secondary:hover{ background: #c00}
 .bt_dark:hover{background: #000}
 .bt_light:hover{color: #333; background: #d6d6d6}
+
+.bt_standard.tx_primary{ color: #06c }
+.bt_standard.tx_secondary{ color: #a00 }
+.bt_standard.tx_dark{ color: #000 }
+.bt_standard.tx_light{ color: #f6f6f6 }
+
+.bt_dark.tx_primary{ color: #06c }
+.bt_dark.tx_secondary{ color: #a00 }
+
+.bt_primary.tx_dark{ color: #000 }
+.bt_primary.tx_secondary{ color: #a00 }
+.bt_secondary.tx_dark{ color: #000 }
+.bt_secondary.tx_primary{ color: #06c }
+
+.bt_dark.bt_hove_primary:hover{background: #06a}
+.bt_dark.bt_hove_secondary:hover {background: #a00}
+.bt_dark.bt_hove_light:hover {color: #000; background: #f6f6f6}
+.bt_dark.bt_hove_standard:hover {color: #000; background: #d6d6d6}
+
 
 .w_auto{ width: auto !important }
 
@@ -458,6 +476,59 @@ max-width: none !important
 }
 
 
+@media only screen and (max-width: 890px) 
+{
+
+.is_mobile_block, .is_tablet_show{ display: block }
+.is_mobile_none,  .is_tablet_hide{ display: none}
+
+.row_mobile { width: 100%; float: left; margin-left: 0; margin-bottom: 0 }
+
+
+.wg_mobile3   { width: 23.44% }
+.wg_mobile4   { width: 31.77% }
+.wg_mobile6   { width: 48.45% }
+.wg_mobile8   { width: 65.09% }
+.wg_mobile12  { width: 100%; float: left; clear: both }
+.row_mobile .wg_mobile12  { width: 98.45%; float: left; clear: both }
+
+.fill_mobile_inside{ padding: 1.55%  !important}
+.fill_mobile_inside_top{ padding-top: 1.55%; !important}
+.fill_mobile_inside_right{ padding-right: 1.55% !important }
+.fill_mobile_inside_bottom{ padding-bottom: 1.55% !important}
+.fill_mobile_inside_left{ padding-left: 1.55% !important }
+.fill_mobile_inside_top_bottom{ padding-top: 1.55% !important; padding-bottom: 1.55%  !important}
+.fill_mobile_inside_left_right{ padding-left: 1.55% !important; padding-right: 1.55%  !important}
+
+.fill_mobile_outside{ margin: 1.55%  !important}
+.fill_mobile_outside_top{    margin-top: 1.55% !important}
+.fill_mobile_outside_right{ margin-right: 1.55%  !important}
+.fill_mobile_outside_bottom{ margin-bottom: 1.55% !important}
+.fill_mobile_outside_left{ margin-left: 1.55%;  !important}
+.fill_mobile_outside_left_right{ margin-left: 1.55% !important; margin-right: 1.55%  !important}
+.fill_mobile_outside_top_bottom{ margin-top: 1.55% !important; margin-bottom: 1.55%  !important}
+
+
+.fill_mobile_outside_none{ margin: 0  !important}
+.fill_mobile_outside_bottom_none{ margin-bottom: 0  !important}
+.fill_mobile_outside_top_bottom_none{ margin-top: 0 !important; margin-bottom: 0  !important}
+.fill_mobile_outside_left_none { margin-left: 0  !important} 
+.fill_mobile_outside_right_none { margin-right: 0  !important}
+.fill_mobile_outside_left_right_none { margin-left: 0 !important; margin-right: 0  !important}
+.fill_mobile_outside_top_none{ margin-top: 0  !important}
+.fill_mobile_outside_bottom_none{ margin-bottom: 0  !important}
+.fill_mobile_outside_top_bottom_none{ margin-top: 0 !important; margin-bottom: 0  !important}
+.fill_mobile_outside_left_none { margin-left: 0  !important} 
+.fill_mobile_outside_right_none { margin-right: 0  !important}
+.fill_mobile_outside_left_right_none { margin-left: 0 !important; margin-right: 0  !important}
+
+
+
+
+
+
+}
+
 
 @media only screen and (max-width: 719px) 
 {
@@ -470,6 +541,8 @@ max-width: none !important
 .wg_tablet6   { width: 48.45% }
 .wg_tablet8   { width: 65.09% }
 .wg_tablet12  { width: 100%; float: left; clear: both }
+.row_mobile .wg_tablet12  { width: 98.45%; float: left; clear: both }
+
 
 }
 
@@ -488,6 +561,7 @@ max-width: none !important
 .wg_phone6   { width: 48.45% }
 .wg_phone8   { width: 65.09% }
 .wg_phone12  { width: 100%; float: left; clear: both }
+.row_mobile .wg_phone12  { width: 98.45%; float: left; clear: both }
 
 }
 
@@ -554,12 +628,12 @@ padding: 0;
 float: left; clear: both;
 }
 
-.tl, .tb_hover,.tb_border,
+.tb, .tb_hover,.tb_border,
 .tb_striped{margin:2px; border-collapse:collapse}
-.tl th,.tb_hover th,
+.tb th,.tb_hover th,
 .tb_border th,
 .tb_striped th{font-weight:bold;color:#444;background:#fff;padding:10px 5px;text-align:left}
-.tl td,
+.tb td,
 .tb_hover td,
 .tb_border td, .tb_striped td{border-bottom:1px solid #444;padding:10px 5px;color:#444;background:#fff}
 .tb_tr_hover td{background:#edeaea}
@@ -1072,16 +1146,6 @@ ul.menu_sidebar.menu_standard > li{
 
 @media all and (max-width: 890px)
 { 
-
-
-.is_mobile_block, .is_tablet_show{ display: block }
-.is_mobile_none,  .is_tablet_hide{ display: none}
-
-.wg_mobile3   { width: 23.44% }
-.wg_mobile4   { width: 31.77% }
-.wg_mobile6   { width: 48.45% }
-.wg_mobile8   { width: 65.09% }
-.wg_mobile12  { width: 100%; float: left; clear: both }
 
 .menu_bar > ul {
 display: none
