@@ -136,6 +136,12 @@ legend{
 .tx_light{color: #f6f6f6}
 .tx_standard{color: #ccc}
 
+.bd_primary{ border: 1px solid  #06c }
+.bd_secondary{border: 1px solid #a00}
+.bd_dark{border: 1px solid  #222}
+.bd_light{border: 1px solid  #f6f6f6}
+.bd_standard{border: 1px solid  #ccc}
+
 .bd_top_primary{ border-top: 1px solid  #06c }
 .bd_top_secondary{border-top: 1px solid #a00}
 .bd_top_dark{border-top: 1px solid  #222}
@@ -1426,4 +1432,31 @@ border-top-color: #fff
 
 
 
+@media screen and (max-width: 850px) {
+
+  .tb_scale thead { display: none; }
+  .tb_scale tbody td { 
+    display: block
+  }
+
+
+  .tb_scale tbody tr td:first-child { 
+    background: #09c; color: #fff; 
+  }
+	.tb_scale tbody td:before { 
+    min-width: 100px;
+    padding-right: 10px;
+    content: attr(data-th); 
+    font-weight: bold;
+    display: inline-block;
+  }
+
+  .tb_scale tbody td{
+    border-top: none
+  }
+
+
+
+
+}
 
