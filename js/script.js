@@ -1,15 +1,18 @@
+
 /*
 *
 * ------------------------------------------------------
-* script for ZuniCSS 
+* script for DobokCSS
 * ------------------------------------------------------
 *
 * Author:  Estefanio NS <estefanions AT gmail DOT com> 
-* Project: https://github.com/zunicss/zunicss
-* Page:    http://zunicss.github.io
+* Project: https://github.com/dobokcss/dobokcss
+* Page:    http://dobokcss.github.io
+* version: 0.1.0
 */
 
 $( document ).ready(function() {
+
 $('.menu_bar').prepend('<div class="menu_bt">Menu</div>');
 	$('.menu_bar .menu_bt').on('click', function(){
 		var menu = $(this).next('ul');
@@ -81,22 +84,19 @@ $('.menu_sidebar li.has_dropdown>a').on('click', function(){
 	}
 
 
-var metas = document.getElementsByTagName('meta');
-var i;
-if (navigator.userAgent.match(/iPhone/i)) {
-  for (i=0; i<metas.length; i++) {
-    if (metas[i].name == "viewport") {
-      metas[i].content = "width=device-width, minimum-scale=1.0, maximum-scale=1.0";
-    }
-  }
-  document.addEventListener("gesturestart", gestureStart, false);
-}
-function gestureStart() {
-  for (i=0; i<metas.length; i++) {
-    if (metas[i].name == "viewport") {
-      metas[i].content = "width=device-width, minimum-scale=0.25, maximum-scale=1.6";
-    }
-  }
+var headertext = [],
+headers = document.querySelectorAll(".tb_scale th"),
+tablerows = document.querySelectorAll(".tb_scale th"),
+tablebody = document.querySelector(".tb_scale tbody");
+
+for(var i = 0; i < headers.length; i++) {
+  var current = headers[i];
+  headertext.push(current.textContent.replace(/\r?\n|\r/,""));
+} 
+for (var i = 0, row; row = tablebody.rows[i]; i++) {
+  for (var j = 0, col; col = row.cells[j]; j++) {
+    col.setAttribute("data-th", headertext[j]);
+  } 
 }
 
 

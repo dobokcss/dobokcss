@@ -3,449 +3,477 @@
     <head>
       <meta charset="UTF-8"/>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-            <title>Zuni CSS example</title>
+            <title>Dobok CSS</title>
 
-            <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+            <link rel="stylesheet" href="css/reset.min.css" type="text/css" media="all" />
+            <link rel="stylesheet" href="css/style.min.css" type="text/css" media="all" />
+            
+    <script type="text/javascript">
+        function xSpace(n){
+         document.write('&nbsp;'.repeat(n))
+        }
+    </script>
+
     </head>
 <body>
 
-    <!-- start menu top -->
-<div class="expand bg_dark">
+<div class="expand bg_primary">
   <div class="container">
-      <div class="menu_bar bg_dark">
+            <div class="menu_bar menu_primary">
           <ul>
-            <li><a href="#">Home</a></li>
-            <li class="has_dropdown">
-                <a href="#">Product</a>
+            <li><a href="#">Dobok CSS</a></li>
+            <li>
+                <a href="#">Products</a>
                 <ul>
-                    <li>
-                        <a href="#">Lorem</a>
-                        <ul>
-                            <li><a href="#">Curabitur</a></li>
-                            <li><a href="#">Pharetra</a></li>
-                            <li><a href="#">Dignissim</a></li>
-                        </ul>    
+                  <li><a href="#">Product 1</a></li>
+                  <li><a href="#">Product 2</a></li>
+                  <li>
+                        <a href="#">Product 3</a>
+                <ul>
+                  <li><a href="#">Sub Product 1</a></li>
+                  <li><a href="#">Sub Product 2</a></li>
+                  <li><a href="#">Sub Product 3</a></li>
+                </ul>
                     </li>
-                  <li><a href="#">Ipsum</a></li>
-                  <li><a href="#">Dolor</a></li>
                 </ul>
               </li>
-
               <li><a href="#">About</a></li>
               <li><a href="#">Contact</a></li>
-
           </ul>
       </div>
   </div>
 </div>
-    <!-- end menu top -->
-
-    
 
 
-    <div class="container">
-        <div class="page_header">
+
+
+<div class="container">
+<div class="expand bg_light fill_inside fill_outside_top_bottom">
+
+&lt;div class="expand bg_primary"><br />
+<script>xSpace(4)</script>&lt;div class="container"><br />
+<script>xSpace(8)</script>&lt;div class="menu_bar menu_primary"><br />
+<script>xSpace(12)</script>&lt;ul><br />
+<script>xSpace(16)</script>&lt;li>&lt;a href="#">Dobok CSS</a></li><br />
+<script>xSpace(16)</script>&lt;li><br />
+<script>xSpace(24)</script>&lt;a href="#">Products</a><br />
+<script>xSpace(24)</script>&lt;ul><br />
+<script>xSpace(28)</script>&lt;li>&lt;a href="#">Product 1</a></li><br />
+<script>xSpace(28)</script>&lt;li>&lt;a href="#">Product 2</a></li><br />
+<script>xSpace(24)</script>&lt;li><br />
+<script>xSpace(24)</script>&lt;a href="#">Product 3</a><br />
+<script>xSpace(24)</script>&lt;ul><br />
+<script>xSpace(28)</script>&lt;li>&lt;a href="#">Sub Product 1</a></li><br />
+<script>xSpace(28)</script>&lt;li>&lt;a href="#">Sub Product 2</a></li><br />
+<script>xSpace(28)</script>&lt;li>&lt;a href="#">Sub Product 3</a></li><br />
+<script>xSpace(28)</script>&lt;/ul><br />
+<script>xSpace(28)</script>&lt;/li><br />
+<script>xSpace(24)</script>&lt;/ul><br />
+<script>xSpace(16)</script>&lt;/li><br />
+<script>xSpace(16)</script>&lt;li>&lt;a href="#">About</a></li><br />
+<script>xSpace(16)</script>&lt;li>&lt;a href="#">Contact</a></li><br />
+<script>xSpace(12)</script>&lt;/ul><br />
+<script>xSpace(8)</script>&lt;/div><br />
+<script>xSpace(4)</script>&lt;/div><br />
+&lt;/div>
+
+</div>
+
+<div class="fold bd bd_bottom_light">
+   <div class="pg_header bd bd_bottom_standard">
             <h1>Lorem ipsum dolor sit amet</h1>
         </div>
 
-
-        <div class="row">
-        
-        <div class="wg_mobile_static">
-        
-            <fieldset>
-                <legend>lorem ipsum</legend>
-
-                <div class="row">
-                    <div class="wg4">
-                        <input class="expand" type="text" placeholder="Name"/>
-                    </div>
-
-                    <div class="wg4">
-                        <input class="expand" type="text" placeholder="Email"/>
-                    </div>
-                    <div class="wg4">
-                        <input class="expand" type="text" placeholder="Work"/>
-                    </div>
-
-                </div>
-
-
-            </fieldset>
+        <div class="expand bg_light fill_inside fill_outside_top_bottom">
+            &lt;div class="pg_header bd bd_bottom_standard"> <br />
+            <script>xSpace(4)</script>&lt;h1>Lorem ipsum dolor sit amet&lt;/h1> <br />
+        &lt;/div>
         </div>
-        </div>
+
+</div>
+             
+
+        <div class="fold bd bd_bottom_light">
+
+        <h1>Form</h1>
 
         <div class="expand">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Pellentesque dolor mauris, laoreet ac convallis non,
-            mattis eget tellus. Praesent vitae lobortis orci.
-            Interdum et malesuada fames ac ante ipsum primis
+                <div class="row row_fluid">
+                    <div class="grid grid_4 grid_md_6 grid_sm_12 fill_lg_outside_bottom input_field">
+                        <input type="text" placeholder="Name"/>
+                    </div>
+
+                    <div class="grid grid_4 grid_md_6 grid_sm_12 fill_lg_outside_bottom input_field">
+                        <input type="text" placeholder="Email"/>
+                    </div>
+                    <div class="grid grid_4 grid_md_12 input_field">
+                        <input type="text" placeholder="Work"/>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="grid grid_12 tx_right">
+                        <button class="bt bt_primary">Send</button>
+                    </div>
+                </div>
         </div>
 
 
-        <div class="fold bd_top_light">
-                    <div class="row">
-                <div class="wg6">
-                    <input class="expand" type="text" placeholder="Name" />
-                </div>
-                <div class="wg6">
-                    <input class="expand" type="text" placeholder="Email" />
-                </div>
-            </div>
+
+
+        <div class="expand bg_light fill_inside fill_outside_top_bottom">
+            &lt;div class="row">row_fluid</span>"> <br />
+            <script>xSpace(4)</script>&lt;div class="grid grid_4 grid_md_6 grid_sm_12 fill_lg_outside_bottom input_field"> <br />
+            <script>xSpace(8)</script>&lt;input type="text" placeholder="Name"/> <br />
+            <script>xSpace(4)</script>&lt;/div> <br /> <br />
+
+            <script>xSpace(4)</script>&lt;div class="grid grid_4 grid_md_6 grid_sm_12 fill_lg_outside_bottom input_field"> <br />
+            <script>xSpace(8)</script>&lt;input type="text" placeholder="Email"/> <br />
+            <script>xSpace(4)</script>&lt;/div> <br /> <br />
+
+            <script>xSpace(4)</script>&lt;div class="grid grid_4 grid_md_12 input_field"> <br />
+            <script>xSpace(8)</script>&lt;input type="text" placeholder="Work"/> <br />
+            <script>xSpace(4)</script>&lt;/div> <br />
+            &lt;/div> <br /> <br />
+
+            &lt;div class="row"> <br />
+            <script>xSpace(4)</script>&lt;div class="grid grid_12 tx_right"> <br />
+            <script>xSpace(8)</script>&lt;button class="bt bt_primary">Send&lt;/button> <br />
+            <script>xSpace(4)</script>&lt;/div> <br />
+            &lt;/div>
+        </div>
+
 
 
         </div>
 
 
-
-        <div class="fold bd_bottom_light">
+<div class="fold bd bd_bottom_light">
         
     <h1>Button</h1>
 
-            <div class="wg12">
+            <div class="grid grid_12">
                     <ul class="lt_horizontal">
                         <li><button class="bt bt_primary">Primary</button></li>
                         <li><button class="bt bt_secondary">Secondary</button></li>
-                        <li><button class="bt bt_dark">Dark</button></li>
                         <li><button class="bt bt_light">Light</button></li>
                         <li><button class="bt bt_standard">standard</button></li>
                     </ul>    
-                    <!--
-                            <a class="bt bt_primary">ok</a>
-                            <div class="bt bt_primary">ok</div>
-                            <span class="bt bt_primary">ok</span>
-                            <button class="bt bt_primary">ok</button>
-                    -->
-                    
             </div>
 
-            <div class="row">
-                <div class="wg4 wg_tablet12">
-            <div class="expand fill_outside_bottom">
-                <input class="expand" type="text">
+            <div class="grid grid_12">
+                    <ul class="lt_horizontal">
+                    <li> <a class="bt bt_standard">anchor</a> </li>
+                    <li> <div class="bt bt_standard">div</div> </li>
+                    <li> <span class="bt bt_standard">span</span> </li>
+                    <li> <button class="bt bt_standard">button</button> </li>
+                    <li> <input type="submit" class="bt bt_standard expand_none" value="type submit"/> </li>
+                    </ul>
             </div>
-            <div class="expand">
-                <input class="bt bt_primary expand" type="button" value="ok" />
-            </div>
-                </div>
 
+
+        <div class="expand bg_light fill_inside fill_outside_top_bottom">
+                    &lt;button class="bt bt_primary">Primary&lt;/button> <br />
+                    &lt;button class="bt bt_secondary">Secondary&lt;/button> <br />
+                    &lt;button class="bt bt_light">Light&lt;/button> <br />
+                    &lt;button class="bt bt_standard">standard&lt;/button> <br /> <br />
+
+                    &lt;a class="bt bt_standard">anchor&lt;/a> <br />
+                    &lt;div class="bt bt_standard">div&lt;/div> <br />
+                    &lt;span class="bt bt_standard">span&lt;/span> <br />
+                    &lt;input type="submit" class="bt bt_standard" value="type submit"/> <br />
 
         </div>
 
-
-        <div class="fold bd_bottom_light">
-            <div class="wg12">
-                <h1>Message</h1>
-            </div>
-            <div class="alert alert_primary">Lorem ipsum dolor sit amet</div>
-            <div class="alert alert_secondary">Lorem ipsum dolor sit amet</div>
-            <div class="alert alert_dark">Lorem ipsum dolor sit amet</div>
-            <div class="alert alert_light">Lorem ipsum dolor sit amet</div>
-        </div>
-
-
-
-        <div class="fold bd_bottom_light">
+    </div>
         
-<div class="wg12">
-    <h1>Callout</h1>
-</div>
-            <div class="callout callout_primary">
-                <h1>Lorem ipsum dolor sit amet</h1>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Pellentesque dolor mauris, laoreet ac convallis non,
-                mattis eget tellus. Praesent vitae lobortis orci.
-                Interdum et malesuada fames ac ante ipsum primis
-            </div>
-            <div class="callout callout_secondary">
-                <h1>Lorem ipsum dolor sit amet</h1>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Pellentesque dolor mauris, laoreet ac convallis non,
-                mattis eget tellus. Praesent vitae lobortis orci.
-                Interdum et malesuada fames ac ante ipsum primis
-            </div>
-            <div class="callout callout_dark">
-                <h1>Lorem ipsum dolor sit amet</h1>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Pellentesque dolor mauris, laoreet ac convallis non,
-                mattis eget tellus. Praesent vitae lobortis orci.
-                Interdum et malesuada fames ac ante ipsum primis
-            </div>
-            <div class="callout callout_light">
-                <h1>Lorem ipsum dolor sit amet</h1>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Pellentesque dolor mauris, laoreet ac convallis non,
-                mattis eget tellus. Praesent vitae lobortis orci.
-                Interdum et malesuada fames ac ante ipsum primis
-            </div>
-
-
-
-
-         </div>
-
-
-
-
-        <div class="fold bd_bottom_light">
-            <div class="wg12">
+<div class="fold bottom_light">
+            <div class="grid grid_12">
                 <h1>Grid</h1>
             </div>
-            <div class="wg12">
+            <div class="grid grid_12">
                 
             </div>
 
             <div class="row">
-                <div class="wg1 bg">wg1</div>
-                <div class="wg1 bg">wg1</div>
-                <div class="wg1 bg">wg1</div>
-                <div class="wg1 bg">wg1</div>
-                <div class="wg1 bg">wg1</div>
-                <div class="wg1 bg">wg1</div>
-                <div class="wg1 bg">wg1</div>
-                <div class="wg1 bg">wg1</div>
-                <div class="wg1 bg">wg1</div>
-                <div class="wg1 bg">wg1</div>
-                <div class="wg1 bg">wg1</div>
-                <div class="wg1 bg">wg1</div>
+                <div class="grid grid_1 bg">1</div>
+                <div class="grid grid_1 bg">1</div>
+                <div class="grid grid_1 bg">1</div>
+                <div class="grid grid_1 bg">1</div>
+                <div class="grid grid_1 bg">1</div>
+                <div class="grid grid_1 bg">1</div>
+                <div class="grid grid_1 bg">1</div>
+                <div class="grid grid_1 bg">1</div>
+                <div class="grid grid_1 bg">1</div>
+                <div class="grid grid_1 bg">1</div>
+                <div class="grid grid_1 bg">1</div>
+                <div class="grid grid_1 bg">1</div>
             </div>
 
             <div class="row">
-                <div class="wg1 bg">wg1</div>
-                <div class="wg11 bg">wg11</div>
+                <div class="grid grid_1 bg">1</div>
+                <div class="grid grid_11 bg">11</div>
             </div>
             <div class="row">
-                <div class="wg2 bg">wg2</div>
-                <div class="wg10 bg">wg10</div>
+                <div class="grid grid_2 bg">2</div>
+                <div class="grid grid_10 bg">10</div>
             </div>
             <div class="row">
-                <div class="wg3 bg">wg3</div>
-                <div class="wg9 bg">wg9</div>
+                <div class="grid grid_3 bg">3</div>
+                <div class="grid grid_9 bg">9</div>
             </div>
             <div class="row">
-                <div class="wg4 bg">wg4</div>
-                <div class="wg8 bg">wg8</div>
+                <div class="grid grid_4 bg">4</div>
+                <div class="grid grid_8 bg">8</div>
             </div>
             <div class="row">
-                <div class="wg5 bg">wg5</div>
-                <div class="wg7 bg">wg7</div>
+                <div class="grid grid_5 bg">5</div>
+                <div class="grid grid_7 bg">7</div>
             </div>
             <div class="row">
-                <div class="wg6 bg">wg6</div>
-                <div class="wg6 bg">wg6</div>
+                <div class="grid grid_6 bg">6</div>
+                <div class="grid grid_6 bg">6</div>
             </div>
 
             <div class="row">
-                <div class="wg4 bg">wg4</div>
-                <div class="wg4 bg">wg4</div>
-                <div class="wg4 bg">wg4</div>
+                <div class="grid grid_4 bg">4</div>
+                <div class="grid grid_4 bg">4</div>
+                <div class="grid grid_4 bg">4</div>
             </div>
 
 
             <div class="row">
-                <div class="wg3 bg">wg3</div>
-                <div class="wg3 bg">wg3</div>
-                <div class="wg3 bg">wg3</div>
-                <div class="wg3 bg">wg3</div>
+                <div class="grid grid_3 bg">3</div>
+                <div class="grid grid_3 bg">3</div>
+                <div class="grid grid_3 bg">3</div>
+                <div class="grid grid_3 bg">3</div>
             </div>
-        
+
+
+        <div class="expand bg_light fill_inside fill_outside_top_bottom">
+
+          &lt;div class="row"> <br />
+          <script>xSpace(4)</script>&lt;div class="grid grid_1">1&lt;/div><br />
+          <script>xSpace(4)</script>&lt;div class="grid grid_1">1&lt;/div><br />
+          <script>xSpace(4)</script>&lt;div class="grid grid_1">1&lt;/div><br />
+          <script>xSpace(4)</script>&lt;div class="grid grid_1">1&lt;/div><br />
+          <script>xSpace(4)</script>&lt;div class="grid grid_1">1&lt;/div><br />
+          <script>xSpace(4)</script>&lt;div class="grid grid_1">1&lt;/div><br />
+          <script>xSpace(4)</script>&lt;div class="grid grid_1">1&lt;/div><br />
+          <script>xSpace(4)</script>&lt;div class="grid grid_1">1&lt;/div><br />
+          <script>xSpace(4)</script>&lt;div class="grid grid_1">1&lt;/div><br />
+          <script>xSpace(4)</script>&lt;div class="grid grid_1">1&lt;/div><br />
+          <script>xSpace(4)</script>&lt;div class="grid grid_1">1&lt;/div><br />
+          <script>xSpace(4)</script>&lt;div class="grid grid_1">1&lt;/div><br />
+          &lt;/div><br /><br />
+
+          &lt;div class="row"><br />
+          <script>xSpace(4)</script>&lt;div class="grid grid_1">1&lt;/div><br />
+          <script>xSpace(4)</script>&lt;div class="grid grid_11">11&lt;/div><br />
+          &lt;/div><br /><br />
+          
+          <script>xSpace(4)</script>&lt;div class="row"><br />
+          <script>xSpace(4)</script>&lt;div class="grid grid_2">2&lt;/div><br />
+          <script>xSpace(4)</script>&lt;div class="grid grid_10">10&lt;/div><br />
+          &lt;/div><br /><br />
+
+          <script>xSpace(4)</script>&lt;div class="row"><br />
+          <script>xSpace(4)</script>&lt;div class="grid grid_3">3&lt;/div><br />
+          <script>xSpace(4)</script>&lt;div class="grid grid_9">9&lt;/div><br />
+          &lt;/div><br /><br />
+
+          &lt;div class="row"><br />
+          <script>xSpace(4)</script>&lt;div class="grid grid_4">4&lt;/div><br />
+          <script>xSpace(4)</script>&lt;div class="grid grid_8">8&lt;/div><br />
+          &lt;/div><br /><br />
+
+          &lt;div class="row"><br />
+          <script>xSpace(4)</script>&lt;div class="grid grid_5">5&lt;/div><br />
+          <script>xSpace(4)</script>&lt;div class="grid grid_7">7&lt;/div><br />
+          &lt;/div><br /><br />
+
+          <script>xSpace(4)</script>&lt;div class="row"><br />
+          <script>xSpace(4)</script>&lt;div class="grid grid_6">6&lt;/div><br />
+          <script>xSpace(4)</script>&lt;div class="grid grid_6">6&lt;/div><br />
+          &lt;/div><br /> <br />
+
+          &lt;div class="row"><br />
+          <script>xSpace(4)</script>&lt;div class="grid grid_4">4&lt;/div><br />
+          <script>xSpace(4)</script>&lt;div class="grid grid_4">4&lt;/div><br />
+          <script>xSpace(4)</script>&lt;div class="grid grid_4">4&lt;/div><br />
+          &lt;/div><br /> <br />
+
+          &lt;div class="row"><br />
+          <script>xSpace(4)</script>&lt;div class="grid grid_3">3&lt;/div><br />
+          <script>xSpace(4)</script>&lt;div class="grid grid_3">3&lt;/div><br />
+          <script>xSpace(4)</script>&lt;div class="grid grid_3">3&lt;/div><br />
+          <script>xSpace(4)</script>&lt;div class="grid grid_3">3&lt;/div><br />
+          &lt;/div><br /><br />
+
+        </div>
         
         </div>
 
 
-        <div class="fold bd_bottom_light">
-            <div class="wg12">
+
+    <div class="fold bottom_light">
+            <div class="grid grid_12">
                 <h1>menu vertival</h1>
             </div>
 
 
-            <div class="alert alert_dark">
-                &lt;ul class="menu_sidebar"> ... &lt;/ul>
-            </div>
-            <div class="row">
-           
-                <div class="wg3 wg_tablet6">
+                <div class="row">
+                    <div class="grid grid_3 grid_md_6 grid_sm_12 fill_lg_inside_bottom">
                      <ul class="menu_sidebar">
                          <li><a href="#">lorem</a></li>
                          <li class="has_dropdown"><a href="#">ipsum</a>
                             <ul>
                                 <li><a href="#">mauris</a></li>
-                                <li><a href="#">magna</a></li>
+                                <li class="has_dropdown"><a href="#">magna</a>
+                                     <ul>
+                                        <li><a href="#">elit</a></li>
+                                        <li><a href="#">tellus</a> </li>
+                                    </ul>   
+                                </li>
                             </ul>    
                          </li>
                          <li><a href="#">dolor</a></li>
                      </ul>    
-                </div>
+                    </div>
 
-            <div class="wg9 wg_tablet6">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Pellentesque dolor mauris, laoreet ac convallis non,
-                mattis eget tellus. Praesent vitae lobortis orci.
-                Interdum et malesuada fames ac ante ipsum primis
-            </div>
-
-            </div>
-
-
-            <div class="alert alert_dark">
-                &lt;ul class="menu_sidebar menu_dark"> ... &lt;/ul>
-            </div>
-            <div class="row">
-           
-                
-
-            <div class="wg9 wg_tablet6">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Pellentesque dolor mauris, laoreet ac convallis non,
-                mattis eget tellus. Praesent vitae lobortis orci.
-                Interdum et malesuada fames ac ante ipsum primis
-            </div>
-
-            <div class="wg3 wg_tablet6">
-                     <ul class="menu_sidebar menu_dark">
-                         <li><a href="#">lorem</a></li>
-                         <li class="has_dropdown"><a href="#">ipsum</a>
-                            <ul>
-                                <li><a href="#">mauris</a></li>
-                                <li><a href="#">magna</a></li>
-                            </ul>    
-                         </li>
-                         <li><a href="#">dolor</a></li>
-                     </ul>    
+                    <div class="grid grid_9 grid_md_6 grid_sm_12">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Pellentesque dolor mauris, laoreet ac convallis non,
+                        mattis eget tellus. Praesent vitae lobortis orci.
+                        Interdum et malesuada fames ac ante ipsum primis
+                    </div>
                 </div>
 
 
+                <div class="expand bg_light fill_inside fill_outside_bottom">
+
+                   &lt;ul class="menu_sidebar"> <br />
+                   <script>xSpace(4)</script>&lt;li>&lt;a href="#">lorem&lt;/a>&lt;/li> <br />
+                   <script>xSpace(4)</script>&lt;li class="has_dropdown">&lt;a href="#">ipsum&lt;/a> <br />
+                   <script>xSpace(4)</script>&lt;ul> <br />
+                   <script>xSpace(8)</script>&lt;li>&lt;a href="#">mauris&lt;/a>&lt;/li> <br />
+                   <script>xSpace(8)</script>&lt;li class="has_dropdown">&lt;a href="#">magna&lt;/a> <br />
+                   <script>xSpace(12)</script>&lt;ul> <br />
+                   <script>xSpace(16)</script>&lt;li>&lt;a href="#">elit&lt;/a>&lt;/li> <br />
+                   <script>xSpace(16)</script>&lt;li>&lt;a href="#">tellus&lt;/a> &lt;/li> <br />
+                   <script>xSpace(12)</script>&lt;/ul>    <br />
+                   <script>xSpace(8)</script>&lt;/li> <br />
+                   <script>xSpace(4)</script>&lt;/ul>     <br />
+                   <script>xSpace(8)</script>&lt;/li> <br />
+                   <script>xSpace(4)</script>&lt;li>&lt;a href="#">dolor&lt;/a>&lt;/li> <br />
+                   &lt;/ul>     <br />
 
             </div>
 
 
-            <div class="alert alert_dark">
-                &lt;ul class="menu_primary menu_primary"> ... &lt;/ul>
+        </div>
+
+
+    <div class="fold bottom_light">
+            <div class="grid grid_12">
+                <h1>menu vertival</h1>
             </div>
-            <div class="row">
-           
-                <div class="wg3 wg_tablet6">
+
+
+                <div class="row">
+                    <div class="grid grid_3 grid_md_6 grid_sm_12 fill_lg_inside_bottom">
                      <ul class="menu_sidebar menu_primary">
                          <li><a href="#">lorem</a></li>
                          <li class="has_dropdown"><a href="#">ipsum</a>
                             <ul>
                                 <li><a href="#">mauris</a></li>
-                                <li><a href="#">magna</a></li>
+                                <li class="has_dropdown"><a href="#">magna</a>
+                                    <ul>
+                                        <li><a href="#">fames</a></li>
+                                        <li><a href="#">amet</a></li>
+                                    </ul>
+                                </li>
                             </ul>    
                          </li>
                          <li><a href="#">dolor</a></li>
                      </ul>    
+                    </div>
+
+                    <div class="grid grid_9 grid_md_6 grid_sm_12">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Pellentesque dolor mauris, laoreet ac convallis non,
+                        mattis eget tellus. Praesent vitae lobortis orci.
+                        Interdum et malesuada fames ac ante ipsum primis
+                    </div>
                 </div>
 
-            <div class="wg9 wg_tablet6">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Pellentesque dolor mauris, laoreet ac convallis non,
-                mattis eget tellus. Praesent vitae lobortis orci.
-                Interdum et malesuada fames ac ante ipsum primis
+
+            <div class="expand bg_light fill_inside fill_outside_bottom">
+                &lt;ul class="menu_sidebar menu_primary"> ... &lt;/ul>
             </div>
 
-            </div>
+        </div>
 
 
-
-            <div class="alert alert_dark">
-                &lt;ul class="menu_secondary"> ... &lt;/ul>
-            </div>
-            <div class="row">
-           
-
-            <div class="wg9 wg_tablet6">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Pellentesque dolor mauris, laoreet ac convallis non,
-                mattis eget tellus. Praesent vitae lobortis orci.
-                Interdum et malesuada fames ac ante ipsum primis
-            </div>
-
-
-                <div class="wg3 wg_tablet6">
-                     <ul class="menu_sidebar menu_secondary">
-                         <li><a href="#">lorem</a></li>
-                         <li class="has_dropdown"><a href="#">ipsum</a>
-                            <ul>
-                                <li><a href="#">mauris</a></li>
-                                <li><a href="#">magna</a></li>
-                            </ul>    
-                         </li>
-                         <li><a href="#">dolor</a></li>
-                     </ul>    
-                </div>
-
-            </div>
+            <h1>image</h1>
 
             
 
-            <div class="alert alert_dark">
-                &lt;ul class="menu_light menu_light"> ... &lt;/ul>
-            </div>
+
+        <div class="fold bottom_light">
+
             <div class="row">
-           
-                <div class="wg3 wg_tablet6">
-                     <ul class="menu_sidebar menu_light">
-                         <li><a href="#">lorem</a></li>
-                         <li class="has_dropdown"><a href="#">ipsum</a>
-                            <ul>
-                                <li><a href="#">mauris</a></li>
-                                <li><a href="#">magna</a></li>
-                            </ul>    
-                         </li>
-                         <li><a href="#">dolor</a></li>
-                     </ul>    
+                <div class="grid grid_3 grid_md_6 grid_sm_12 fill_lg_outside_bottom">
+                    <img
+                    src="http://via.placeholder.com/250/999/fff" 
+                    alt="example" 
+                    class="rounded_circle"
+                    >
                 </div>
 
-            <div class="wg9 wg_tablet6">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Pellentesque dolor mauris, laoreet ac convallis non,
-                mattis eget tellus. Praesent vitae lobortis orci.
-                Interdum et malesuada fames ac ante ipsum primis
+                <div class="grid grid_3 grid_md_6 grid_sm_12 fill_lg_outside_bottom">
+                    <img
+                    src="http://via.placeholder.com/250/999/fff" 
+                    alt="example" 
+                    class="rounded_circle rounded_polaroid"
+                    >
+                </div>
+
+                <div class="grid grid_3 grid_md_6 grid_sm_12 fill_lg_outside_bottom">
+                    <img
+                    src="http://via.placeholder.com/250/999/fff" 
+                    alt="example" 
+                    class="rounded"
+                    >
+                </div>
+
+                <div class="grid grid_3 grid_md_6 grid_sm_12 fill_lg_outside_bottom">
+                    <img
+                    src="http://via.placeholder.com/250/999/fff" 
+                    alt="example" 
+                    class="rounded_polaroid"
+                    >
+                </div>
             </div>
 
-            </div>
 
+            <div class="expand bg_light fill_inside fill_outside_bottom">
+
+            &lt;img src="..." class="rounded_circle"/> <br />
+            &lt;img src="..." class="rounded_circle rounded_polaroid"/> <br />
+            &lt;img src="..." class="rounded"/> <br />
+            &lt;img src="..." class="rounded_polaroid"/> <br />
+
+            </div>
 
         </div>
 
 
-        <div class="fold bd_bottom_light">
-            <h1>image</h1>
-
-            <div class="alert alert_dark">
-                    &lt;img src="my-image.jpg" alt="My Image 1" class="bd_radius"/> <br />
-                    &lt;img src="my-image.jpg" alt="My Image 2" class="bd_polaroid_radius"/> <br />
-                    &lt;img src="my-image.jpg" alt="My Image 3" class="bd_polaroid"/> <br />
-                    &lt;img src="my-image.jpg" alt="My Image 4" class="bd_polaroid_radius"/> <br />
-            </div>
-
-            <div class="row">
-                <div class="wg3">
-                    <img class="bd_radius" src="http://lorempixel.com/d/300/300/abstract/1/" alt="example 1">
-                </div>
-                <div class="wg3">
-                    <img class="bd_polaroid_radius" src="http://lorempixel.com/d/300/300/abstract/1/" alt="example 1">
-                </div>
-                <div class="wg3">
-                    <img class="bd_rounded" src="http://lorempixel.com/d/300/300/abstract/1/" alt="example 1">
-                </div>
-                <div class="wg3">
-                    <img class="bd_polaroid" src="http://lorempixel.com/d/300/300/abstract/1/" alt="example 1">
-                </div>
-            </div>
-        </div>
 
 
-        <div class="fold bd_bottom_light">
+    <div class="fold bottom_light">
             <h1>Table</h1>
 
-            <div class="fold">
-<div class="alert alert_dark">
-                &lt;table class="<span class="tx_secondary">tb_border</span>">
-                ...
-                &lt;/table>
-            </div>
                 <table class="tb_border expand">
                 <thead>
                 <tr>
@@ -479,20 +507,51 @@
 
 
 
+            <div class="expand bg_light fill_inside fill_outside_bottom">
+             &lt;table class="tb_border"><br />
+            <script>xSpace(4)</script>&lt;thead><br />
+            <script>xSpace(8)</script>&lt;tr><br />
+            <script>xSpace(12)</script>&lt;th>#</th><br />
+            <script>xSpace(12)</script>&lt;th>Name</th><br />
+            <script>xSpace(12)</script>&lt;th>Occupation</th><br />
+            <script>xSpace(12)</script>&lt;th>User</th><br />
+            <script>xSpace(8)</script>&lt;/tr><br />
+            <script>xSpace(4)</script>&lt;/thead><br />
+            <script>xSpace(4)</script>&lt;tbody><br />
+            <script>xSpace(8)</script>&lt;tr><br />
+            <script>xSpace(12)</script>&lt;td>1</td><br />
+            <script>xSpace(12)</script>&lt;td>John</td><br />
+            <script>xSpace(12)</script>&lt;td>Engineer</td><br />
+            <script>xSpace(12)</script>&lt;td>@john</td><br />
+            <script>xSpace(8)</script>&lt;/tr><br />
+            <script>xSpace(8)</script>&lt;tr><br />
+            <script>xSpace(12)</script>&lt;td>2</td><br />
+            <script>xSpace(12)</script>&lt;td>Mary</td><br />
+            <script>xSpace(12)</script>&lt;td>Doctor</td><br />
+            <script>xSpace(12)</script>&lt;td>@mary</td><br />
+            <script>xSpace(8)</script>&lt;/tr><br />
+            <script>xSpace(8)</script>&lt;tr><br />
+            <script>xSpace(12)</script>&lt;td>3</td><br />
+            <script>xSpace(12)</script>&lt;td>Joseph</td><br />
+            <script>xSpace(12)</script>&lt;td>dentist</td><br />
+            <script>xSpace(12)</script>&lt;td>@Joseph</td><br />
+            <script>xSpace(8)</script>&lt;/tr><br />
+            <script>xSpace(4)</script>&lt;/tbody><br />
+             &lt;/table><br />
+
+
             </div>
 
+
+    </div>
 
 
             <div class="fold">
-   <div class="alert alert_dark">
-                &lt;table class="<span class="tx_secondary">tb_hover</span>">
-                ...
-                &lt;/table>
-            </div>
+
                 <table class="tb_hover expand">
                 <thead>
                 <tr>
-                      <th>#</th>
+                    <th>#</th>
                     <th>Name</th>
                     <th>Occupation</th>
                     <th>User</th>
@@ -519,18 +578,19 @@
                 </tr>
                 </tbody>
                 </table>
-
-
-            </div>
-
-
-
-            <div class="fold">
-            <div class="alert alert_dark">
-                &lt;table class="<span class="tx_secondary">tb_striped</span>">
+                
+            <div class="expand bg_light fill_inside fill_outside_bottom">
+                &lt;table class="tb_hover">
                 ...
                 &lt;/table>
             </div>
+
+            </div>
+
+
+
+        <div class="fold">
+
                 <table class="tb_striped expand">
                 <thead>
                 <tr>
@@ -563,22 +623,23 @@
                 </table>
 
 
+            <div class="expand bg_light fill_inside fill_outside_bottom">
+                &lt;table class="tb_striped">
+                ...
+                &lt;/table>
+            </div>
 
             </div>
 
-        </div>
-
-
-    </div>
     </div>
 
-    
 
-    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.js"></script>
-    <script src="js/script.js" type="text/javascript"></script>
-<!--[if lt IE 9]>
-    <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
+
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"
+	integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+	crossorigin="anonymous"></script>
+
+    <script src="js/script.min.js" type="text/javascript"></script>
 </body>
 </html>
-
