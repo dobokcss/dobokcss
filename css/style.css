@@ -7,7 +7,7 @@
  * project: https://github.com/dobokcss/dobokcss
  * page:    http://dobokcss.github.io
  * author:  Estefanio NS <estefanions AT gmail DOT com> 
- * version: 0.1.0
+ * version: 0.2.0
  */
 
 body{ 
@@ -339,11 +339,10 @@ input:focus, select, textarea {
 .bt_light:hover     { background: #d6d6d6 }
 .bt_standard:hover  { background: #afafaf }
 
-.bg_hover_primary:hover   { background: #607D8B}
-.bg_hover_secondary:hover { background: #FF5252}
-.bg_hover_light:hover     { color: #000; background: #f6f6f6}
-.bg_hover_standard:hover  { color: #000; background: #d6d6d6}
-
+.bg_hover_primary:hover   , .bg.hover_primary:hover     { background: #607D8B}
+.bg_hover_secondary:hover , .bg.hover_secondary:hover   { background: #FF5252}
+.bg_hover_light:hover     , .bg.hover_light:hover       { color: #000; background: #f6f6f6}
+.bg_hover_standard:hover  , .bg.hover_standard:hover    { color: #000; background: #d6d6d6}
 
 
 .bg_alpha, .bg_alpha_hover:hover {
@@ -817,6 +816,22 @@ img, object, embed, video, iframe, iframe[style] {
 .tb_striped tbody >tr:nth-child(2n+1) >td,
 .tb_striped tbody >tr:nth-child(2n+1) >th{ background-color:#e5e5e5}
 
+
+.tb_fill{margin:2px; border-collapse:collapse}
+.tb_fill th{font-weight:bold;color:#444;background:#fff;padding:10px 5px;text-align:left}
+.tb_fill td{border-bottom:10px solid #fff; padding:10px 5px;color:#444;background:#fff}
+.tb_fill tr{margin-bottom: 10px}
+.tb_fill tr td{background:#e5e5e5}
+
+.bg_primary tr td    , .hover_primary   tr:hover td{ background: #607D8B } 
+.bg_secondary tr td  , .hover_secondary tr:hover td{ background: #FF5252 }
+.bg_light tr td      , .hover_light     tr:hover td{ background: #f6f6f6 }
+.bg_standard tr td   , .hover_standard  tr:hover td{ background: #ccc }
+
+.bg_primary tr td    , .hover_primary   tr:hover td
+.bg_secondary tr td  , .hover_secondary tr:hover td{ color: #ccc }
+
+
 .lt_horizontal li,
 .lt_horizontal dd{
     float:left;
@@ -826,6 +841,42 @@ img, object, embed, video, iframe, iframe[style] {
 
 .lt_vertical li,
 .lt_vertical dd{padding:0 0 5px 0}
+
+
+.lt_vertical.lt_vertical_dropdown li ul{
+    display: none;
+    position: absolute;
+    z-index: 500
+    
+}
+
+.lt_vertical.lt_vertical_dropdown ul li{
+left: 0;
+right: auto;
+top: auto;
+opacity: 1;
+width: 100%;
+padding: 0;
+position: relative;
+text-align: left
+
+}
+
+
+.lt_vertical.lt_vertical_dropdown li:hover ul{
+    display: block
+}
+
+.lt_vertical.lt_vertical_dropdown ul a{
+    display: block;
+    padding: 5px 10px;
+    background: #f8f8f8;
+}
+
+
+.lt_vertical.lt_vertical_dropdown ul a:hover{
+    background: #d8d8d8
+}
 
 
 .menu_bar,
@@ -1453,6 +1504,10 @@ img, object, embed, video, iframe, iframe[style] {
 }
 
 
+
+.menu_bar.hover_primary > ul > li:hover > a,
+.menu_bar.hover_primary > ul > li.current > a ,
+
 .menu_bar.menu_hover_primary > ul > li:hover > a,
 .menu_bar.menu_hover_primary > ul > li.current > a ,
 
@@ -1466,6 +1521,9 @@ img, object, embed, video, iframe, iframe[style] {
 .menu_bar.menu_light.menu_hover_primary > ul > li.current > a 
 { color: #fff; background: #607D8B }
 
+
+.menu_bar.hover_secondary > ul > li:hover > a,
+.menu_bar.hover_secondary > ul > li.current > a ,
 
 .menu_bar.menu_hover_secondary > ul > li:hover > a,
 .menu_bar.menu_hover_secondary > ul > li.current > a ,
@@ -1483,6 +1541,9 @@ img, object, embed, video, iframe, iframe[style] {
 
 
 
+.menu_bar.hover_light > ul > li:hover > a,
+.menu_bar.hover_light > ul > li.current > a ,
+
 .menu_bar.menu_hover_light > ul > li:hover > a,
 .menu_bar.menu_hover_light > ul > li.current > a ,
 
@@ -1496,6 +1557,9 @@ img, object, embed, video, iframe, iframe[style] {
 .menu_bar.menu_secondary.menu_hover_light > ul > li.current > a 
 { color: #000; background: #f6f6f6 }
 
+
+.menu_bar.hover_standard > ul > li:hover > a,
+.menu_bar.hover_standard > ul > li.current > a ,
 
 .menu_bar.menu_hover_standard > ul > li:hover > a,
 .menu_bar.menu_hover_standard > ul > li.current > a ,
@@ -1737,7 +1801,10 @@ img, object, embed, video, iframe, iframe[style] {
 .tx_hover_standard_sm  , .lk_standard_sm  , 
 
 .tb_hover tr td,
-
+.hover_primary  tr:hover td,
+.hover_secondary tr:hover td,
+.hover_light  tr:hover td,
+.hover_standard tr:hover td , 
 .menu_bar .menu_bt ,
 .menu_bar > ul > li > a,
 .menu_bar > ul > li > a,
