@@ -7,7 +7,7 @@
  * project: https://github.com/dobokcss/dobokcss
  * page:    http://dobokcss.github.io
  * author:  Estefanio NS <estefanions AT gmail DOT com> 
- * version: 0.2.0
+ * version: 0.3.0
  */
 
 body{ 
@@ -329,7 +329,7 @@ input:focus, select, textarea {
 .bt_primary,
 .bt_secondary { color: #fff }
 
-.bg, .bg_standard, .bt_standard{ color: #444; background: #D8D8D8 }
+.bg, .bg_standard, .bt_standard{ color: #444; background: #d8d8d8 }
 .bg_primary, .bt_primary{background: #607D8B}
 .bg_secondary, .bt_secondary{ background: #FF5252}
 .bg_light, .bt_light{background: #f6f6f6}
@@ -339,10 +339,27 @@ input:focus, select, textarea {
 .bt_light:hover     { background: #d6d6d6 }
 .bt_standard:hover  { background: #afafaf }
 
-.bg_hover_primary:hover   , .bg.hover_primary:hover     { background: #607D8B}
-.bg_hover_secondary:hover , .bg.hover_secondary:hover   { background: #FF5252}
-.bg_hover_light:hover     , .bg.hover_light:hover       { color: #000; background: #f6f6f6}
-.bg_hover_standard:hover  , .bg.hover_standard:hover    { color: #000; background: #d6d6d6}
+.bt_outline_standard , .bt_no_outline_standard , 
+.bt_outline_primary  , .bt_no_outline_primary  , 
+.bt_outline_secondary, .bt_no_outline_secondary 
+{ background: #fff }
+
+.bt_outline_primary,   .bt_no_outline_primary   {color: #607D8B; }
+.bt_outline_secondary, .bt_no_outline_secondary {color: #FF5252; }
+.bt_outline_standard,  .bt_no_outline_standard  {color: #888;    }
+
+.bt_outline_primary   {border: 1px solid #607D8B !important }
+.bt_outline_secondary {border: 1px solid #FF5252 !important }
+.bt_outline_standard  {border: 1px solid #d8d8d8 !important }
+
+.bt_outline_primary:hover,   .bt_no_outline_primary:hover   {color: #fff; background-color: #607D8B}
+.bt_outline_secondary:hover, .bt_no_outline_secondary:hover {color: #fff; background-color: #FF5252}
+.bt_outline_standard:hover,  .bt_no_outline_standard:hover  {color: #666; background-color: #d8d8d8}
+
+.bg_hover_primary:hover   , .bg.bg_hover_primary:hover     { background: #607D8B}
+.bg_hover_secondary:hover , .bg.bg_hover_secondary:hover   { background: #FF5252}
+.bg_hover_light:hover     , .bg.bg_hover_light:hover       { color: #000; background: #f6f6f6}
+.bg_hover_standard:hover  , .bg.bg_hover_standard:hover    { color: #000; background: #d6d6d6}
 
 
 .bg_alpha, .bg_alpha_hover:hover {
@@ -823,13 +840,13 @@ img, object, embed, video, iframe, iframe[style] {
 .tb_fill tr{margin-bottom: 10px}
 .tb_fill tr td{background:#e5e5e5}
 
-.bg_primary tr td    , .hover_primary   tr:hover td{ background: #607D8B } 
-.bg_secondary tr td  , .hover_secondary tr:hover td{ background: #FF5252 }
-.bg_light tr td      , .hover_light     tr:hover td{ background: #f6f6f6 }
-.bg_standard tr td   , .hover_standard  tr:hover td{ background: #ccc }
+.tb_primary tr td    , .tb_hover_primary   tr:hover td{ background: #607D8B } 
+.tb_secondary tr td  , .tb_hover_secondary tr:hover td{ background: #FF5252 }
+.tb_light tr td      , .tb_hover_light     tr:hover td{ background: #f6f6f6 }
+.tb_standard tr td   , .tb_hover_standard  tr:hover td{ background: #ccc }
 
-.bg_primary tr td    , .hover_primary   tr:hover td
-.bg_secondary tr td  , .hover_secondary tr:hover td{ color: #ccc }
+.tb_primary tr td    , .tb_hover_primary   tr:hover td,
+.tb_secondary tr td  , .tb_hover_secondary tr:hover td{ color: #ccc }
 
 
 .lt_horizontal li,
@@ -1505,8 +1522,6 @@ text-align: left
 
 
 
-.menu_bar.hover_primary > ul > li:hover > a,
-.menu_bar.hover_primary > ul > li.current > a ,
 
 .menu_bar.menu_hover_primary > ul > li:hover > a,
 .menu_bar.menu_hover_primary > ul > li.current > a ,
@@ -1522,8 +1537,6 @@ text-align: left
 { color: #fff; background: #607D8B }
 
 
-.menu_bar.hover_secondary > ul > li:hover > a,
-.menu_bar.hover_secondary > ul > li.current > a ,
 
 .menu_bar.menu_hover_secondary > ul > li:hover > a,
 .menu_bar.menu_hover_secondary > ul > li.current > a ,
@@ -1541,8 +1554,6 @@ text-align: left
 
 
 
-.menu_bar.hover_light > ul > li:hover > a,
-.menu_bar.hover_light > ul > li.current > a ,
 
 .menu_bar.menu_hover_light > ul > li:hover > a,
 .menu_bar.menu_hover_light > ul > li.current > a ,
@@ -1558,8 +1569,6 @@ text-align: left
 { color: #000; background: #f6f6f6 }
 
 
-.menu_bar.hover_standard > ul > li:hover > a,
-.menu_bar.hover_standard > ul > li.current > a ,
 
 .menu_bar.menu_hover_standard > ul > li:hover > a,
 .menu_bar.menu_hover_standard > ul > li.current > a ,
@@ -1781,6 +1790,14 @@ text-align: left
 .bg_hover_light     , 
 .bg_hover_standard  , 
 
+.bt_outline_standard, 
+.bt_outline_primary , 
+.bt_outline_secondary,
+
+.bt_no_outline_standard, 
+.bt_no_outline_primary , 
+.bt_no_outline_secondary,
+
 .tx_hover_primary   , .lk_primary   , 
 .tx_hover_secondary , .lk_secondary , 
 .tx_hover_light     , .lk_light     , 
@@ -1801,10 +1818,10 @@ text-align: left
 .tx_hover_standard_sm  , .lk_standard_sm  , 
 
 .tb_hover tr td,
-.hover_primary  tr:hover td,
-.hover_secondary tr:hover td,
-.hover_light  tr:hover td,
-.hover_standard tr:hover td , 
+.tb_hover_primary  tr:hover td,
+.tb_hover_secondary tr:hover td,
+.tb_hover_light  tr:hover td,
+.tb_hover_standard tr:hover td , 
 .menu_bar .menu_bt ,
 .menu_bar > ul > li > a,
 .menu_bar > ul > li > a,
@@ -1890,4 +1907,6 @@ background-color:rgba(0,0,0,0.4)
 .display_right{right:0%}
 .display_top_center{left:50%}
 .display_bottom_center{left:50%}
+
+
 
