@@ -6,8 +6,8 @@
  *
  * project: https://github.com/dobokcss/dobokcss
  * page:    http://dobokcss.github.io
- * author:  Estefanio NS <estefanions AT gmail DOT com> 
- * version: 0.3.0
+ * author:  Estefanio N Santos <estefanions AT gmail DOT com> 
+ * version: 0.5.0
  */
 
 body{ 
@@ -25,6 +25,7 @@ h3{font-size: 1.5em}
 fieldset{ border: 1px solid #ccc }
 
 legend{ padding: 0 5px }
+
 
 .pg_header{
     width: 100%;
@@ -155,7 +156,6 @@ legend{ padding: 0 5px }
 .bd_left_right_standard 
 { border-top: 0 none; border-bottom: 0 none }
 
-
 .bd_top_primary_0,
 .bd_top_secondary_0,
 .bd_top_light_0,
@@ -284,7 +284,7 @@ input, select, textarea{
     color: #333;
     background: #fff;
     border: 1px solid #ccc;
-    padding: 8px 3px
+    padding: 8px 0 
 }
 
 input, select{
@@ -314,16 +314,16 @@ border-radius: 4px;
 
 div.bt, span.bt, a.bt { 
     padding-top: 14px;
-    padding-left: 17px;
-    padding-right: 17px
+    padding-left: 37px;
+    padding-right: 37px
 }
 
-input.bt, button.bt{ padding: 7px 15px }
+input.bt, button.bt{ padding: 7px 35px }
 
 
-input:focus, select, textarea {
+input:focus, select:focus, textarea:focus {
   border-color: #607D8B;
-  transition: 0.9s
+  transition: 0.8s
 }
 
 .bt_primary,
@@ -334,10 +334,12 @@ input:focus, select, textarea {
 .bg_secondary, .bt_secondary{ background: #FF5252}
 .bg_light, .bt_light{background: #f6f6f6}
 
-.bt_primary:hover   { background: #40535b }
-.bt_secondary:hover { background: #c00 }
-.bt_light:hover     { background: #d6d6d6 }
-.bt_standard:hover  { background: #afafaf }
+.bg_primary, .bg_secondary{color: #f6f6f6 }
+
+.bt_primary:hover   {color: #fff; background: #40535b }
+.bt_secondary:hover {color: #fff; background: #c00 }
+.bt_light:hover     {color: #000; background: #d6d6d6 }
+.bt_standard:hover  {color: #000; background: #afafaf }
 
 .bt_outline_standard , .bt_no_outline_standard , 
 .bt_outline_primary  , .bt_no_outline_primary  , 
@@ -379,6 +381,27 @@ input:focus, select, textarea {
 .row:before, .row:after {display: table; content: ""}
 .row:after {clear: both}
 
+
+
+
+.lt_breadcrumb li::before{
+   content: '> ' ;
+}
+
+.lt_breadcrumb li:first-child::before {
+   content: '' ;
+}
+
+.lt_breadcrumb li{
+    padding: 0 5px 0;
+    display: inline;
+    float: left
+}
+
+.lt_breadcrumb a { color: #09c  }
+.lt_breadcrumb a:hover { color: #09a  }
+
+
 .grid{
     text-align: left;
     float: left; 
@@ -387,9 +410,19 @@ input:focus, select, textarea {
     line-height: 20px
 }
 
-.input_field input, .input_field select, .input_field textarea { 
+.grid_field input,
+.grid_field select,
+.grid_field textarea,
+.grid_input input, 
+.grid_select select, 
+.grid_textarea textarea ,
+.grid_button button,
+.grid_button input[type="submit"],
+.grid_button input[type="button"]
+{ 
     width: 100%; float: left
 }
+
 
 .grid button, .grid input[type="radio"],
 .grid input[type="hidden"], .grid input[type="checkbox"],
@@ -491,15 +524,58 @@ img, object, embed, video, iframe, iframe[style] {
 .lk_hover_standard:hover  {color: #ccc    !important}
 
 
+.lk_primary.lt_vertical a,
+.lk_primary.lt_horizontal a { color: #607D88 }
+
+.lk_secondary.lt_vertical a,
+.lk_secondary.lt_horizontal a { color: #FF5252 }
+
+.lk_standard.lt_vertical a,
+.lk_standard.lt_horizontal a { color: #ccc }
+
+.lk_light.lt_vertical a,
+.lk_light.lt_horizontal a { color: #f6f6f6 }
+
+
+.lt_vertical.lt_fill_inside_top li{    padding-top: 10px }
+.lt_vertical.lt_fill_inside_bottom li{ padding-bottom: 10px }
+
+.lt_vertical.lt_fill_outside_top li{    margin-top: 10px }
+.lt_vertical.lt_fill_outside_bottom li{ margin-bottom: 10px }
+
+
+
+.lk_primary.lt_vertical a:hover,
+.lk_primary.lt_horizontal a:hover,
+.lk_hover_primary.lt_vertical a:hover,
+.lk_hover_primary.lt_horizontal a:hover { color: #40535b }
+
+.lk_secondary.lt_vertical a:hover,
+.lk_secondary.lt_horizontal a:hover,
+.lk_hover_secondary.lt_vertical a:hover,
+.lk_hover_secondary.lt_horizontal a:hover { color: #c00 }
+
+.lk_light.lt_vertical a:hover,
+.lk_light.lt_horizontal a:hover,
+.lk_hover_light.lt_vertical a:hover,
+.lk_hover_light.lt_horizontal a:hover { color: #d6d6d6 }
+
+.lk_standard.lt_vertical a:hover,
+.lk_standard.lt_horizontal a:hover,
+.lk_hover_standard.lt_vertical a:hover,
+.lk_hover_standard.lt_horizontal a:hover { color: #000 }
+
+
+
 @media only screen and (max-width: 890px) 
 {
     .grid_lg_block, .grid_md_show{ display: block }
     .grid_lg_none,  .grid_md_hide{ display: none}
 
-
     .row_fluid { 
         width: 100%; float: left; margin-left: 0; margin-bottom: 0 
     }
+
 
     .grid_lg_3   { width: 23.44% }
     .grid_lg_4   { width: 31.77% }
@@ -1242,7 +1318,7 @@ text-align: left
 .menu_sidebar.menu_primary > li.text,
 .menu_sidebar.menu_primary ul li a ,
 .menu_sidebar.menu_primary > li > a {
-    color: #ccc;
+    color: #f6f6f6;
     background: #607D8B;
 }
 
@@ -1288,7 +1364,7 @@ text-align: left
 .menu_sidebar.menu_secondary > li.text,
 .menu_sidebar.menu_secondary ul li a ,
 .menu_sidebar.menu_secondary > li > a {
-    color: #ccc;
+    color: #f6f6f6;
     background: #FF5252;
 }
 
@@ -1765,7 +1841,7 @@ text-align: left
     .tb_scale tbody td { display: block }
 
     .tb_scale tbody tr td:first-child { 
-        background: #09c; color: #fff; 
+        background: #607D8B; color: #fff; 
     }
     .tb_scale tbody td:before { 
         min-width: 100px;
@@ -1779,82 +1855,6 @@ text-align: left
 
 
 }
-
-.bg_alpha_hover     , 
-.bt_primary         , 
-.bt_secondary       , 
-.bt_light           , 
-.bt_standard        , 
-.bg_hover_primary   , 
-.bg_hover_secondary , 
-.bg_hover_light     , 
-.bg_hover_standard  , 
-
-.bt_outline_standard, 
-.bt_outline_primary , 
-.bt_outline_secondary,
-
-.bt_no_outline_standard, 
-.bt_no_outline_primary , 
-.bt_no_outline_secondary,
-
-.tx_hover_primary   , .lk_primary   , 
-.tx_hover_secondary , .lk_secondary , 
-.tx_hover_light     , .lk_light     , 
-.tx_hover_standard  , .lk_standard  , 
-
-.lk_hover_primary   ,
-.lk_hover_secondary ,
-.lk_hover_light     ,
-.lk_hover_standard  , 
-
-.tx_hover_primary_lg   , .lk_primary_lg   , 
-.tx_hover_secondary_lg , .lk_secondary_lg , 
-.tx_hover_light_lg     , .lk_light_lg     , 
-.tx_hover_standard_lg  , .lk_standard_lg
-.tx_hover_primary_sm   , .lk_primary_sm   , 
-.tx_hover_secondary_sm , .lk_secondary_sm , 
-.tx_hover_light_sm     , .lk_light_sm     , 
-.tx_hover_standard_sm  , .lk_standard_sm  , 
-
-.tb_hover tr td,
-.tb_hover_primary  tr:hover td,
-.tb_hover_secondary tr:hover td,
-.tb_hover_light  tr:hover td,
-.tb_hover_standard tr:hover td , 
-.menu_bar .menu_bt ,
-.menu_bar > ul > li > a,
-.menu_bar > ul > li > a,
-.menu_bar > ul > li.current > a ,
-
-.menu_sidebar li > a,
-.menu_sidebar li > a > span::after
-{
-    transition: 0.9s
-}
-
-
-
-.animate_fading{ animation:fading 10s infinite}
-@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
-
-.animate_opacity{animation:opac 0.8s}
-@keyframes opac{from{opacity:0} to{opacity:1}}
-
-.animate_top{position:relative;animation:animatetop 0.4s}
-@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
-
-.animate_left{position:relative;animation:animateleft 0.4s}
-@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
-
-.animate_right{position:relative;animation:animateright 0.4s}
-@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
-
-.animate_bottom{position:relative;animation:animatebottom 0.4s}
-@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
-
-.animate_zoom {animation:animatezoom 0.6s}
-@keyframes animatezoom{from{transform:scale(0)} to{transform:scale(1)}}
 
 
 .alpha_modal_dialog {
@@ -1871,42 +1871,4 @@ overflow:auto;
 background-color:rgb(0,0,0);
 background-color:rgba(0,0,0,0.4)
 }
-
-.display_position,
-.display_top_left, .display_top_right,
-.display_bottom_left, .display_bottom_right,
-.display_center, .display_left,
-.display_right, .display_top_center,
-.display_bottom_center {position:absolute}
-
-.display_center, .display_left, 
-.display_right{top: 50%}
-
-.display_top_left, .display_bottom_left{ left:0}
-
-.display_bottom_left, .display_bottom_right,
-.display_bottom_center{bottom: 0}
-
-.display_left, .display_right{
-    transform:translate(0%,-50%);
-    -ms-transform:translate(-0%,-50%)
-}
-
-.display_top_center, .display_bottom_center{
-    transform:translate(-50%,0%);
-    -ms-transform:translate(-50%,0%)
-}
-
-.display_top_left, .display_top_right, 
-.display_top_center{ top: 0 }
-
-.display_top_right{right:0}
-.display_bottom_right{right:0}
-.display_center{left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
-.display_left{left:0%}
-.display_right{right:0%}
-.display_top_center{left:50%}
-.display_bottom_center{left:50%}
-
-
 
