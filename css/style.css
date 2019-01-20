@@ -7,7 +7,7 @@
  * project: https://github.com/dobokcss/dobokcss
  * page:    http://dobokcss.github.io
  * author:  Estefanio N Santos <estefanions AT gmail DOT com> 
- * version: 0.5.0
+ * version: 0.6.0
  */
 
 body{ 
@@ -329,10 +329,10 @@ input:focus, select:focus, textarea:focus {
 .bt_primary,
 .bt_secondary { color: #fff }
 
-.bg, .bg_standard, .bt_standard{ color: #444; background: #d8d8d8 }
 .bg_primary, .bt_primary{background: #607D8B}
 .bg_secondary, .bt_secondary{ background: #FF5252}
 .bg_light, .bt_light{background: #f6f6f6}
+.bg, .bg_standard, .bt_standard{ color: #444; background: #d8d8d8 }
 
 .bg_primary, .bg_secondary{color: #f6f6f6 }
 
@@ -833,11 +833,6 @@ img, object, embed, video, iframe, iframe[style] {
 .underline{text-decoration: underline}
 .decoration_none{text-decoration: none}
 .overline{text-decoration: overline}
-
-
-
-
-
 
 
 .pull_center{
@@ -1840,10 +1835,28 @@ text-align: left
     .tb_scale thead { display: none; }
     .tb_scale tbody td { display: block }
 
-    .tb_scale tbody tr td:first-child { 
+    .tb_scale_primary tbody tr td:first-child {
         background: #607D8B; color: #fff; 
     }
-    .tb_scale tbody td:before { 
+
+    .tb_scale_secondary tbody tr td:first-child {
+        background: #FF5252; color: #fff; 
+    }
+
+    .tb_scale_standard tbody tr td:first-child {
+        background: #d8d8d8; color: #fff; 
+    }
+
+    .tb_scale_light tbody tr td:first-child {
+        background: #f6f6f6; color: #fff; 
+    }
+
+
+    .tb_scale tbody tr td:first-child {
+        color: #000; font-weight: bold;
+    }
+
+    .tb_scale tbody td:before {
         min-width: 100px;
         padding-right: 10px;
         content: attr(data-th); 
