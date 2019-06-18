@@ -8,23 +8,23 @@
 * Author:  Estefanio NS <estefanions AT gmail DOT com> 
 * Project: https://github.com/dobokcss/dobokcss
 * Page:    http://dobokcss.github.io
-* version: 0.1.0
+* version: 0.10.0
 */
 
 $( document ).ready(function() {
 
-$('.menu_bar').prepend('<div class="menu_bt">Menu</div>');
-	$('.menu_bar .menu_bt').on('click', function(){
-		var menu = $(this).next('ul');
-		if (menu.hasClass('open')) {
-			menu.removeClass('open');
+$('.nv_bar').prepend('<div class="nv_bt">Menu</div>');
+	$('.nv_bar .nv_bt').on('click', function(){
+		var nv = $(this).next('ul');
+		if (nv.hasClass('open')) {
+			nv.removeClass('open');
 		}
 		else {
-			menu.addClass('open');
+			nv.addClass('open');
 		}
 	});
 
-$('.menu_sidebar li.has_dropdown>a').on('click', function(){
+$('.nv_sidebar li.has_dropdown>a').on('click', function(){
 		$(this).removeAttr('href');
 		var element = $(this).parent('li');
 		if (element.hasClass('open')) {
@@ -41,11 +41,11 @@ $('.menu_sidebar li.has_dropdown>a').on('click', function(){
 			element.siblings('li').find('ul').slideUp();
 		}
 	});
-	$('.menu_sidebar>ul>li.has_dropdown>a').append('<span class="holder"></span>');
+	$('.nv_sidebar>ul>li.has_dropdown>a').append('<span class="holder"></span>');
 
 	(function getColor() {
 		var r, g, b;
-		var textColor = $('.menu_sidebar').css('color');
+		var textColor = $('.nv_sidebar').css('color');
 		textColor = textColor.slice(4);
 		r = textColor.slice(0, textColor.indexOf(','));
 		textColor = textColor.slice(textColor.indexOf(' ') + 1);
@@ -54,11 +54,11 @@ $('.menu_sidebar li.has_dropdown>a').on('click', function(){
 		b = textColor.slice(0, textColor.indexOf(')'));
 		var l = rgbToHsl(r, g, b);
 		if (l > 0.7) {
-			$('.menu_sidebar>ul>li>a>span').css('border_color', 'rgba(0, 0, 0, .35)');
+			$('.nv_sidebar>ul>li>a>span').css('border_color', 'rgba(0, 0, 0, .35)');
 		}
 		else
 		{
-			$('.menu_sidebar>ul>li>a>span').css('border_color', 'rgba(255, 255, 255, .35)');
+			$('.nv_sidebar>ul>li>a>span').css('border_color', 'rgba(255, 255, 255, .35)');
 		}
 	})();
 
