@@ -7,7 +7,7 @@
  * project: https://github.com/dobokcss/dobokcss
  * page:    http://dobokcss.github.io
  * author:  Estefanio N Santos <estefanions AT gmail DOT com> 
- * version: 0.10.0
+ * version: 0.11.0
  */
 
 body{ 
@@ -196,7 +196,7 @@ legend{ padding: 0 5px }
     padding:4px
 }
 
-.rd_top{    
+.rd_t{    
     -webkit-border-top-left-radius: 4px;
     -webkit-border-top-right-radius: 4px;
     -moz-border-radius-topleft: 4px;
@@ -205,7 +205,7 @@ legend{ padding: 0 5px }
     border-top-right-radius: 4px
 }
 
-.rd_right{    
+.rd_r{    
     -webkit-border-top-right-radius: 4px;
     -webkit-border-bottom-right-radius: 4px;
     -moz-border-radius-topright: 4px;
@@ -214,7 +214,7 @@ legend{ padding: 0 5px }
     border-bottom-right-radius: 4px
 }
 
-.rd_bottom{    
+.rd_b{    
     -webkit-border-bottom-right-radius: 4px;
     -webkit-border-bottom-left-radius: 4px;
     -moz-border-radius-bottomright: 4px;
@@ -223,7 +223,7 @@ legend{ padding: 0 5px }
     border-bottom-left-radius: 4px
 }
 
-.rd_left{    
+.rd_l{    
     -webkit-border-top-left-radius: 4px;
     -webkit-border-bottom-left-radius: 4px;
     -moz-border-radius-topleft: 4px;
@@ -232,49 +232,49 @@ legend{ padding: 0 5px }
     border-bottom-left-radius: 4px
 }
 
-.rd_top_right{
+.rd_t_r{
 -webkit-border-top-right-radius: 4px;
 -moz-border-radius-topright: 4px;
 border-top-right-radius: 4px;
 }
 
-.rd_top_left{
+.rd_t_l{
 -webkit-border-top-left-radius: 4px;
 -moz-border-radius-topleft: 4px;
 border-top-left-radius: 4px;
 }
 
-.rd_bottom_right{
+.rd_b_r{
 -webkit-border-bottom-right-radius: 4px;
 -moz-border-radius-bottomright: 4px;
 border-bottom-right-radius: 4px;
 }
 
-.rd_bottom_left{
+.rd_b_l{
 -webkit-border-bottom-left-radius: 4px;
 -moz-border-radius-bottomleft: 4px;
 border-bottom-left-radius: 4px;
 }
 
-.rd_top_right_0{
+.rd_t_r_0{
 -webkit-border-top-right-radius: 0;
 -moz-border-radius-topright: 0;
 border-top-right-radius: 0;
 }
 
-.rd_top_left_0{
+.rd_t_l_0{
 -webkit-border-top-left-radius: 0;
 -moz-border-radius-topleft: 0;
 border-top-left-radius: 0;
 }
 
-.rd_bottom_right_0{
+.rd_b_r_0{
 -webkit-border-bottom-right-radius: 0;
 -moz-border-radius-bottomright: 0;
 border-bottom-right-radius: 0;
 }
 
-.rd_bottom_left_0{
+.rd_b_l_0{
 -webkit-border-bottom-left-radius: 0;
 -moz-border-radius-bottomleft: 0;
 border-bottom-left-radius: 0;
@@ -375,7 +375,7 @@ input:focus, select:focus, textarea:focus {
 .hl{cursor: help}
 .nl{cursor: not-allowed}
 
-.row, .row_bottom_none { margin-left: -1.55%; margin-bottom: 0.775% }
+.row, .row_b_none { margin-left: -1.55%; margin-bottom: 0.775% }
 
 .row:before, .row:after {display: table; content: ""}
 .row:after {clear: both}
@@ -504,15 +504,15 @@ img, object, embed, video, iframe, iframe[style] {
 .scale_none{ max-width: none !important }
 
 
-.tx_prm   , .lk_prm   {color: #607D8B}
+.tx_prm , .lk_prm   {color: #607D8B}
 .tx_scn , .lk_scn {color: #FF5252}
-.tx_lgh     , .lk_lgh     {color: #f6f6f6}
-.tx_stn  , .lk_stn  {color: #ccc}
+.tx_lgh , .lk_lgh     {color: #f6f6f6}
+.tx_stn , .lk_stn  {color: #ccc}
 
-.tx_hv_prm:hover   , .lk_prm:hover{ color: #40535b}
+.tx_hv_prm:hover , .lk_prm:hover{ color: #40535b}
 .tx_hv_scn:hover , .lk_scn:hover{color:#c00}
-.tx_hv_lgh:hover     , .lk_lgh:hover{color: #d6d6d6}
-.tx_hv_stn:hover  , .lk_stn:hover{color: #000}
+.tx_hv_lgh:hover , .lk_lgh:hover{color: #d6d6d6}
+.tx_hv_stn:hover , .lk_stn:hover{color: #000}
 
 .lk_hv_prm:hover {color: #607D8B !important}
 .lk_hv_scn:hover {color: #FF5252 !important}
@@ -604,39 +604,39 @@ img, object, embed, video, iframe, iframe[style] {
     .pt_0_lg{ margin-top: 0  !important}
     .pb_0_lg{ margin-bottom: 0  !important}
 
-    .tx_c_lg {text-align: center !important}
-    .tx_l_lg {text-align: left !important}
-    .tx_r_lg {text-align: right !important}
-    .tx_j_lg {text-align: justify !important}
+    .tx_c_lg{text-align: center !important}
+    .tx_l_lg{text-align: left !important}
+    .tx_r_lg{text-align: right !important}
+    .tx_j_lg{text-align: justify !important}
 
-    .tx_lowercase_lg{text-transform: lowercase !important}
-    .tx_uppercase_lg{text-transform: uppercase !important}
-    .tx_capitalize_lg{text-transform: capitalize !important}
-    .tx_transform_none{text-transition: none}
+    .tx_lc_lg{text-transform: lowercase !important}
+    .tx_uc_lg{text-transform: uppercase !important}
+    .tx_cp_lg{text-transform: capitalize !important}
+    .tx_tr_no{text-transition: none}
 
-    .tx_mir_lg{font-size: 0.625em }
-    .tx_small_lg{font-size: 0.75em }
-    .tx_medium_lg{font-size: 1em}
-    .tx_large_lg{ font-size: 1.25em}
-    .tx_xlarge_lg{font-size: 2.25em}
+    .tx_mr_lg{font-size: 0.625em }
+    .tx_sm_lg{font-size: 0.75em }
+    .tx_md_lg{font-size: 1em}
+    .tx_lg_lg{ font-size: 1.25em}
+    .tx_xlg_lg{font-size: 2.25em}
 
-    .bold_lg{ font-weight: bold}
-    .italic_lg{font-style: italic}
-    .bold_none_lg{ font-weight: normal}
-    .italic_none_lg{font-style: normal}
-    .underline_lg{text-decoration: underline}
-    .decoration_none_lg{text-decoration: none}
-    .overline_lg{text-decoration: overline}
+    .tx_b_lg{ font-weight: bold}
+    .tx_i_lg{font-style: italic}
+    .tx_b_no_lg{ font-weight: normal}
+    .tx_i_no_lg{font-style: normal}
+    .tx_u_lg{text-decoration: underline}
+    .tx_d_no_lg{text-decoration: none}
+    .tx_o_lg{text-decoration: overline}
 
-    .tx_prm_lg,  .lk_prm_lg{ color: #607D8B}
-    .tx_scn_lg,.lk_scn_lg{color:#FF5252}
-    .tx_lgh_lg,    .lk_lgh_lg{color: #f6f6f6}
+    .tx_prm_lg, .lk_prm_lg{ color: #607D8B}
+    .tx_scn_lg, .lk_scn_lg{color:#FF5252}
+    .tx_lgh_lg, .lk_lgh_lg{color: #f6f6f6}
     .tx_stn_lg, .lk_stn_lg{color: #ccc}
 
-    .tx_hv_prm_lg:hover,   .lk_prm_lg:hover{ color: #607D8B}
+    .tx_hv_prm_lg:hover, .lk_prm_lg:hover{ color: #607D8B}
     .tx_hv_scn_lg:hover, .lk_scn_lg:hover{color:#c00}
-    .tx_hv_lgh_lg:hover,     .lk_lgh_lg:hover{color: #d6d6d6}
-    .tx_hv_stn_lg:hover,  .lk_stn_lg:hover{color: #000} 
+    .tx_hv_lgh_lg:hover, .lk_lgh_lg:hover{color: #d6d6d6}
+    .tx_hv_stn_lg:hover, .lk_stn_lg:hover{color: #000} 
 
 }
 
@@ -679,20 +679,20 @@ img, object, embed, video, iframe, iframe[style] {
     .py_0_md{ margin-top: 0 !important; margin-bottom: 0  !important}
 
     .tx_c_md{text-align: center !important}
-    .tx_l_md  {text-align: left !important}
-    .tx_r_md {text-align: right !important}
+    .tx_l_md{text-align: left !important}
+    .tx_r_md{text-align: right !important}
     .tx_j_md{text-align: justify !important}
 
-    .tx_lowercase_md{text-transform: lowercase !important}
-    .tx_uppercase_md{text-transform: uppercase !important}
-    .tx_capitalize_md{text-transform: capitalize !important}
-    .tx_transform_none{text-transition: none}
+    .tx_lc_md{text-transform: lowercase !important}
+    .tx_uc_md{text-transform: uppercase !important}
+    .tx_cp_md{text-transform: capitalize !important}
+    .tx_tr_no{text-transition: none}
 
-    .tx_mir_md{font-size: 0.625em }
-    .tx_small_md{font-size: 0.75em }
-    .tx_medium_md{font-size: 1em}
-    .tx_large_md{ font-size: 1.25em}
-    .tx_xlarge_md{font-size: 2.25em}
+    .tx_mr_md{font-size: 0.625em }
+    .tx_sm_md{font-size: 0.75em }
+    .tx_md_md{font-size: 1em}
+    .tx_lg_md{ font-size: 1.25em}
+    .tx_xlg_md{font-size: 2.25em}
 
     .bold_md{ font-weight: bold}
     .italic_md{font-style: italic}
@@ -702,15 +702,15 @@ img, object, embed, video, iframe, iframe[style] {
     .decoration_none_md{text-decoration: none}
     .overline_md{text-decoration: overline}
 
-    .tx_prm_md,  .lk_prm_md{ color: #607D8B}
-    .tx_scn_md,.lk_scn_md{color:#FF5252}
-    .tx_lgh_md,    .lk_lgh_md{color: #f6f6f6}
+    .tx_prm_md, .lk_prm_md{ color: #607D8B}
+    .tx_scn_md, .lk_scn_md{color:#FF5252}
+    .tx_lgh_md, .lk_lgh_md{color: #f6f6f6}
     .tx_stn_md, .lk_stn_md{color: #ccc}
 
-    .tx_hv_prm_md:hover,   .lk_prm_md:hover{ color: #607D8B}
+    .tx_hv_prm_md:hover, .lk_prm_md:hover{ color: #607D8B}
     .tx_hv_scn_md:hover, .lk_scn_md:hover{color:#c00}
-    .tx_hv_lgh_md:hover,     .lk_lgh_md:hover{color: #d6d6d6}
-    .tx_hv_stn_md:hover,  .lk_stn_md:hover{color: #000} 
+    .tx_hv_lgh_md:hover, .lk_lgh_md:hover{color: #d6d6d6}
+    .tx_hv_stn_md:hover, .lk_stn_md:hover{color: #000} 
 }
 
 @media only screen and (max-width: 500px)
@@ -726,12 +726,12 @@ img, object, embed, video, iframe, iframe[style] {
     .row_fluid .gd_sm_12  { width: 98.45%; float: left; clear: both }
 
     .fill_sm_inside{ padding: 1.55%  !important}
-    .fill_sm_inside_top{ padding-top: 1.55%; !important}
-    .fill_sm_inside_right{ padding-right: 1.55% !important }
-    .fill_sm_inside_bottom{ padding-bottom: 1.55% !important }
-    .fill_sm_inside_left{ padding-left: 1.55% !important }
-    .fill_sm_inside_top_bottom{ padding-top: 1.55% !important; padding-bottom: 1.55%  !important}
-    .fill_sm_inside_left_right{ padding-left: 1.55% !important; padding-right: 1.55%  !important}
+    .fill_sm_inside_t{ padding-top: 1.55%; !important}
+    .fill_sm_inside_r{ padding-right: 1.55% !important }
+    .fill_sm_inside_b{ padding-bottom: 1.55% !important }
+    .fill_sm_inside_l{ padding-left: 1.55% !important }
+    .fill_sm_inside_t_b{ padding-top: 1.55% !important; padding-bottom: 1.55%  !important}
+    .fill_sm_inside_l_r{ padding-left: 1.55% !important; padding-right: 1.55%  !important}
 
     .pp_1_sm{ margin: 1.55%  !important}
     .pt_1_sm{ margin-top: 1.55% !important}
@@ -750,8 +750,8 @@ img, object, embed, video, iframe, iframe[style] {
     .py_0_sm{ margin-top: 0 !important; margin-bottom: 0 !important}
 
     .tx_c_sm{text-align: center !important}
-    .tx_l_sm  {text-align: left !important}
-    .tx_r_sm {text-align: right !important}
+    .tx_l_sm{text-align: left !important}
+    .tx_r_sm{text-align: right !important}
     .tx_j_sm{text-align: justify !important}
 
     .tx_lowercase_sm{text-transform: lowercase !important}
@@ -759,19 +759,19 @@ img, object, embed, video, iframe, iframe[style] {
     .tx_capitalize_sm{text-transform: capitalize !important}
     .tx_transform_none{text-transition: none}
 
-    .tx_mir_sm{font-size: 0.625em }
-    .tx_small_sm{font-size: 0.75em }
-    .tx_medium_sm{font-size: 1em}
-    .tx_large_sm{ font-size: 1.25em}
-    .tx_xlarge_sm{font-size: 2.25em}
+    .tx_mr_sm{font-size: 0.625em }
+    .tx_sma_sm{font-size: 0.75em }
+    .tx_md_sm{font-size: 1em}
+    .tx_lg_sm{ font-size: 1.25em}
+    .tx_xlg_sm{font-size: 2.25em}
 
-    .bold_sm{ font-weight: bold}
-    .italic_sm{font-style: italic}
-    .bold_none_sm{ font-weight: normal}
-    .italic_none_sm{font-style: normal}
-    .underline_sm{text-decoration: underline}
-    .decoration_none_sm{text-decoration: none}
-    .overline_sm{text-decoration: overline}
+    .tx_b_sm{ font-weight: bold}
+    .tx_i_sm{font-style: italic}
+    .tx_b_no_sm{ font-weight: normal}
+    .tx_i_no_sm{font-style: normal}
+    .tx_u_sm{text-decoration: underline}
+    .tx_d_no_sm{text-decoration: none}
+    .tx_o_sm{text-decoration: overline}
 
     .tx_prm_sm,  .lk_prm_sm{ color: #607D8B}
     .tx_scn_sm,.lk_scn_sm{color:#FF5252}
@@ -800,21 +800,21 @@ img, object, embed, video, iframe, iframe[style] {
 .tx_r { text-align: right }
 .tx_j { text-align: justify}
 
-.tx_lowercase{text-transform: lowercase}
-.tx_uppercase{text-transform: uppercase}
-.tx_capitalize{text-transform: capitalize}
+.tx_lc{text-transform: lowercase}
+.tx_uc{text-transform: uppercase}
+.tx_cp{text-transform: capitalize}
 
-.tx_mir{font-size: 0.625em }
-.tx_small{font-size: 0.75em }
-.tx_medium{font-size: 1em}
-.tx_large{ font-size: 1.25em}
-.tx_xlarge{font-size: 2.25em}
+.tx_mr{font-size: 0.625em }
+.tx_sm{font-size: 0.75em }
+.tx_md{font-size: 1em}
+.tx_lg{ font-size: 1.25em}
+.tx_xlg{font-size: 2.25em}
 
-.bold{ font-weight: bold}
-.italic{font-style: italic}
-.underline{text-decoration: underline}
-.decoration_none{text-decoration: none}
-.overline{text-decoration: overline}
+.tx_b{ font-weight: bold}
+.tx_i{font-style: italic}
+.tx_u{text-decoration: underline}
+.tx_d_no{text-decoration: none}
+.tx_o{text-decoration: overline}
 
 
 .fl_c{
