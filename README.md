@@ -7,7 +7,9 @@ Micro framework HTML for developing responsive, mobile project
     <head>
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/reset.min.css" type="text/css" media="all" />
         <link rel="stylesheet" href="css/style.min.css" type="text/css" media="all" />
+
         <title>Dobok CSS</title>
     </head>
 <body>
