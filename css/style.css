@@ -952,6 +952,23 @@ img, object, embed, video, iframe, iframe[style] {
     background: #d8d8d8
 }
 
+input[id="nv_bar_bt"]{
+    display: none
+}
+
+label[for="nv_bar_bt"]{
+    width: 60px;
+    text-align: center;
+    display: none;
+    padding: 5px 15px;
+    font-size: 30px;
+    cursor: pointer
+}
+
+
+label[for="nv_bar_bt"]:hover{
+    background: rgba(50, 50, 50, 0.12);
+}
 
 .nv_bar,
 .nv_bar ul,
@@ -989,9 +1006,9 @@ img, object, embed, video, iframe, iframe[style] {
 
 .nv_bar > ul > li { float: left; display: inline-block }
 
-.nv_bar.pull_center > ul      { float: none; text-align: center }
-.nv_bar.pull_center > ul > li { float: none } 
-.nv_bar.pull_center ul ul     { text-align: left }
+.nv_bar.fl_c > ul      { float: none; text-align: center }
+.nv_bar.fl_c > ul > li { float: none } 
+.nv_bar.fl_c ul ul     { text-align: left }
 
 .nv_bar > ul > li.text, .nv_bar > ul > li > a {
     padding: 18px 25px 21px 25px;
@@ -1202,15 +1219,13 @@ img, object, embed, video, iframe, iframe[style] {
 
 
 .nv_sidebar li > a:hover,
-.nv_sidebar li.active > a,
-.nv_sidebar li.open > a {
-    background: #EAE5E5;
+.nv_sidebar li.active > a{
+    background: #EAE5E5
 }
 
 .nv_sidebar li > a:hover > span::after,
-.nv_sidebar li.active > a > span::after,
-.nv_sidebar li.open > a > span::after {
-    border-color: #eee;
+.nv_sidebar li.active > a > span::after{
+    border-color: #eee
 }
 
 .nv_sidebar ul li a {
@@ -1224,7 +1239,6 @@ img, object, embed, video, iframe, iframe[style] {
 }
 
 .nv_sidebar ul li:hover > a,
-.nv_sidebar ul li.open > a,
 .nv_sidebar ul li.active > a {
     background: #999
 }
@@ -1237,9 +1251,6 @@ img, object, embed, video, iframe, iframe[style] {
     border-bottom: 1px solid #999
 }
 
-.nv_sidebar li > ul > li.open:last-child > ul > li:last-child > a {
-    border-bottom: 0
-}
 .nv_sidebar li.has_dropdown > a::after,
 .nv_sidebar ul li.has_dropdown > a::after {
     display: block;
@@ -1266,7 +1277,6 @@ img, object, embed, video, iframe, iframe[style] {
 
 
 .nv_sidebar ul li.active > a::after,
-.nv_sidebar ul li.open > a::after,
 .nv_sidebar ul li > a:hover::after {
     border-color: #fff
 }
@@ -1292,22 +1302,18 @@ img, object, embed, video, iframe, iframe[style] {
 
 .nv_sidebar.nv_prm li.has_dropdown > a:hover::after,
 .nv_sidebar.nv_prm ul li.active > a::after,
-.nv_sidebar.nv_prm ul li.open > a::after,
 .nv_sidebar.nv_prm ul li > a:hover::after {
     border-color: #fff
 }
 
 .nv_sidebar.nv_prm li > a:hover,
-.nv_sidebar.nv_prm li.active > a,
-.nv_sidebar.nv_prm li.open > a {
+.nv_sidebar.nv_prm li.active > a{
     background: #40535b
 }
 
 .nv_sidebar.nv_prm li > a:hover,
 .nv_sidebar.nv_prm li.active > a,
-.nv_sidebar.nv_prm li.open > a ,
 .nv_sidebar.nv_prm ul li:hover > a,
-.nv_sidebar.nv_prm ul li.open > a,
 .nv_sidebar.nv_prm ul li.active > a {
     color: #fff
 }
@@ -1338,22 +1344,18 @@ img, object, embed, video, iframe, iframe[style] {
 
 .nv_sidebar.nv_scn li.has_dropdown > a:hover::after,
 .nv_sidebar.nv_scn ul li.active > a::after,
-.nv_sidebar.nv_scn ul li.open > a::after,
 .nv_sidebar.nv_scn ul li > a:hover::after {
     border-color: #fff
 }
 
 .nv_sidebar.nv_scn li > a:hover,
-.nv_sidebar.nv_scn li.active > a,
-.nv_sidebar.nv_scn li.open > a {
+.nv_sidebar.nv_scn li.active > a{
     background: #c00
 }
 
 .nv_sidebar.nv_scn li > a:hover,
 .nv_sidebar.nv_scn li.active > a,
-.nv_sidebar.nv_scn li.open > a ,
 .nv_sidebar.nv_scn ul li:hover > a,
-.nv_sidebar.nv_scn ul li.open > a,
 .nv_sidebar.nv_scn ul li.active > a {
     color: #fff
 }
@@ -1385,22 +1387,18 @@ img, object, embed, video, iframe, iframe[style] {
 
 .nv_sidebar.nv_lgh li.has_dropdown > a:hover::after,
 .nv_sidebar.nv_lgh ul li.active > a::after,
-.nv_sidebar.nv_lgh ul li.open > a::after,
 .nv_sidebar.nv_lgh ul li > a:hover::after {
     border-color: #000
 }
 
 .nv_sidebar.nv_lgh li > a:hover,
-.nv_sidebar.nv_lgh li.active > a,
-.nv_sidebar.nv_lgh li.open > a {
+.nv_sidebar.nv_lgh li.active > a{
     background: #d6d6d6
 }
 
 .nv_sidebar.nv_lgh li > a:hover,
 .nv_sidebar.nv_lgh li.active > a,
-.nv_sidebar.nv_lgh li.open > a ,
 .nv_sidebar.nv_lgh ul li:hover > a,
-.nv_sidebar.nv_lgh ul li.open > a,
 .nv_sidebar.nv_lgh ul li.active > a {
     color: #000
 }
@@ -1429,22 +1427,18 @@ img, object, embed, video, iframe, iframe[style] {
 
 .nv_sidebar.nv_stn li.has_dropdown > a:hover::after,
 .nv_sidebar.nv_stn ul li.active > a::after,
-.nv_sidebar.nv_stn ul li.open > a::after,
 .nv_sidebar.nv_stn ul li > a:hover::after {
     border-color: #000
 }
 
 .nv_sidebar.nv_stn li > a:hover,
-.nv_sidebar.nv_stn li.active > a,
-.nv_sidebar.nv_stn li.open > a {
+.nv_sidebar.nv_stn li.active > a{
     background: #afafaf
 }
 
 .nv_sidebar.nv_stn li > a:hover,
 .nv_sidebar.nv_stn li.active > a,
-.nv_sidebar.nv_stn li.open > a ,
 .nv_sidebar.nv_stn ul li:hover > a,
-.nv_sidebar.nv_stn ul li.open > a,
 .nv_sidebar.nv_stn ul li.active > a {
     color: #000
 }
@@ -1606,16 +1600,26 @@ img, object, embed, video, iframe, iframe[style] {
 @media all and (max-width: 890px)
 { 
 
-    .nv_bar > ul {
-        display: none
+    label[for="nv_bar_bt"]{
+        display: block
     }
-    .nv_bar > ul.open {
-        display: block;
+
+    #nv_bar_bt:checked ~ .nv_bar > ul {
+        display: block
+    }
+
+    .nv_bar > ul {
+        display: none;
         border-top: 1px solid rgba(0, 0, 0, 0.1)
     }
 
+
+.nv_sidebar li > ul > li:last-child > ul > li:last-child > a {
+    border-bottom: 0
+}
+
     .nv_bar.fl_r > ul { float: none }
-    .nv_bar.pull_center > ul { text-align: left }
+    .nv_bar.fl_c > ul { text-align: left }
     .nv_bar > ul > li, .nv_bar.fl_r > ul > li {
         float: none; display: block
     }
