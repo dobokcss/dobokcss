@@ -1690,45 +1690,32 @@ label[for="nv_bar_bt"]:hover{
         color: #000; background: #d6d6d6 
     }
 
-}
 
+		.tb_fluid thead { display: none }
 
-@media screen and (max-width: 850px) {
+		.tb_fluid tr {
+          display: block;
+          margin-top: 5px;
+          padding-bottom: 15px
+		}
 
-    .tb_scale thead    { display: none }
-    .tb_scale tbody td { display: block }
+		.tb_fluid td {
+          display: block;
+          text-align: right;
+          font-size: 13px;
+          margin-bottom:3px;
+          min-height: 14px
+        }
 
-    .tb_scale_prm tbody tr td:first-child {
-        color: #fff; background: #607D8B 
-    }
-
-    .tb_scale_scn tbody tr td:first-child {
-        color: #fff; background: #FF5252 
-    }
-
-    .tb_scale_stn tbody tr td:first-child {
-        color: #fff; background: #d8d8d8 
-    }
-
-    .tb_scale_lgh tbody tr td:first-child {
-        color: #fff; background: #f6f6f6 
-    }
-
-    .tb_scale tbody tr td:first-child {
-        color: #000; font-weight: bold
-    }
-
-    .tb_scale tbody td:before {
-        min-width: 100px;
-        padding-right: 10px;
-        content: attr(data-th); 
-        font-weight: bold;
-        display: inline-block
-    }
-
-    .tb_scale tbody td{ border-top: none }
+		.tb_fluid td:before {
+          content: attr(colname);
+          float: left;
+          font-weight: bold;
+        }
 
 }
+
+
 
 .alpha_modal_dialog { padding-top: 100px }
 
