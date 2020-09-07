@@ -6,7 +6,7 @@
  *
  * page:    https://dobokcss.github.io
  * author:  Estefanio N Santos <estefanions AT gmail DOT com> 
- * version: 0.20.0
+ * version: 0.23.0
  */
 
 body{ 
@@ -329,7 +329,7 @@ input:focus, select:focus, textarea:focus {
 .lt_breadcrumb a:hover { color: #09a  }
 
 
-.gd{
+.gr{
     float: left; 
     text-align: left;
     margin-left: 1.55%; 
@@ -337,49 +337,49 @@ input:focus, select:focus, textarea:focus {
     line-height: 20px
 }
 
-.gd_field input, .gd_field select, .gd_field textarea,
-.gd_input input, .gd_select select, .gd_textarea textarea ,
-.gd_button button,
-.gd_button input[type="submit"],
-.gd_button input[type="button"] { 
+.gr_field input, .gr_field select, .gr_field textarea,
+.gr_input input, .gr_select select, .gr_textarea textarea ,
+.gr_button button,
+.gr_button input[type="submit"],
+.gr_button input[type="button"] { 
     width: 100%; float: left
 }
 
 
-.gd button, .gd input[type="radio"],
-.gd input[type="hidden"], .gd input[type="checkbox"],
-.gd input[type="button"] {
+.gr button, .gr input[type="radio"],
+.gr input[type="hidden"], .gr input[type="checkbox"],
+.gr input[type="button"] {
     width: auto; float: none
 }
 
-.gd_1{ width: 6.78%} 
-.gd_2{ width: 15.11%}
-.gd_3{ width: 23.44%}
-.gd_4{ width: 31.77%}
-.gd_5{ width: 40.1%}
-.gd_6{ width: 48.43%}
-.gd_7{ width: 56.76%}
-.gd_8{ width: 65.09%}
-.gd_9{ width: 73.42%}
-.gd_10{width: 81.75%}
-.gd_11{width: 90.08%}
-.gd_12, .container { width: 96% } 
+.gr_1{ width: 6.78%} 
+.gr_2{ width: 15.11%}
+.gr_3{ width: 23.44%}
+.gr_4{ width: 31.77%}
+.gr_5{ width: 40.1%}
+.gr_6{ width: 48.43%}
+.gr_7{ width: 56.76%}
+.gr_8{ width: 65.09%}
+.gr_9{ width: 73.42%}
+.gr_10{width: 81.75%}
+.gr_11{width: 90.08%}
+.gr_12, .container { width: 96% } 
 
-.gd_lg_static{ width: 890px }
-.gd_md_static{ width: 719px }
-.gd_sm_static{ width: 500px }
+.gr_lg_static{ width: 890px }
+.gr_md_static{ width: 719px }
+.gr_sm_static{ width: 500px }
 
-@media (max-width: 930px) { .gd_lg_static  { width: 100%; float: left; clear: both } }
-@media (max-width: 759px) { .gd_md_static  { width: 100%; float: left; clear: both } }
-@media (max-width: 540px) { .gd_sm_static  { width: 100%; float: left; clear: both } }
+@media (max-width: 930px) { .gr_lg_static  { width: 100%; float: left; clear: both } }
+@media (max-width: 759px) { .gr_md_static  { width: 100%; float: left; clear: both } }
+@media (max-width: 540px) { .gr_sm_static  { width: 100%; float: left; clear: both } }
 
-.container .gd_12{
+.container .gr_12{
     width: 100%;
     margin-left: 0; 
     margin-bottom: 0.775%
 }  
 
-.row .gd_12{
+.row .gr_12{
     width: 98.45%;
     margin-left: 1.55%;
     margin-bottom: 0 
@@ -482,20 +482,20 @@ img, object, embed, video, iframe, iframe[style] {
 
 @media only screen and (max-width: 890px) 
 {
-    .gd_lg_block, .gd_md_show{ display: block }
-    .gd_lg_none,  .gd_md_hide{ display: none}
+    .gr_lg_block, .gr_md_show{ display: block }
+    .gr_lg_none,  .gr_md_hide{ display: none}
 
     .row_fluid { 
         width: 100%; float: left; margin-left: 0; margin-bottom: 0 
     }
 
 
-    .gd_lg_3   { width: 23.44% }
-    .gd_lg_4   { width: 31.77% }
-    .gd_lg_6   { width: 48.45% }
-    .gd_lg_8   { width: 65.09% }
-    .gd_lg_12  { width: 100%; float: left; clear: both }
-    .row_fluid .gd_lg_12  { width: 98.45%; float: left; clear: both }
+    .gr_lg_3   { width: 23.44% }
+    .gr_lg_4   { width: 31.77% }
+    .gr_lg_6   { width: 48.45% }
+    .gr_lg_8   { width: 65.09% }
+    .gr_lg_12  { width: 100%; float: left; clear: both }
+    .row_fluid .gr_lg_12  { width: 98.45%; float: left; clear: both }
 
     .mm_1_lg{ margin: 1.55%  !important}
     .mt_1_lg{ margin-top: 1.55%; !important}
@@ -568,15 +568,15 @@ img, object, embed, video, iframe, iframe[style] {
 
 @media only screen and (max-width: 719px) 
 {
-    .gd_md_block, .gd_md_show{ display: block }
-    .gd_md_none,  .gd_md_hide{ display: none}
+    .gr_md_block, .gr_md_show{ display: block }
+    .gr_md_none,  .gr_md_hide{ display: none}
 
-    .gd_md_3   { width: 23.44% }
-    .gd_md_4   { width: 31.77% }
-    .gd_md_6   { width: 48.45% }
-    .gd_md_8   { width: 65.09% }
-    .gd_md_12  { width: 100%; float: left; clear: both }
-    .row_fluid .gd_md_12  { width: 98.45%; float: left; clear: both }
+    .gr_md_3   { width: 23.44% }
+    .gr_md_4   { width: 31.77% }
+    .gr_md_6   { width: 48.45% }
+    .gr_md_8   { width: 65.09% }
+    .gr_md_12  { width: 100%; float: left; clear: both }
+    .row_fluid .gr_md_12  { width: 98.45%; float: left; clear: both }
 
     .mm_1_md{ margin: 1.55%  !important}
     .mt_1_md{ margin-top: 1.55%; !important}
@@ -647,15 +647,15 @@ img, object, embed, video, iframe, iframe[style] {
 
 @media only screen and (max-width: 500px)
 {
-    .gd_sm_block, .gd_sm_show{ display: block }
-    .gd_sm_none,  .gd_sm_hide{ display: none}
+    .gr_sm_block, .gr_sm_show{ display: block }
+    .gr_sm_none,  .gr_sm_hide{ display: none}
 
-    .gd_sm_3   { width: 23.44% }
-    .gd_sm_4   { width: 31.77% }
-    .gd_sm_6   { width: 48.45% }
-    .gd_sm_8   { width: 65.09% }
-    .gd_sm_12  { width: 100%; float: left; clear: both }
-    .row_fluid .gd_sm_12  { width: 98.45%; float: left; clear: both }
+    .gr_sm_3   { width: 23.44% }
+    .gr_sm_4   { width: 31.77% }
+    .gr_sm_6   { width: 48.45% }
+    .gr_sm_8   { width: 65.09% }
+    .gr_sm_12  { width: 100%; float: left; clear: both }
+    .row_fluid .gr_sm_12  { width: 98.45%; float: left; clear: both }
 
     .fill_sm_inside{ padding: 1.55%  !important}
     .fill_sm_inside_t{ padding-top: 1.55%; !important}
@@ -735,7 +735,7 @@ img, object, embed, video, iframe, iframe[style] {
 
 @media (min-width: 1221px) 
 {
-    .container, .gd_12{ width: 1196px}
+    .container, .gr_12{ width: 1196px}
     .container {
         margin-left: auto; margin-right: auto
     }
