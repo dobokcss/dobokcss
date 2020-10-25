@@ -15,13 +15,23 @@
 .container:after {clear: both}
 
 
+    .mn_x .mn_bt {
+        display: block;
+        text-decoration: none;
+        font-size: 14px;
+        color: #444;
+        padding: 18px 25px 18px 25px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        cursor: pointer
+    }
 
 input[id="mn_x_bt"]{ display: none }
 
 label[for="mn_x_bt"]{
     width: 60px;
     text-align: center;
-    display: none;
+    display: block;
     padding: 5px 15px;
     font-size: 30px;
     cursor: pointer
@@ -30,9 +40,6 @@ label[for="mn_x_bt"]{
 
 label[for="mn_x_bt"]:hover{ background: rgba(50, 50, 50, 0.12) }
 
-    label[for="mn_x_bt"]{
-        display: block
-    }
 
     #mn_x_bt:checked ~ .mn_x > ul {
         display: block
@@ -42,7 +49,6 @@ label[for="mn_x_bt"]:hover{ background: rgba(50, 50, 50, 0.12) }
         display: none;
         border-top: 1px solid rgba(0, 0, 0, 0.1)
     }
-
 
 
     .mn_x.fl_r > ul { float: none }
@@ -58,36 +64,7 @@ label[for="mn_x_bt"]:hover{ background: rgba(50, 50, 50, 0.12) }
         color: #fff; background: #C1BFBF
     }
 
-    .mn_x .mn_bt {
-        display: block;
-        text-decoration: none;
-        font-size: 14px;
-        color: #444;
-        padding: 18px 25px 18px 25px;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        cursor: pointer
-    }
 
-    .mn_x ul ul,
-    .mn_x ul li:hover > ul,
-    .mn_x > ul > li > ul,
-    .mn_x ul ul ul,
-    .mn_x ul ul li:hover > ul,
-    .mn_x.fl_r ul ul,
-    .mn_x.fl_r ul li:hover > ul,
-    .mn_x.fl_r > ul > li > ul,
-    .mn_x.fl_r ul ul ul,
-    .mn_x.fl_r ul ul li:hover > ul {
-        width: 100%;
-        top: auto;
-        left: 0;
-        right: auto;
-        opacity: 1;
-        text-align: left;
-        padding: 0;
-        position: relative;
-    }
 
     .mn_x ul ul li { width: 100% }
 
@@ -145,11 +122,35 @@ label[for="mn_x_bt"]:hover{ background: rgba(50, 50, 50, 0.12) }
         display: none
     }
 
+/*
+    .mn_x ul ul,
+    .mn_x ul li:hover > ul,
+    .mn_x > ul > li > ul,
+    .mn_x ul ul ul,
+    .mn_x ul ul li:hover > ul,
+    .mn_x.fl_r ul ul,
+    .mn_x.fl_r ul li:hover > ul,
+    .mn_x.fl_r > ul > li > ul,
+    .mn_x.fl_r ul ul ul,
+    .mn_x.fl_r ul ul li:hover > ul {
+        width: 100%;
+        top: auto;
+        left: 0;
+        right: auto;
+        opacity: 1;
+        text-align: left;
+        padding: 0;
+        position: relative;
+    }
+    */
+
+
 
 
 @media (min-width: 890px)
 {
 
+    label[for="mn_x_bt"]{ display: none }
 
 .mn_x,
 .mn_x ul,
