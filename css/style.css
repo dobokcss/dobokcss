@@ -6,7 +6,7 @@
  *
  * page:    https://dobokcss.github.io
  * author:  Estefanio N Santos <estefanions AT gmail DOT com> 
- * version: 0.24.0
+ * version: 0.26.0
  */
 
 body{ 
@@ -49,26 +49,26 @@ legend{ padding: 0 5px }
 
 .bd, .bt.bd{border: 1px solid}
 
-.bd_t_prm, .bd_t_scn, .bd_t_lgh, .bd_t_stn { 
+.bd_t_prm, .bd_t_scn, .bd_t_lgt, .bd_t_stn { 
     border-right: none 0; 
     border-bottom: none 0; 
     border-left: none 0
 }
 
 
-.bd_r_prm, .bd_r_scn, .bd_r_lgh, .bd_r_stn { 
+.bd_r_prm, .bd_r_scn, .bd_r_lgt, .bd_r_stn { 
     border-bottom: none 0; 
     border-left: none 0; 
     border-top: none 0
 }
 
-.bd_b_prm, .bd_b_scn, .bd_b_lgh, .bd_b_stn { 
+.bd_b_prm, .bd_b_scn, .bd_b_lgt, .bd_b_stn { 
     border-top: none 0;
     border-left: none 0; 
     border-right: none 0
 }
 
-.bd_l_prm, .bd_l_scn, .bd_l_lgh, .bd_l_stn { 
+.bd_l_prm, .bd_l_scn, .bd_l_lgt, .bd_l_stn { 
     border-top: none 0; 
     border-right: none 0; 
     border-bottom: none 0
@@ -88,9 +88,9 @@ legend{ padding: 0 5px }
     border-color:  #FF5252
 }
 
-.bt.bd_t_lgh, .bd_t_lgh, 
-.bd_r_lgh, .bd_l_lgh, .bd_b_lgh,
-.bd_t_lgh_0, .bd_r_lgh_0, .bd_l_lgh_0, .bd_b_lgh_0 { 
+.bt.bd_t_lgt, .bd_t_lgt, 
+.bd_r_lgt, .bd_l_lgt, .bd_b_lgt,
+.bd_t_lgt_0, .bd_r_lgt_0, .bd_l_lgt_0, .bd_b_lgt_0 { 
     color: #666;
     border-color:  #f6f6f6
 }
@@ -102,27 +102,27 @@ legend{ padding: 0 5px }
     border-color:  #ccc
 }
 
-.bd_y_prm, .bd_y_scn, .bd_y_lgh, .bd_y_stn { 
+.bd_y_prm, .bd_y_scn, .bd_y_lgt, .bd_y_stn { 
     border-left: 0 none; border-right: 0 none 
 }
 
-.bd_x_prm, .bd_x_scn, .bd_x_lgh, .bd_x_stn { 
+.bd_x_prm, .bd_x_scn, .bd_x_lgt, .bd_x_stn { 
     border-top: 0 none; border-bottom: 0 none 
 }
 
-.bd_t_prm_0, .bd_t_scn_0, .bd_t_lgh_0, .bd_t_stn_0{ 
+.bd_t_prm_0, .bd_t_scn_0, .bd_t_lgt_0, .bd_t_stn_0{ 
     border-top: 0 none
 }
 
-.bd_r_prm_0, .bd_r_scn_0, .bd_r_lgh_0, .bd_r_stn_0{ 
+.bd_r_prm_0, .bd_r_scn_0, .bd_r_lgt_0, .bd_r_stn_0{ 
     border-right: 0 none
 }
 
-.bd_b_prm_0, .bd_b_scn_0, .bd_b_lgh_0, .bd_b_stn_0 { 
+.bd_b_prm_0, .bd_b_scn_0, .bd_b_lgt_0, .bd_b_stn_0 { 
     border-bottom: 0 none
 }
 
-.bd_l_prm_0, .bd_l_scn_0, .bd_l_lgh_0, .bd_l_stn_0{ 
+.bd_l_prm_0, .bd_l_scn_0, .bd_l_lgt_0, .bd_l_stn_0{ 
     border-left: 0 none
 }
 
@@ -277,25 +277,25 @@ input:focus, select:focus, textarea:focus {
 }
 
 .bt_prm, .bt_scn { color: #fff }
-.bt_lgh {color: #444}
+.bt_lgt {color: #444}
 .bt{background: #fff}
 .bt:hover{background: #d8d8d8}
 
 .bg_prm, .bt_prm{ background: #40535b}
 .bg_scn, .bt_scn{ background: #FF5252}
-.bg_lgh, .bt_lgh{ background: #f6f6f6}
+.bg_lgt, .bt_lgt{ background: #f6f6f6}
 .bg, .bg_stn, .bt_stn{ color: #444; background: #d8d8d8 }
 
 .bg_prm, .bg_scn{color: #f6f6f6 }
 
 .bt_prm:hover {color: #fff; background: #323f44 }
 .bt_scn:hover {color: #fff; background: #c00 }
-.bt_lgh:hover {color: #000; background: #d6d6d6 }
+.bt_lgt:hover {color: #000; background: #d6d6d6 }
 .bt_stn:hover {color: #000; background: #afafaf }
 
 .bt.bt_hv_prm:hover, .bg.bg_hv_prm:hover { color: #fff; background: #40535b}
 .bt.bt_hv_scn:hover, .bg.bg_hv_scn:hover { color: #fff; background: #FF5252}
-.bt.bt_hv_lgh:hover, .bg.bg_hv_lgh:hover { color: #000; background: #f6f6f6}
+.bt.bt_hv_lgt:hover, .bg.bg_hv_lgt:hover { color: #000; background: #f6f6f6}
 .bt.bt_hv_stn:hover, .bg.bg_hv_stn:hover { color: #000; background: #d6d6d6}
 
 .bg_alpha, .bg_alpha_hv:hover {
@@ -425,23 +425,23 @@ img, object, embed, video, iframe, iframe[style] {
 
 .tx_prm , .lk_prm {color: #40535b}
 .tx_scn , .lk_scn {color: #FF5252}
-.tx_lgh , .lk_lgh {color: #f6f6f6}
+.tx_lgt , .lk_lgt {color: #f6f6f6}
 .tx_stn , .lk_stn {color: #ccc}
 
 .tx_hv_prm:hover, .lk_prm:hover{ color: #323f44}
 .tx_hv_scn:hover, .lk_scn:hover{ color:#c00}
-.tx_hv_lgh:hover, .lk_lgh:hover{ color: #d6d6d6}
+.tx_hv_lgt:hover, .lk_lgt:hover{ color: #d6d6d6}
 .tx_hv_stn:hover, .lk_stn:hover{ color: #000}
 
 .lk_hv_prm:hover { color: #40535b !important}
 .lk_hv_scn:hover { color: #FF5252 !important}
-.lk_hv_lgh:hover { color: #f6f6f6 !important}
+.lk_hv_lgt:hover { color: #f6f6f6 !important}
 .lk_hv_stn:hover { color: #ccc    !important}
 
 .lk_prm.lt_y a, .lk_prm.lt_x a { color: #40535b }
 .lk_scn.lt_y a, .lk_scn.lt_x a { color: #FF5252 }
 .lk_stn.lt_y a, .lk_stn.lt_x a { color: #ccc }
-.lk_lgh.lt_y a, .lk_lgh.lt_x a { color: #f6f6f6 }
+.lk_lgt.lt_y a, .lk_lgt.lt_x a { color: #f6f6f6 }
 
 .lt_y.lt_mt_1 li { padding-top: 10px }
 .lt_y.lt_mb_1 li { padding-bottom: 10px }
@@ -461,10 +461,10 @@ img, object, embed, video, iframe, iframe[style] {
 .lk_hv_scn.lt_y a:hover,
 .lk_hv_scn.lt_x a:hover { color: #c00 }
 
-.lk_lgh.lt_y a:hover,
-.lk_lgh.lt_x a:hover,
-.lk_hv_lgh.lt_y a:hover,
-.lk_hv_lgh.lt_x a:hover { color: #d6d6d6 }
+.lk_lgt.lt_y a:hover,
+.lk_lgt.lt_x a:hover,
+.lk_hv_lgt.lt_y a:hover,
+.lk_hv_lgt.lt_x a:hover { color: #d6d6d6 }
 
 .lk_stn.lt_y a:hover,
 .lk_stn.lt_x a:hover,
@@ -600,12 +600,12 @@ img, object, embed, video, iframe, iframe[style] {
 
     .tx_prm_lg, .lk_prm_lg{ color: #40535b}
     .tx_scn_lg, .lk_scn_lg{color:#FF5252}
-    .tx_lgh_lg, .lk_lgh_lg{color: #f6f6f6}
+    .tx_lgt_lg, .lk_lgt_lg{color: #f6f6f6}
     .tx_stn_lg, .lk_stn_lg{color: #ccc}
 
     .tx_hv_prm_lg:hover, .lk_prm_lg:hover{ color: #40535b}
     .tx_hv_scn_lg:hover, .lk_scn_lg:hover{color:#c00}
-    .tx_hv_lgh_lg:hover, .lk_lgh_lg:hover{color: #d6d6d6}
+    .tx_hv_lgt_lg:hover, .lk_lgt_lg:hover{color: #d6d6d6}
     .tx_hv_stn_lg:hover, .lk_stn_lg:hover{color: #000} 
 
 }
@@ -729,12 +729,12 @@ img, object, embed, video, iframe, iframe[style] {
 
     .tx_prm_md, .lk_prm_md{ color: #40535b}
     .tx_scn_md, .lk_scn_md{color:#FF5252}
-    .tx_lgh_md, .lk_lgh_md{color: #f6f6f6}
+    .tx_lgt_md, .lk_lgt_md{color: #f6f6f6}
     .tx_stn_md, .lk_stn_md{color: #ccc}
 
     .tx_hv_prm_md:hover, .lk_prm_md:hover{ color: #40535b}
     .tx_hv_scn_md:hover, .lk_scn_md:hover{color:#c00}
-    .tx_hv_lgh_md:hover, .lk_lgh_md:hover{color: #d6d6d6}
+    .tx_hv_lgt_md:hover, .lk_lgt_md:hover{color: #d6d6d6}
     .tx_hv_stn_md:hover, .lk_stn_md:hover{color: #000} 
 }
 
@@ -864,12 +864,12 @@ img, object, embed, video, iframe, iframe[style] {
 
     .tx_prm_sm,  .lk_prm_sm{ color: #40535b}
     .tx_scn_sm,.lk_scn_sm{color:#FF5252}
-    .tx_lgh_sm,    .lk_lgh_sm{color: #f6f6f6}
+    .tx_lgt_sm,    .lk_lgt_sm{color: #f6f6f6}
     .tx_stn_sm, .lk_stn_sm{color: #ccc}
 
     .tx_hv_prm_sm:hover,   .lk_prm_sm:hover{ color: #40535b}
     .tx_hv_scn_sm:hover, .lk_scn_sm:hover{color:#c00}
-    .tx_hv_lgh_sm:hover,     .lk_lgh_sm:hover{color: #d6d6d6}
+    .tx_hv_lgt_sm:hover,     .lk_lgt_sm:hover{color: #d6d6d6}
     .tx_hv_stn_sm:hover,  .lk_stn_sm:hover{color: #000} 
 }
 
@@ -1076,7 +1076,7 @@ img, object, embed, video, iframe, iframe[style] {
 
 .tb_prm tr td, .tb_hv_prm tr:hover td{ background: #40535b } 
 .tb_scn tr td, .tb_hv_scn tr:hover td{ background: #FF5252 }
-.tb_lgh tr td, .tb_hv_lgh tr:hover td{ background: #f6f6f6 }
+.tb_lgt tr td, .tb_hv_lgt tr:hover td{ background: #f6f6f6 }
 .tb_stn tr td, .tb_hv_stn tr:hover td{ background: #ccc }
 
 .tb_prm tr td, .tb_hv_prm tr:hover td,
@@ -1416,25 +1416,25 @@ label[for="mn_x_bt"]:hover{ background: rgba(50, 50, 50, 0.12) }
 }
 
 
-.mn_x.mn_lgh { background: #f6f6f6 }
+.mn_x.mn_lgt { background: #f6f6f6 }
 
-.mn_x.mn_lgh > ul > li.text,
-.mn_x.mn_lgh > ul > li > a {
+.mn_x.mn_lgt > ul > li.text,
+.mn_x.mn_lgt > ul > li > a {
     color: #444
 }
 
-.mn_x.mn_lgh > ul > li:hover > a,
-.mn_x.mn_lgh > ul > li.current > a {
+.mn_x.mn_lgt > ul > li:hover > a,
+.mn_x.mn_lgt > ul > li.current > a {
     color: #000; background: #d6d6d6
 }
 
-.mn_x.mn_lgh > ul > li.has_sub > a::after,
-.mn_x.mn_lgh > ul > li.has_sub > a {
+.mn_x.mn_lgt > ul > li.has_sub > a::after,
+.mn_x.mn_lgt > ul > li.has_sub > a {
     border-top-color: #666
 }
 
-.mn_x.mn_lgh > ul > li.has_sub.current > a::after,
-.mn_x.mn_lgh > ul > li.has_sub:hover > a {
+.mn_x.mn_lgt > ul > li.has_sub.current > a::after,
+.mn_x.mn_lgt > ul > li.has_sub:hover > a {
     border-top-color: #fff
 }
 
@@ -1447,8 +1447,8 @@ label[for="mn_x_bt"]:hover{ background: rgba(50, 50, 50, 0.12) }
 .mn_x.mn_stn.mn_hv_prm > ul > li:hover > a,
 .mn_x.mn_stn.mn_hv_prm > ul > li.current > a ,
 
-.mn_x.mn_lgh.mn_hv_prm > ul > li:hover > a,
-.mn_x.mn_lgh.mn_hv_prm > ul > li.current > a 
+.mn_x.mn_lgt.mn_hv_prm > ul > li:hover > a,
+.mn_x.mn_lgt.mn_hv_prm > ul > li.current > a 
 { color: #fff; background: #40535b }
 
 
@@ -1462,22 +1462,22 @@ label[for="mn_x_bt"]:hover{ background: rgba(50, 50, 50, 0.12) }
 .mn_x.mn_stn.mn_hv_scn > ul > li:hover > a,
 .mn_x.mn_stn.mn_hv_scn > ul > li.current > a ,
 
-.mn_x.mn_lgh.mn_hv_scn > ul > li:hover > a,
-.mn_x.mn_lgh.mn_hv_scn > ul > li.current > a 
+.mn_x.mn_lgt.mn_hv_scn > ul > li:hover > a,
+.mn_x.mn_lgt.mn_hv_scn > ul > li.current > a 
 { color: #fff; background: #FF5252 }
 
 
-.mn_x.mn_hv_lgh > ul > li:hover > a,
-.mn_x.mn_hv_lgh > ul > li.current > a ,
+.mn_x.mn_hv_lgt > ul > li:hover > a,
+.mn_x.mn_hv_lgt > ul > li.current > a ,
 
-.mn_x.mn_prm.mn_hv_lgh > ul > li:hover > a,
-.mn_x.mn_prm.mn_hv_lgh > ul > li.current > a ,
+.mn_x.mn_prm.mn_hv_lgt > ul > li:hover > a,
+.mn_x.mn_prm.mn_hv_lgt > ul > li.current > a ,
 
-.mn_x.mn_stn.mn_hv_lgh > ul > li:hover > a,
-.mn_x.mn_stn.mn_hv_lgh > ul > li.current > a ,
+.mn_x.mn_stn.mn_hv_lgt > ul > li:hover > a,
+.mn_x.mn_stn.mn_hv_lgt > ul > li.current > a ,
 
-.mn_x.mn_scn.mn_hv_lgh > ul > li:hover > a,
-.mn_x.mn_scn.mn_hv_lgh > ul > li.current > a 
+.mn_x.mn_scn.mn_hv_lgt > ul > li:hover > a,
+.mn_x.mn_scn.mn_hv_lgt > ul > li.current > a 
 { color: #000; background: #f6f6f6 }
 
 
@@ -1490,8 +1490,8 @@ label[for="mn_x_bt"]:hover{ background: rgba(50, 50, 50, 0.12) }
 .mn_x.mn_scn.mn_hv_stn > ul > li:hover > a,
 .mn_x.mn_scn.mn_hv_stn > ul > li.current > a ,
 
-.mn_x.mn_lgh.mn_hv_stn > ul > li:hover > a,
-.mn_x.mn_lgh.mn_hv_stn > ul > li.current > a 
+.mn_x.mn_lgt.mn_hv_stn > ul > li:hover > a,
+.mn_x.mn_lgt.mn_hv_stn > ul > li.current > a 
 { color: #000; background: #ccc }
 
 .mn_y{ width: 100% }
@@ -1761,13 +1761,13 @@ max-height: 1000px;
         color: #000; background: #afafaf 
     }
 
-    .mn_x.mn_lgh .mn_bt,
-    .mn_x.mn_lgh .mn_bt::after ,
-    .mn_x.mn_lgh .mn_bt::before {
+    .mn_x.mn_lgt .mn_bt,
+    .mn_x.mn_lgt .mn_bt::after ,
+    .mn_x.mn_lgt .mn_bt::before {
         color: #444; border-color: #444
     }
 
-    .mn_x.mn_lgh .mn_bt:hover{ 
+    .mn_x.mn_lgt .mn_bt:hover{ 
         color: #000; background: #d6d6d6 
     }
 
