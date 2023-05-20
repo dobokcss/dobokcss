@@ -1886,13 +1886,18 @@ max-height: 1000px
 
 }
 
-.alpha_modal_dialog { padding-top: 100px }
+.modal_content {
+   width: 100%;
+   float: left;
+   z-index: 1500;
+   position: absolute
+}
 
-.alpha{
+.modal{
     width: 100%;
     height: 100%;
     top:0; left:0;
-    z-index: 500;
+    z-index: 1000;
     background-color:rgb(0,0,0);
     background-color:rgba(0,0,0,0.4);
     position: fixed;
