@@ -552,6 +552,46 @@ img, object, embed, video, iframe, iframe[style] {
     .px_5_lg{ padding-left: 7.75% ; padding-right: 7.75%  }
     .py_5_lg{ padding-top: 7.75% ; padding-bottom: 7.75%  }
 
+    .mt_15_lg{ margin-top: 15px}
+    .mb_15_lg{ margin-bottom: 15px}
+    .pt_15_lg{ padding-top: 15px}
+    .pb_15_lg{ padding-bottom: 15px}
+
+    .mt_20_lg{ margin-top: 20px}
+    .mb_20_lg{ margin-bottom: 20px}
+    .pt_20_lg{ padding-top: 20px}
+    .pb_20_lg{ padding-bottom: 20px}
+
+    .mt_30_lg{ margin-top: 30px}
+    .mb_30_lg{ margin-bottom: 30px}
+    .pt_30_lg{ padding-top: 30px}
+    .pb_30_lg{ padding-bottom: 30px}
+
+    .mt_40_lg{ margin-top: 40px }
+    .mb_40_lg{ margin-bottom: 40px }
+    .pt_40_lg{ padding-top: 40px }
+    .pb_40_lg{ padding-bottom: 40px }
+
+    .mt_50_lg{ margin-top: 50px }
+    .mb_50_lg{ margin-bottom: 50px }
+    .pt_50_lg{ padding-top: 50px }
+    .pb_50_lg{ padding-bottom: 50px }
+
+    .mt_100_lg{ margin-top: 100px }
+    .mb_100_lg{ margin-bottom: 100px }
+    .pt_100_lg{ padding-top: 100px }
+    .pb_100_lg{ padding-bottom: 100px }
+
+    .mt_200_lg{ margin-top: 200px }
+    .mb_200_lg{ margin-bottom: 200px }
+    .pt_200_lg{ padding-top: 200px }
+    .pb_200_lg{ padding-bottom: 200px }
+
+    .mt_300_lg{ margin-top: 300px }
+    .mb_300_lg{ margin-bottom: 300px }
+    .pt_300_lg{ padding-top: 300px }
+    .pb_300_lg{ padding-bottom: 300px }
+
     .tx_c_lg{text-align: center !important}
     .tx_l_lg{text-align: left !important}
     .tx_r_lg{text-align: right !important}
@@ -678,6 +718,46 @@ img, object, embed, video, iframe, iframe[style] {
     .pr_5_md{ padding-right: 7.75%  }
     .px_5_md{ padding-left: 7.75% ; padding-right: 7.75%  }
     .py_5_md{ padding-top: 7.75% ; padding-bottom: 7.75%  }
+
+    .mt_15_md{ margin-top: 15px}
+    .mb_15_md{ margin-bottom: 15px}
+    .pt_15_md{ padding-top: 15px}
+    .pb_15_md{ padding-bottom: 15px}
+
+    .mt_20_md{ margin-top: 20px}
+    .mb_20_md{ margin-bottom: 20px}
+    .pt_20_md{ padding-top: 20px}
+    .pb_20_md{ padding-bottom: 20px}
+
+    .mt_30_md{ margin-top: 30px}
+    .mb_30_md{ margin-bottom: 30px}
+    .pt_30_md{ padding-top: 30px}
+    .pb_30_md{ padding-bottom: 30px}
+
+    .mt_40_md{ margin-top: 40px }
+    .mb_40_md{ margin-bottom: 40px }
+    .pt_40_md{ padding-top: 40px }
+    .pb_40_md{ padding-bottom: 40px }
+
+    .mt_50_md{ margin-top: 50px }
+    .mb_50_md{ margin-bottom: 50px }
+    .pt_50_md{ padding-top: 50px }
+    .pb_50_md{ padding-bottom: 50px }
+
+    .mt_100_md{ margin-top: 100px }
+    .mb_100_md{ margin-bottom: 100px }
+    .pt_100_md{ padding-top: 100px }
+    .pb_100_md{ padding-bottom: 100px }
+
+    .mt_200_md{ margin-top: 200px }
+    .mb_200_md{ margin-bottom: 200px }
+    .pt_200_md{ padding-top: 200px }
+    .pb_200_md{ padding-bottom: 200px }
+
+    .mt_300_md{ margin-top: 300px }
+    .mb_300_md{ margin-bottom: 300px }
+    .pt_300_md{ padding-top: 300px }
+    .pb_300_md{ padding-bottom: 300px }
 
     .tx_c_md{text-align: center !important}
     .tx_l_md{text-align: left !important}
@@ -813,6 +893,46 @@ img, object, embed, video, iframe, iframe[style] {
     .pr_5_ms{ padding-right: 7.75%  }
     .px_5_ms{ padding-left: 7.75% ; padding-right: 7.75%  }
     .py_5_ms{ padding-top: 7.75% ; padding-bottom: 7.75%  }
+
+    .mt_15_sm{ margin-top: 15px}
+    .mb_15_sm{ margin-bottom: 15px}
+    .pt_15_sm{ padding-top: 15px}
+    .pb_15_sm{ padding-bottom: 15px}
+
+    .mt_20_sm{ margin-top: 20px}
+    .mb_20_sm{ margin-bottom: 20px}
+    .pt_20_sm{ padding-top: 20px}
+    .pb_20_sm{ padding-bottom: 20px}
+
+    .mt_30_sm{ margin-top: 30px}
+    .mb_30_sm{ margin-bottom: 30px}
+    .pt_30_sm{ padding-top: 30px}
+    .pb_30_sm{ padding-bottom: 30px}
+
+    .mt_40_sm{ margin-top: 40px }
+    .mb_40_sm{ margin-bottom: 40px }
+    .pt_40_sm{ padding-top: 40px }
+    .pb_40_sm{ padding-bottom: 40px }
+
+    .mt_50_sm{ margin-top: 50px }
+    .mb_50_sm{ margin-bottom: 50px }
+    .pt_50_sm{ padding-top: 50px }
+    .pb_50_sm{ padding-bottom: 50px }
+
+    .mt_100_sm{ margin-top: 100px }
+    .mb_100_sm{ margin-bottom: 100px }
+    .pt_100_sm{ padding-top: 100px }
+    .pb_100_sm{ padding-bottom: 100px }
+
+    .mt_200_sm{ margin-top: 200px }
+    .mb_200_sm{ margin-bottom: 200px }
+    .pt_200_sm{ padding-top: 200px }
+    .pb_200_sm{ padding-bottom: 200px }
+
+    .mt_300_sm{ margin-top: 300px }
+    .mb_300_sm{ margin-bottom: 300px }
+    .pt_300_sm{ padding-top: 300px }
+    .pb_300_sm{ padding-bottom: 300px }
 
     .tx_c_sm{text-align: center !important}
     .tx_l_sm{text-align: left !important}
@@ -969,6 +1089,46 @@ img, object, embed, video, iframe, iframe[style] {
 .pr_5{ padding-right: 7.75%  }
 .px_5{ padding-left: 7.75% ; padding-right: 7.75%  }
 .py_5{ padding-top: 7.75% ; padding-bottom: 7.75%  }
+
+.mt_15{ margin-top: 15px}
+.mb_15{ margin-bottom: 15px}
+.pt_15{ padding-top: 15px}
+.pb_15{ padding-bottom: 15px}
+
+.mt_20{ margin-top: 20px}
+.mb_20{ margin-bottom: 20px}
+.pt_20{ padding-top: 20px}
+.pb_20{ padding-bottom: 20px}
+
+.mt_30{ margin-top: 30px}
+.mb_30{ margin-bottom: 30px}
+.pt_30{ padding-top: 30px}
+.pb_30{ padding-bottom: 30px}
+
+.mt_40{ margin-top: 40px }
+.mb_40{ margin-bottom: 40px }
+.pt_40{ padding-top: 40px }
+.pb_40{ padding-bottom: 40px }
+
+.mt_50{ margin-top: 50px }
+.mb_50{ margin-bottom: 50px }
+.pt_50{ padding-top: 50px }
+.pb_50{ padding-bottom: 50px }
+
+.mt_100{ margin-top: 100px }
+.mb_100{ margin-bottom: 100px }
+.pt_100{ padding-top: 100px }
+.pb_100{ padding-bottom: 100px }
+
+.mt_200{ margin-top: 200px }
+.mb_200{ margin-bottom: 200px }
+.pt_200{ padding-top: 200px }
+.pb_200{ padding-bottom: 200px }
+
+.mt_300{ margin-top: 300px }
+.mb_300{ margin-bottom: 300px }
+.pt_300{ padding-top: 300px }
+.pb_300{ padding-bottom: 300px }
 
 .expand{
     width: 100% !important;
