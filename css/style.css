@@ -1904,3 +1904,40 @@ max-height: 1000px
     overflow:auto
 }
 
+.wait {
+    border: 5px solid #d8d8d8;
+    border-bottom-color: transparent !important;
+    border-radius: 50%;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    color: transparent;
+    display: inline-block;
+}
+
+.wait_prm { border-color: #40535b }
+.wait_scn { border-color: #FF5252 }
+.wait_lgt { border-color: #f6f6f6 }
+.wait_stn { border-color: #d8d8d8 }
+
+.wait_sm {
+    width: 15px;
+    height: 15px;
+    border-width: 2px
+}
+
+.wait_md {
+    width: 25px;
+    height: 25px;
+    border-width: 3px
+}
+
+.wait_lg {
+    width: 48px;
+    height: 48px;
+}
+
+@keyframes rotation {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
