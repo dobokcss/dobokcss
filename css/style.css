@@ -806,14 +806,6 @@ img, object, embed, video, iframe, iframe[style] {
     .gr_sm_12  { width: 100%; float: left; clear: both }
     .row_fluid .gr_sm_12  { width: 98.45%; float: left; clear: both }
 
-    .fill_sm_inside{ padding: 1.55%  !important}
-    .fill_sm_inside_t{ padding-top: 1.55%; !important}
-    .fill_sm_inside_r{ padding-right: 1.55% !important }
-    .fill_sm_inside_b{ padding-bottom: 1.55% !important }
-    .fill_sm_inside_l{ padding-left: 1.55% !important }
-    .fill_sm_inside_t_b{ padding-top: 1.55% !important; padding-bottom: 1.55%  !important}
-    .fill_sm_inside_l_r{ padding-left: 1.55% !important; padding-right: 1.55%  !important}
-
     .pp_0_ms{ margin: 0 }
     .pt_0_ms{ margin-top: 0 }
     .pl_0_ms{ margin-left: 0 }
