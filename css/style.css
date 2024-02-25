@@ -6,15 +6,23 @@
  *
  * page:    https://dobokcss.github.io
  * author:  Estefanio N Santos <estefanions AT gmail DOT com> 
- * version: 0.26.0
+ * version: 0.28.0
  */
 
+:root {
+    --prm: #40535b;
+    --scn: #FF5252;
+    --hv_prm: #323f44;
+    --hv_scn: #c00;
+}
+
 body{ 
-    color: #333; 
-    background-color:#fff; 
-    font-family:Verdana, Arial, Helvetica, sans-serif; 
+    color: #333;
+    background-color:#fff;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
     font-size: 1em
 }
+
 
 h1, h2, h3{margin-bottom: 15px}
 h1{font-size: 2.5em}
@@ -74,29 +82,29 @@ legend{ padding: 0 5px }
 .bt.bd_prm, .bd_prm, 
 .bd_t_prm, .bd_r_prm, .bd_l_prm, .bd_b_prm,
 .bd_t_prm_0, .bd_r_prm_0, .bd_l_prm_0, .bd_b_prm_0 { 
-    color: #40535b;
-    border-color:  #40535b 
+    color: var(--prm);
+    border-color: var(--prm)
 }
 
 .bt.bd_scn, .bd_scn, 
 .bd_r_scn, .bd_l_scn, .bd_b_scn, .bd_t_scn_0,
 .bd_r_scn_0, .bd_l_scn_0, .bd_b_scn_0 { 
-    color: #FF5252;
-    border-color:  #FF5252
+    color: var(--scn);
+    border-color: var(--scn)
 }
 
 .bt.bd_t_lgt, .bd_t_lgt, 
 .bd_r_lgt, .bd_l_lgt, .bd_b_lgt,
 .bd_t_lgt_0, .bd_r_lgt_0, .bd_l_lgt_0, .bd_b_lgt_0 { 
     color: #666;
-    border-color:  #f6f6f6
+    border-color: #f6f6f6
 }
 
 .bt.bd_stn, .bd_stn, 
 .bd_t_stn, .bd_r_stn, .bd_l_stn, .bd_b_stn,
 .bd_t_stn_0, .bd_r_stn_0, .bd_l_stn_0, .bd_b_stn_0 { 
     color: #666;
-    border-color:  #ccc
+    border-color: #ccc
 }
 
 .bd_y_prm, .bd_y_scn, .bd_y_lgt, .bd_y_stn { 
@@ -263,31 +271,31 @@ div.bt, span.bt, a.bt {
 
 input.bt, button.bt{ padding: 7px 35px }
 input:focus, select:focus, textarea:focus {
-    border-color: #40535b;
+    border-color: var(--prm);
     transition: 0.8s
 }
 
 .bt_prm, .bt_scn { color: #fff }
 .bt_lgt {color: #444}
 .bt{background: #fff}
-.bt:hover{background: #d8d8d8}
+.bt:hover{background: #ccc}
 
-.bg_prm, .bt_prm{ background: #40535b}
-.bg_scn, .bt_scn{ background: #FF5252}
+.bg_prm, .bt_prm{ background: var(--prm)}
+.bg_scn, .bt_scn{ background: var(--scn)}
 .bg_lgt, .bt_lgt{ background: #f6f6f6}
-.bg, .bg_stn, .bt_stn{ color: #444; background: #d8d8d8 }
+.bg, .bg_stn, .bt_stn{ color: #444; background: #ccc}
 
 .bg_prm, .bg_scn{color: #f6f6f6 }
 
-.bt_prm:hover {color: #fff; background: #323f44 }
-.bt_scn:hover {color: #fff; background: #c00 }
+.bt_prm:hover {color: #fff; background: var(--hv_prm) }
+.bt_scn:hover {color: #fff; background: var(--hv_scn) }
 .bt_lgt:hover {color: #000; background: #d6d6d6 }
 .bt_stn:hover {color: #000; background: #afafaf }
 
-.bt.bt_hv_prm:hover, .bg.bg_hv_prm:hover { color: #fff; background: #40535b}
-.bt.bt_hv_scn:hover, .bg.bg_hv_scn:hover { color: #fff; background: #FF5252}
-.bt.bt_hv_lgt:hover, .bg.bg_hv_lgt:hover { color: #000; background: #f6f6f6}
-.bt.bt_hv_stn:hover, .bg.bg_hv_stn:hover { color: #000; background: #d6d6d6}
+.bt.bt_hv_prm:hover, .bg.bg_hv_prm:hover { color: #fff; background: var(--hv_prm)}
+.bt.bt_hv_scn:hover, .bg.bg_hv_scn:hover { color: #fff; background: var(--hv_scn)}
+.bt.bt_hv_lgt:hover, .bg.bg_hv_lgt:hover { color: #000; background: #d6d6d6}
+.bt.bt_hv_stn:hover, .bg.bg_hv_stn:hover { color: #000; background: #afafaf}
 
 .bg_alpha, .bg_alpha_hv:hover {
     background-color:rgb(0,0,0);
@@ -352,9 +360,9 @@ input:focus, select:focus, textarea:focus {
 .gr_md_static{ width: 719px }
 .gr_sm_static{ width: 500px }
 
-@media (max-width: 930px) { .gr_lg_static  { width: 100%; float: left; clear: both } }
-@media (max-width: 759px) { .gr_md_static  { width: 100%; float: left; clear: both } }
-@media (max-width: 540px) { .gr_sm_static  { width: 100%; float: left; clear: both } }
+@media (max-width: 930px) { .gr_lg_static  { width: 92%; } }
+@media (max-width: 759px) { .gr_md_static  { width: 92%; } }
+@media (max-width: 540px) { .gr_sm_static  { width: 92%; } }
 
 .container .gr_12{
     width: 100%;
@@ -410,23 +418,23 @@ img, object, embed, video, iframe, iframe[style] {
 
 .scale_none{ max-width: none !important }
 
-.tx_prm , .lk_prm {color: #40535b}
-.tx_scn , .lk_scn {color: #FF5252}
+.tx_prm , .lk_prm {color: var(--prm)}
+.tx_scn , .lk_scn {color: var(--scn)}
 .tx_lgt , .lk_lgt {color: #f6f6f6}
 .tx_stn , .lk_stn {color: #ccc}
 
-.tx_hv_prm:hover, .lk_prm:hover{ color: #323f44}
-.tx_hv_scn:hover, .lk_scn:hover{ color:#c00}
+.tx_hv_prm:hover, .lk_prm:hover{ color: var(--hv_prm)}
+.tx_hv_scn:hover, .lk_scn:hover{ color:var(--hv_scn)}
 .tx_hv_lgt:hover, .lk_lgt:hover{ color: #d6d6d6}
 .tx_hv_stn:hover, .lk_stn:hover{ color: #000}
 
-.lk_hv_prm:hover { color: #40535b !important}
-.lk_hv_scn:hover { color: #FF5252 !important}
+.lk_hv_prm:hover { color: var(--prm) !important}
+.lk_hv_scn:hover { color: var(--scn) !important}
 .lk_hv_lgt:hover { color: #f6f6f6 !important}
-.lk_hv_stn:hover { color: #ccc    !important}
+.lk_hv_stn:hover { color: #ccc !important}
 
-.lk_prm.lt_y a, .lk_prm.lt_x a { color: #40535b }
-.lk_scn.lt_y a, .lk_scn.lt_x a { color: #FF5252 }
+.lk_prm.lt_y a, .lk_prm.lt_x a { color: var(--prm) }
+.lk_scn.lt_y a, .lk_scn.lt_x a { color: var(--scn) }
 .lk_stn.lt_y a, .lk_stn.lt_x a { color: #ccc }
 .lk_lgt.lt_y a, .lk_lgt.lt_x a { color: #f6f6f6 }
 
@@ -439,12 +447,12 @@ img, object, embed, video, iframe, iframe[style] {
 .lk_prm.lt_y a:hover,
 .lk_prm.lt_x a:hover,
 .lk_hv_prm.lt_y a:hover,
-.lk_hv_prm.lt_x a:hover { color: #323f44 }
+.lk_hv_prm.lt_x a:hover { color: var(--hv_prm) }
 
 .lk_scn.lt_y a:hover,
 .lk_scn.lt_x a:hover,
 .lk_hv_scn.lt_y a:hover,
-.lk_hv_scn.lt_x a:hover { color: #c00 }
+.lk_hv_scn.lt_x a:hover { color: var(--hv_scn) }
 
 .lk_lgt.lt_y a:hover,
 .lk_lgt.lt_x a:hover,
@@ -616,13 +624,13 @@ img, object, embed, video, iframe, iframe[style] {
     .tx_d_no_lg{text-decoration: none}
     .tx_o_lg{text-decoration: overline}
 
-    .tx_prm_lg, .lk_prm_lg{ color: #40535b}
-    .tx_scn_lg, .lk_scn_lg{color:#FF5252}
+    .tx_prm_lg, .lk_prm_lg{ color: var(--prm)}
+    .tx_scn_lg, .lk_scn_lg{color:var(--scn)}
     .tx_lgt_lg, .lk_lgt_lg{color: #f6f6f6}
     .tx_stn_lg, .lk_stn_lg{color: #ccc}
 
-    .tx_hv_prm_lg:hover, .lk_prm_lg:hover{ color: #40535b}
-    .tx_hv_scn_lg:hover, .lk_scn_lg:hover{color:#c00}
+    .tx_hv_prm_lg:hover, .lk_prm_lg:hover{ color: var(--prm)}
+    .tx_hv_scn_lg:hover, .lk_scn_lg:hover{color:var(--hv_scn)}
     .tx_hv_lgt_lg:hover, .lk_lgt_lg:hover{color: #d6d6d6}
     .tx_hv_stn_lg:hover, .lk_stn_lg:hover{color: #000} 
 }
@@ -783,13 +791,13 @@ img, object, embed, video, iframe, iframe[style] {
     .decoration_none_md{text-decoration: none}
     .overline_md{text-decoration: overline}
 
-    .tx_prm_md, .lk_prm_md{ color: #40535b}
-    .tx_scn_md, .lk_scn_md{color:#FF5252}
+    .tx_prm_md, .lk_prm_md{ color: var(--prm)}
+    .tx_scn_md, .lk_scn_md{color:var(--scn)}
     .tx_lgt_md, .lk_lgt_md{color: #f6f6f6}
     .tx_stn_md, .lk_stn_md{color: #ccc}
 
-    .tx_hv_prm_md:hover, .lk_prm_md:hover{ color: #40535b}
-    .tx_hv_scn_md:hover, .lk_scn_md:hover{color:#c00}
+    .tx_hv_prm_md:hover, .lk_prm_md:hover{ color: var(--prm)}
+    .tx_hv_scn_md:hover, .lk_scn_md:hover{color:var(--hv_scn)}
     .tx_hv_lgt_md:hover, .lk_lgt_md:hover{color: #d6d6d6}
     .tx_hv_stn_md:hover, .lk_stn_md:hover{color: #000} 
 }
@@ -950,15 +958,15 @@ img, object, embed, video, iframe, iframe[style] {
     .tx_d_no_sm{text-decoration: none}
     .tx_o_sm{text-decoration: overline}
 
-    .tx_prm_sm,  .lk_prm_sm{ color: #40535b}
-    .tx_scn_sm,.lk_scn_sm{color:#FF5252}
-    .tx_lgt_sm,    .lk_lgt_sm{color: #f6f6f6}
+    .tx_prm_sm, .lk_prm_sm{ color: var(--prm)}
+    .tx_scn_sm, .lk_scn_sm{color:var(--scn)}
+    .tx_lgt_sm, .lk_lgt_sm{color: #f6f6f6}
     .tx_stn_sm, .lk_stn_sm{color: #ccc}
 
-    .tx_hv_prm_sm:hover,   .lk_prm_sm:hover{ color: #40535b}
-    .tx_hv_scn_sm:hover, .lk_scn_sm:hover{color:#c00}
-    .tx_hv_lgt_sm:hover,     .lk_lgt_sm:hover{color: #d6d6d6}
-    .tx_hv_stn_sm:hover,  .lk_stn_sm:hover{color: #000} 
+    .tx_hv_prm_sm:hover, .lk_prm_sm:hover{ color: var(--prm)}
+    .tx_hv_scn_sm:hover, .lk_scn_sm:hover{color:var(--hv_scn)}
+    .tx_hv_lgt_sm:hover, .lk_lgt_sm:hover{color: #d6d6d6}
+    .tx_hv_stn_sm:hover, .lk_stn_sm:hover{color: #000} 
 }
 
 @media (min-width: 1221px) 
@@ -1000,7 +1008,6 @@ img, object, embed, video, iframe, iframe[style] {
 .fl_l{ float: left !important}
 .fl_r{ float: right !important}
 .fl_n{ float: none !important}
-
 
 .pp_0{ margin: 0 }
 .pt_0{ margin-top: 0 }
@@ -1148,33 +1155,33 @@ img, object, embed, video, iframe, iframe[style] {
 .tb_border td, .tb_striped td{
     color:#444;
     background:#fff;
-    padding:10px 5px;
-    border-bottom:1px solid #444
+    padding:10px 5px
 }
 
 .tb_tr_hv td{background:#edeaea}
 .tb_tr_off td{background:#fff}
-.tb_tr_on td{background:#e5e5e5}
-.tb_hv tr:hover td{background:#e5e5e5}
 
 .tb_border th{
     color: #444;
     background: #fff;
     text-align: left;
     font-weight: bold;
-    padding: 10px 5px;
-    border: 1px solid #444
+    padding: 10px 5px
 }
 
 .tb_border td{
     color: #444;
     background: #fff;
-    padding: 10px 5px;
-    border: 1px solid #444
+    padding: 10px 5px
 }
 
+.tb_border th,
+.tb_border td{ border: 1px solid #ededed }
+
 .tb_striped tbody >tr:nth-child(2n+1) >td,
-.tb_striped tbody >tr:nth-child(2n+1) >th{ background-color:#e5e5e5}
+.tb_fill tr td, .tb_tr_on td,
+.tb_hv tr:hover td
+{ background:#ededed}
 
 .tb_fill{margin:2px; border-collapse:collapse}
 .tb_fill th{
@@ -1192,10 +1199,9 @@ img, object, embed, video, iframe, iframe[style] {
     border-bottom: 10px solid #fff 
     }
 .tb_fill tr{margin-bottom: 10px}
-.tb_fill tr td{background: #e5e5e5}
 
-.tb_prm tr td, .tb_hv_prm tr:hover td{ background: #40535b } 
-.tb_scn tr td, .tb_hv_scn tr:hover td{ background: #FF5252 }
+.tb_prm tr td, .tb_hv_prm tr:hover td{ background: var(--prm) }
+.tb_scn tr td, .tb_hv_scn tr:hover td{ background: var(--scn) }
 .tb_lgt tr td, .tb_hv_lgt tr:hover td{ background: #f6f6f6 }
 .tb_stn tr td, .tb_hv_stn tr:hover td{ background: #ccc }
 
@@ -1225,7 +1231,6 @@ img, object, embed, video, iframe, iframe[style] {
     opacity: 1;
     padding: 0;
     position: relative
-
 }
 
 .lt_y.lt_y_dropdown li:hover ul{
@@ -1239,7 +1244,7 @@ img, object, embed, video, iframe, iframe[style] {
 }
 
 .lt_y.lt_y_dropdown ul a:hover{
-    background: #d8d8d8
+    background: #ccc
 }
 
 input[id="mn_x_bt"]{ display: none }
@@ -1303,7 +1308,7 @@ label[for="mn_x_bt"]:hover{ background: rgba(50, 50, 50, 0.12) }
 .mn_x > ul > li > a:hover, 
 .mn_x > ul > li.current > a {
     color: #000;
-    background: #d8d8d8
+    background: #ccc
 }
 
 .mn_x > ul > li.has_sub > a {
@@ -1349,7 +1354,7 @@ label[for="mn_x_bt"]:hover{ background: rgba(50, 50, 50, 0.12) }
     width: 0;
     height: 0;
     border: 5px solid transparent;
-    border-bottom-color: #ffffff;
+    border-bottom-color: #fff;
     top: -4px;
     left: 20px
 }
@@ -1365,7 +1370,7 @@ label[for="mn_x_bt"]:hover{ background: rgba(50, 50, 50, 0.12) }
     width: 0;
     height: 0;
     border: 5px solid transparent;
-    border-right-color: #ffffff;
+    border-right-color: #fff;
     position: absolute
 }
 
@@ -1373,7 +1378,7 @@ label[for="mn_x_bt"]:hover{ background: rgba(50, 50, 50, 0.12) }
     left: auto;
     right: -4px;
     border-right-color: transparent;
-    border-left-color: #ffffff
+    border-left-color: #fff
 }
 .mn_x > ul > li > ul {
     top: 120px
@@ -1456,7 +1461,7 @@ label[for="mn_x_bt"]:hover{ background: rgba(50, 50, 50, 0.12) }
     border-left-color: transparent
 }
 
-.mn_x.mn_prm { background: #40535b }
+.mn_x.mn_prm { background: var(--prm) }
 
 .mn_x.mn_prm > ul > li.text,
 .mn_x.mn_prm > ul > li > a {
@@ -1465,7 +1470,7 @@ label[for="mn_x_bt"]:hover{ background: rgba(50, 50, 50, 0.12) }
 
 .mn_x.mn_prm > ul > li:hover > a,
 .mn_x.mn_prm > ul > li.current > a {
-    color: #fff; background: #323f44
+    color: #fff; background: var(--hv_prm)
 }
 
 .mn_x.mn_prm > ul > li.has_sub > a::after,
@@ -1478,7 +1483,7 @@ label[for="mn_x_bt"]:hover{ background: rgba(50, 50, 50, 0.12) }
     border-top-color: #fff
 }
 
-.mn_x.mn_scn { background: #FF5252 }
+.mn_x.mn_scn { background: var(--scn) }
 
 .mn_x.mn_scn > ul > li.text,
 .mn_x.mn_scn > ul > li > a {
@@ -1487,7 +1492,7 @@ label[for="mn_x_bt"]:hover{ background: rgba(50, 50, 50, 0.12) }
 
 .mn_x.mn_scn > ul > li:hover > a,
 .mn_x.mn_scn > ul > li.current > a {
-    color: #fff; background: #c00
+    color: #fff; background: var(--hv_scn)
 }
 
 .mn_x.mn_scn > ul > li.has_sub > a::after,
@@ -1500,7 +1505,7 @@ label[for="mn_x_bt"]:hover{ background: rgba(50, 50, 50, 0.12) }
     border-top-color: #fff
 }
 
-.mn_x.mn_stn { background: #d8d8d8 }
+.mn_x.mn_stn { background: #ccc }
 
 .mn_x.mn_stn > ul > li.text,
 .mn_x.mn_stn > ul > li > a {
@@ -1554,7 +1559,7 @@ label[for="mn_x_bt"]:hover{ background: rgba(50, 50, 50, 0.12) }
 
 .mn_x.mn_lgt.mn_hv_prm > ul > li:hover > a,
 .mn_x.mn_lgt.mn_hv_prm > ul > li.current > a 
-{ color: #fff; background: #40535b }
+{ color: #fff; background: var(--prm) }
 
 .mn_x.mn_hv_scn > ul > li:hover > a,
 .mn_x.mn_hv_scn > ul > li.current > a ,
@@ -1567,7 +1572,7 @@ label[for="mn_x_bt"]:hover{ background: rgba(50, 50, 50, 0.12) }
 
 .mn_x.mn_lgt.mn_hv_scn > ul > li:hover > a,
 .mn_x.mn_lgt.mn_hv_scn > ul > li.current > a 
-{ color: #fff; background: #FF5252 }
+{ color: #fff; background: var(--scn) }
 
 .mn_x.mn_hv_lgt > ul > li:hover > a,
 .mn_x.mn_hv_lgt > ul > li.current > a ,
@@ -1628,7 +1633,7 @@ label[for="mn_x_bt"]:hover{ background: rgba(50, 50, 50, 0.12) }
 }
 
 .mn_y ul a:hover, .mn_y ul label:hover { 
-    background: #e5e5e5;
+   background: #e5e5e5;
    border-left: 5px solid #666
 }
 
@@ -1670,20 +1675,20 @@ max-height: 1000px
 
 .mn_y.mn_prm a, .mn_y.mn_prm label{
    color: #fff;
-   background: #40535b
+   background: var(--prm)
 }
 
 .mn_y.mn_prm a:hover, .mn_y.mn_prm label:hover{
-    background: #323f44
+    background: var(--hv_prm)
 }
 
 .mn_y.mn_scn a, .mn_y.mn_scn label{
    color: #fff;
-   background: #FF5252
+   background: var(--scn)
 }
 
 .mn_y.mn_scn a:hover, .mn_y.mn_scn label:hover{
-    background: #c00
+    background: var(--hv_scn)
 }
 
 .mn_y.mn_stn ul a, .mn_y.mn_stn ul label , 
@@ -1822,7 +1827,7 @@ max-height: 1000px
     }
 
     .mn_x.mn_prm .mn_bt:hover{ 
-        color: #fff; background: #323f44 
+        color: #fff; background: var(--hv_prm)
     }
 
     .mn_x.mn_scn .mn_bt,
@@ -1832,7 +1837,7 @@ max-height: 1000px
     }
 
     .mn_x.mn_scn .mn_bt:hover{ 
-        color: #fff; background: #c00 
+        color: #fff; background: var(--hv_scn)
     }
 
     .mn_x.mn_stn .mn_bt,
@@ -1887,7 +1892,7 @@ max-height: 1000px
 
 .modal{
     width: 100%;
-    height: 100%;
+    height: 100vh;
     top:0; left:0;
     z-index: 1000;
     background-color:rgb(0,0,0);
@@ -1897,7 +1902,7 @@ max-height: 1000px
 }
 
 .wait {
-    border: 5px solid #d8d8d8;
+    border: 5px solid #ccc;
     border-bottom-color: transparent !important;
     border-radius: 50%;
     box-sizing: border-box;
@@ -1906,10 +1911,10 @@ max-height: 1000px
     display: inline-block;
 }
 
-.wait_prm { border-color: #40535b }
-.wait_scn { border-color: #FF5252 }
+.wait_prm { border-color: var(--prm) }
+.wait_scn { border-color: var(--scn }
 .wait_lgt { border-color: #f6f6f6 }
-.wait_stn { border-color: #d8d8d8 }
+.wait_stn { border-color: #ccc }
 
 .wait_sm {
     width: 15px;
