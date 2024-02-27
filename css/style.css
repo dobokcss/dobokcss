@@ -473,6 +473,8 @@ img, object, embed, video, iframe, iframe[style] {
         width: 100%; float: left; margin-left: 0; margin-bottom: 0 
     }
 
+    .gr{margin-bottom: 0.775%}
+
     .gr_lg_3   { width: 23.44% }
     .gr_lg_4   { width: 31.77% }
     .gr_lg_6   { width: 48.45% }
