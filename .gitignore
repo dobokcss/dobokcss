@@ -1,3 +1,7 @@
-*.txt
+*.swo
+*.swp
 *.vim
 *.html
+dev.*
+*.dev.*
+tags
