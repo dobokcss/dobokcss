@@ -1131,14 +1131,14 @@ img, object, embed, video, iframe, iframe[style] {
 .pt_300{ padding-top: 300px }
 .pb_300{ padding-bottom: 300px }
 
-.expand{
+.gr_x, .expand{
     width: 100% !important;
     margin-left: 0; margin-right: 0; 
     padding: 0;
     float: left; clear: both
 }
 
-.expand_auto{ width: auto !important }
+.gr_auto, .expand_auto{ width: auto !important }
 
 .tb, .tb_hv,.tb_border,
 .tb_striped{margin:2px; border-collapse:collapse}
