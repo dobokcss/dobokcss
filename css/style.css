@@ -1145,7 +1145,7 @@ img, object, embed, video, iframe, iframe[style] {
     float: left; clear: both
 }
 
-.gr_auto, .expand_auto{ width: auto !important }
+.gr_a, .expand_auto{ width: auto !important }
 
 .tb, .tb_hv,.tb_border,
 .tb_striped{margin:2px; border-collapse:collapse}
