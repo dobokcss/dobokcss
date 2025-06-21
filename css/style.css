@@ -652,25 +652,23 @@ img, object, embed, video, iframe, iframe[style] {
 .gr_y_7{min-height: 256px}
 .gr_y_8{min-height: 512px}
 
-.gr_x{
+.x_100{
     width: 100% !important;
     margin-left: 0; margin-right: 0; 
     padding: 0;
     float: left; clear: both
 }
 
-.gr_a{ width: auto !important }
+.x_a{ width: auto !important }
 
+.x_75 {width: 75%}
+.x_50 {width: 50%}
+.x_25 {width: 25%}
 
-.gr_x_100{width: 100%}
-.gr_x_75 {width: 75%}
-.gr_x_50 {width: 50%}
-.gr_x_25 {width: 25%}
-
-.gr_y_100{height: 100%}
-.gr_y_75 {min-height: 75%}
-.gr_y_50 {min-height: 50%}
-.gr_y_25 {min-height: 25%}
+.y_100{height: 100%}
+.y_75 {min-height: 75%}
+.y_50 {min-height: 50%}
+.y_25 {min-height: 25%}
 
 .vw_100{width: 100vw}
 .vh_100{height: 100vh}
@@ -1646,15 +1644,21 @@ max-height: 1000px
     .gr_lg_y_7{min-height: 256px}
     .gr_lg_y_8{min-height: 512px}
 
-    .gr_lg_x_100{width: 100%}
-    .gr_lg_x_75 {width: 75%}
-    .gr_lg_x_50 {width: 50%}
-    .gr_lg_x_25 {width: 25%}
+    .x_lg_100{
+        width: 100% !important;
+        margin-left: 0; margin-right: 0; 
+        padding: 0;
+        float: left; clear: both
+    }
 
-    .gr_lg_y_100{height: 100%}
-    .gr_lg_y_75 {min-height: 75%}
-    .gr_lg_y_50 {min-height: 50%}
-    .gr_lg_y_25 {min-height: 25%}
+    .x_lg_75 {width: 75%}
+    .x_lg_50 {width: 50%}
+    .x_lg_25 {width: 25%}
+
+    .y_lg_100{height: 100%}
+    .y_lg_75 {min-height: 75%}
+    .y_lg_50 {min-height: 50%}
+    .y_lg_25 {min-height: 25%}
 
     .tx_c_lg{text-align: center !important}
     .tx_l_lg{text-align: left !important}
@@ -1857,15 +1861,21 @@ max-height: 1000px
     .gr_md_y_7{min-height: 256px}
     .gr_md_y_8{min-height: 512px}
 
-    .gr_md_x_100{width: 100%}
-    .gr_md_x_75 {width: 75%}
-    .gr_md_x_50 {width: 50%}
-    .gr_md_x_25 {width: 25%}
+    .x_md_100{
+        width: 100% !important;
+        margin-left: 0; margin-right: 0; 
+        padding: 0;
+        float: left; clear: both
+    }
 
-    .gr_md_y_100{height: 100%}
-    .gr_md_y_75 {min-height: 75%}
-    .gr_md_y_50 {min-height: 50%}
-    .gr_md_y_25 {min-height: 25%}
+    .x_md_75 {width: 75%}
+    .x_md_50 {width: 50%}
+    .x_md_25 {width: 25%}
+
+    .y_md_100{height: 100%}
+    .y_md_75 {min-height: 75%}
+    .y_md_50 {min-height: 50%}
+    .y_md_25 {min-height: 25%}
 
     .tx_c_md{text-align: center !important}
     .tx_l_md{text-align: left !important}
@@ -2068,15 +2078,21 @@ max-height: 1000px
     .gr_sm_y_7{min-height: 256px}
     .gr_sm_y_8{min-height: 512px}
 
-    .gr_sm_x_100{width: 100%}
-    .gr_sm_x_75 {width: 75%}
-    .gr_sm_x_50 {width: 50%}
-    .gr_sm_x_25 {width: 25%}
+    .x_sm_100{
+        width: 100% !important;
+        margin-left: 0; margin-right: 0; 
+        padding: 0;
+        float: left; clear: both
+    }
 
-    .gr_sm_y_100{height: 100%}
-    .gr_sm_y_75 {min-height: 75%}
-    .gr_sm_y_50 {min-height: 50%}
-    .gr_sm_y_25 {min-height: 25%}
+    .x_sm_75 {width: 75%}
+    .x_sm_50 {width: 50%}
+    .x_sm_25 {width: 25%}
+
+    .y_sm_100{height: 100%}
+    .y_sm_75 {min-height: 75%}
+    .y_sm_50 {min-height: 50%}
+    .y_sm_25 {min-height: 25%}
 
     .tx_c_sm{text-align: center !important}
     .tx_l_sm{text-align: left !important}
