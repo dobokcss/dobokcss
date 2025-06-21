@@ -292,10 +292,10 @@ input:focus, select:focus, textarea:focus {
 .bg_lgt, .bt_lgt{ background: #f6f6f6}
 .bg, .bg_stn, .bt_stn{ color: #444; background: #ccc}
 
-.bg_prm, .bg_scn, .bg_hv_prm:hover,
+.bg_prm, .bg_scn, .bg_hv_prm:hover, 
 .bg_hv_scn:hover {color: #fff }
 
-.bg_lgt, .bg_stn, .bg_hv_lgt:hover,
+.bg_lgt, .bg_stn, .bg_hv_lgt:hover, 
 .bg_hv_stn:hover {color: #000 }
 
 .bt_prm:hover, .bg_hv_prm:hover {background: var(--hv_prm)}
@@ -488,125 +488,149 @@ img, object, embed, video, iframe, iframe[style] {
     .gr_lg_12  { width: 100%; float: left; clear: both }
     .row_fluid .gr_lg_12  { width: 98.45%; float: left; clear: both }
 
-    .pp_0_lg{ margin: 0 }
-    .pt_0_lg{ margin-top: 0 }
-    .pl_0_lg{ margin-left: 0 }
-    .pb_0_lg{ margin-bottom: 0 }
-    .pr_0_lg{ margin-right: 0 }
-    .px_0_lg{ margin-left: 0; margin-right: 0 }
-    .py_0_lg{ margin-top: 0; margin-bottom: 0 }
+    .mm_lg_0{ margin: 0 }
+    .mt_lg_0{ margin-top: 0 }
+    .ml_lg_0{ margin-left: 0 }
+    .mb_lg_0{ margin-bottom: 0}
+    .mr_lg_0{ margin-right: 0 }
+    .mx_lg_0{ margin-left: 0; margin-right: 0 }
+    .my_lg_0{ margin-top: 0; margin-bottom: 0 }
 
-    .mm_0_lg{ margin: 0 }
-    .mt_0_lg{ margin-top: 0;}
-    .ml_0_lg{ margin-left: 0 }
-    .mb_0_lg{ margin-bottom: 0}
-    .mr_0_lg{ margin-right: 0 }
-    .mx_0_lg{ margin-left: 0; margin-right: 0 }
-    .my_0_lg{ margin-top: 0; margin-bottom: 0 }
+    .mm_lg_1{ margin: 4px }
+    .mt_lg_1{ margin-top: 4px }
+    .ml_lg_1{ margin-left: 4px }
+    .mb_lg_1{ margin-bottom: 4px}
+    .mr_lg_1{ margin-right: 4px }
+    .mx_lg_1{ margin-left: 4px; margin-right: 4px }
+    .my_lg_1{ margin-top: 4px; margin-bottom: 4px }
 
-    .mm_1_lg{ margin: 1.55% }
-    .mt_1_lg{ margin-top: 1.55%;}
-    .ml_1_lg{ margin-left: 1.55% }
-    .mb_1_lg{ margin-bottom: 1.55%}
-    .mr_1_lg{ margin-right: 1.55% }
-    .mx_1_lg{ margin-left: 1.55%; margin-right: 1.55% }
-    .my_1_lg{ margin-top: 1.55%; margin-bottom: 1.55% }
+    .mm_lg_2{ margin: 8px }
+    .mt_lg_2{ margin-top: 8px }
+    .ml_lg_2{ margin-left: 8px }
+    .mb_lg_2{ margin-bottom: 8px}
+    .mr_lg_2{ margin-right: 8px }
+    .mx_lg_2{ margin-left: 8px; margin-right: 8px }
+    .my_lg_2{ margin-top: 8px; margin-bottom: 8px }
 
-    .pp_1_lg{ padding: 1.55% }
-    .pt_1_lg{ padding-top: 1.55%}
-    .pl_1_lg{ padding-left: 1.55%; }
-    .pb_1_lg{ padding-bottom: 1.55%}
-    .pr_1_lg{ padding-right: 1.55% }
-    .px_1_lg{ padding-left: 1.55%; padding-right: 1.55% }
-    .py_1_lg{ padding-top: 1.55%; padding-bottom: 1.55% }
+    .mm_lg_3{ margin: 16px }
+    .mt_lg_3{ margin-top: 16px }
+    .ml_lg_3{ margin-left: 16px }
+    .mb_lg_3{ margin-bottom: 16px}
+    .mr_lg_3{ margin-right: 16px }
+    .mx_lg_3{ margin-left: 16px; margin-right: 16px }
+    .my_lg_3{ margin-top: 16px; margin-bottom: 16px }
 
-    .mm_2_lg{ margin: 3.10% }
-    .mt_2_lg{ margin-top: 3.10%;}
-    .ml_2_lg{ margin-left: 3.10% }
-    .mb_2_lg{ margin-bottom: 3.10%}
-    .mr_2_lg{ margin-right: 3.10% }
-    .mx_2_lg{ margin-left: 3.10%; margin-right: 3.10% }
-    .my_2_lg{ margin-top: 3.10%; margin-bottom: 3.10% }
+    .mm_lg_4{ margin: 32px }
+    .mt_lg_4{ margin-top: 32px }
+    .ml_lg_4{ margin-left: 32px }
+    .mb_lg_4{ margin-bottom: 32px}
+    .mr_lg_4{ margin-right: 32px }
+    .mx_lg_4{ margin-left: 32px; margin-right: 32px }
+    .my_lg_4{ margin-top: 32px; margin-bottom: 32px }
 
-    .pp_2_lg{ padding: 3.10% }
-    .pt_2_lg{ padding-top: 3.10%}
-    .pl_2_lg{ padding-left: 3.10%; }
-    .pb_2_lg{ padding-bottom: 3.10%}
-    .pr_2_lg{ padding-right: 3.10% }
-    .px_2_lg{ padding-left: 3.10%; padding-right: 3.10% }
-    .py_2_lg{ padding-top: 3.10%; padding-bottom: 3.10% }
+    .mm_lg_5{ margin: 64px  }
+    .mt_lg_5{ margin-top: 64px }
+    .ml_lg_5{ margin-left: 64px  }
+    .mb_lg_5{ margin-bottom: 64px }
+    .mr_lg_5{ margin-right: 64px  }
+    .mx_lg_5{ margin-left: 64px ; margin-right: 64px  }
+    .my_lg_5{ margin-top: 64px ; margin-bottom: 64px  }
 
-    .mm_3_lg{ margin: 4.65% }
-    .mt_3_lg{ margin-top: 4.65%;}
-    .ml_3_lg{ margin-left: 4.65% }
-    .mb_3_lg{ margin-bottom: 4.65%}
-    .mr_3_lg{ margin-right: 4.65% }
-    .mx_3_lg{ margin-left: 4.65%; margin-right: 4.65% }
-    .my_3_lg{ margin-top: 4.65%; margin-bottom: 4.65% }
+    .mm_lg_6{ margin: 128px  }
+    .mt_lg_6{ margin-top: 128px }
+    .ml_lg_6{ margin-left: 128px  }
+    .mb_lg_6{ margin-bottom: 128px }
+    .mr_lg_6{ margin-right: 128px  }
+    .mx_lg_6{ margin-left: 128px ; margin-right: 128px  }
+    .my_lg_6{ margin-top: 128px ; margin-bottom: 128px  }
 
-    .pp_3_lg{ padding: 4.65% }
-    .pt_3_lg{ padding-top: 4.65%}
-    .pl_3_lg{ padding-left: 4.65%; }
-    .pb_3_lg{ padding-bottom: 4.65%}
-    .pr_3_lg{ padding-right: 4.65% }
-    .px_3_lg{ padding-left: 4.65%; padding-right: 4.65% }
-    .py_3_lg{ padding-top: 4.65%; padding-bottom: 4.65% }
+    .mm_lg_7{ margin: 256px  }
+    .mt_lg_7{ margin-top: 256px }
+    .ml_lg_7{ margin-left: 256px  }
+    .mb_lg_7{ margin-bottom: 256px }
+    .mr_lg_7{ margin-right: 256px  }
+    .mx_lg_7{ margin-left: 256px ; margin-right: 256px  }
+    .my_lg_7{ margin-top: 256px ; margin-bottom: 256px  }
 
-    .mm_5_lg{ margin: 7.75%  }
-    .mt_5_lg{ margin-top: 7.75%; }
-    .ml_5_lg{ margin-left: 7.75%  }
-    .mb_5_lg{ margin-bottom: 7.75% }
-    .mr_5_lg{ margin-right: 7.75%  }
-    .mx_5_lg{ margin-left: 7.75% ; margin-right: 7.75%  }
-    .my_5_lg{ margin-top: 7.75% ; margin-bottom: 7.75%  }
+    .mm_lg_8{ margin: 512px  }
+    .mt_lg_8{ margin-top: 512px }
+    .ml_lg_8{ margin-left: 512px  }
+    .mb_lg_8{ margin-bottom: 512px }
+    .mr_lg_8{ margin-right: 512px  }
+    .mx_lg_8{ margin-left: 512px ; margin-right: 512px  }
+    .my_lg_8{ margin-top: 512px ; margin-bottom: 512px  }
 
-    .pp_5_lg{ padding: 7.75%  }
-    .pt_5_lg{ padding-top: 7.75% }
-    .pl_5_lg{ padding-left: 7.75%;  }
-    .pb_5_lg{ padding-bottom: 7.75% }
-    .pr_5_lg{ padding-right: 7.75%  }
-    .px_5_lg{ padding-left: 7.75% ; padding-right: 7.75%  }
-    .py_5_lg{ padding-top: 7.75% ; padding-bottom: 7.75%  }
+    .pp_lg_0{ padding: 0 }
+    .pt_lg_0{ padding-top: 0 }
+    .pl_lg_0{ padding-left: 0 }
+    .pb_lg_0{ padding-bottom: 0}
+    .pr_lg_0{ padding-right: 0 }
+    .px_lg_0{ padding-left: 0; padding-right: 0 }
+    .py_lg_0{ padding-top: 0; padding-bottom: 0 }
 
-    .mt_15_lg{ margin-top: 15px}
-    .mb_15_lg{ margin-bottom: 15px}
-    .pt_15_lg{ padding-top: 15px}
-    .pb_15_lg{ padding-bottom: 15px}
+    .pp_lg_1{ padding: 4px }
+    .pt_lg_1{ padding-top: 4px }
+    .pl_lg_1{ padding-left: 4px }
+    .pb_lg_1{ padding-bottom: 4px}
+    .pr_lg_1{ padding-right: 4px }
+    .px_lg_1{ padding-left: 4px; padding-right: 4px }
+    .py_lg_1{ padding-top: 4px; padding-bottom: 4px }
 
-    .mt_20_lg{ margin-top: 20px}
-    .mb_20_lg{ margin-bottom: 20px}
-    .pt_20_lg{ padding-top: 20px}
-    .pb_20_lg{ padding-bottom: 20px}
+    .pp_lg_2{ padding: 8px }
+    .pt_lg_2{ padding-top: 8px }
+    .pl_lg_2{ padding-left: 8px }
+    .pb_lg_2{ padding-bottom: 8px}
+    .pr_lg_2{ padding-right: 8px }
+    .px_lg_2{ padding-left: 8px; padding-right: 8px }
+    .py_lg_2{ padding-top: 8px; padding-bottom: 8px }
 
-    .mt_30_lg{ margin-top: 30px}
-    .mb_30_lg{ margin-bottom: 30px}
-    .pt_30_lg{ padding-top: 30px}
-    .pb_30_lg{ padding-bottom: 30px}
+    .pp_lg_3{ padding: 16px }
+    .pt_lg_3{ padding-top: 16px }
+    .pl_lg_3{ padding-left: 16px }
+    .pb_lg_3{ padding-bottom: 16px}
+    .pr_lg_3{ padding-right: 16px }
+    .px_lg_3{ padding-left: 16px; padding-right: 16px }
+    .py_lg_3{ padding-top: 16px; padding-bottom: 16px }
 
-    .mt_40_lg{ margin-top: 40px }
-    .mb_40_lg{ margin-bottom: 40px }
-    .pt_40_lg{ padding-top: 40px }
-    .pb_40_lg{ padding-bottom: 40px }
+    .pp_lg_4{ padding: 32px }
+    .pt_lg_4{ padding-top: 32px }
+    .pl_lg_4{ padding-left: 32px }
+    .pb_lg_4{ padding-bottom: 32px}
+    .pr_lg_4{ padding-right: 32px }
+    .px_lg_4{ padding-left: 32px; padding-right: 32px }
+    .py_lg_4{ padding-top: 32px; padding-bottom: 32px }
 
-    .mt_50_lg{ margin-top: 50px }
-    .mb_50_lg{ margin-bottom: 50px }
-    .pt_50_lg{ padding-top: 50px }
-    .pb_50_lg{ padding-bottom: 50px }
+    .pp_lg_5{ padding: 64px  }
+    .pt_lg_5{ padding-top: 64px }
+    .pl_lg_5{ padding-left: 64px  }
+    .pb_lg_5{ padding-bottom: 64px }
+    .pr_lg_5{ padding-right: 64px  }
+    .px_lg_5{ padding-left: 64px; padding-right: 64px  }
+    .py_lg_5{ padding-top: 64px; padding-bottom: 64px  }
 
-    .mt_100_lg{ margin-top: 100px }
-    .mb_100_lg{ margin-bottom: 100px }
-    .pt_100_lg{ padding-top: 100px }
-    .pb_100_lg{ padding-bottom: 100px }
+    .pp_lg_6{ padding: 128px  }
+    .pt_lg_6{ padding-top: 128px }
+    .pl_lg_6{ padding-left: 128px  }
+    .pb_lg_6{ padding-bottom: 128px }
+    .pr_lg_6{ padding-right: 128px  }
+    .px_lg_6{ padding-left: 128px; padding-right: 128px  }
+    .py_lg_6{ padding-top: 128px; padding-bottom: 128px  }
 
-    .mt_200_lg{ margin-top: 200px }
-    .mb_200_lg{ margin-bottom: 200px }
-    .pt_200_lg{ padding-top: 200px }
-    .pb_200_lg{ padding-bottom: 200px }
+    .pp_lg_7{ padding: 256px  }
+    .pt_lg_7{ padding-top: 256px }
+    .pl_lg_7{ padding-left: 256px  }
+    .pb_lg_7{ padding-bottom: 256px }
+    .pr_lg_7{ padding-right: 256px  }
+    .px_lg_7{ padding-left: 256px; padding-right: 256px  }
+    .py_lg_7{ padding-top: 256px; padding-bottom: 256px  }
 
-    .mt_300_lg{ margin-top: 300px }
-    .mb_300_lg{ margin-bottom: 300px }
-    .pt_300_lg{ padding-top: 300px }
-    .pb_300_lg{ padding-bottom: 300px }
+    .pp_lg_8{ padding: 512px  }
+    .pt_lg_8{ padding-top: 512px }
+    .pl_lg_8{ padding-left: 512px  }
+    .pb_lg_8{ padding-bottom: 512px }
+    .pr_lg_8{ padding-right: 512px  }
+    .px_lg_8{ padding-left: 512px; padding-right: 512px  }
+    .py_lg_8{ padding-top: 512px; padding-bottom: 512px  }
 
     .tx_c_lg{text-align: center !important}
     .tx_l_lg{text-align: left !important}
@@ -655,125 +679,149 @@ img, object, embed, video, iframe, iframe[style] {
     .gr_md_12  { width: 100%; float: left; clear: both }
     .row_fluid .gr_md_12  { width: 98.45%; float: left; clear: both }
 
-    .pp_0_md{ margin: 0 }
-    .pt_0_md{ margin-top: 0 }
-    .pl_0_md{ margin-left: 0 }
-    .pb_0_md{ margin-bottom: 0 }
-    .pr_0_md{ margin-right: 0 }
-    .px_0_md{ margin-left: 0; margin-right: 0 }
-    .py_0_md{ margin-top: 0; margin-bottom: 0 }
+    .mm_md_0{ margin: 0 }
+    .mt_md_0{ margin-top: 0 }
+    .ml_md_0{ margin-left: 0 }
+    .mb_md_0{ margin-bottom: 0}
+    .mr_md_0{ margin-right: 0 }
+    .mx_md_0{ margin-left: 0; margin-right: 0 }
+    .my_md_0{ margin-top: 0; margin-bottom: 0 }
 
-    .mm_0_md{ margin: 0 }
-    .mt_0_md{ margin-top: 0 }
-    .ml_0_md{ margin-left: 0 }
-    .mb_0_md{ margin-bottom: 0}
-    .mr_0_md{ margin-right: 0 }
-    .mx_0_md{ margin-left: 0; margin-right: 0 }
-    .my_0_md{ margin-top: 0; margin-bottom: 0 }
+    .mm_md_1{ margin: 4px }
+    .mt_md_1{ margin-top: 4px }
+    .ml_md_1{ margin-left: 4px }
+    .mb_md_1{ margin-bottom: 4px}
+    .mr_md_1{ margin-right: 4px }
+    .mx_md_1{ margin-left: 4px; margin-right: 4px }
+    .my_md_1{ margin-top: 4px; margin-bottom: 4px }
 
-    .mm_1_md{ margin: 1.55% }
-    .mt_1_md{ margin-top: 1.55%}
-    .ml_1_md{ margin-left: 1.55% }
-    .mb_1_md{ margin-bottom: 1.55%}
-    .mr_1_md{ margin-right: 1.55% }
-    .mx_1_md{ margin-left: 1.55%; margin-right: 1.55% }
-    .my_1_md{ margin-top: 1.55%; margin-bottom: 1.55% }
+    .mm_md_2{ margin: 8px }
+    .mt_md_2{ margin-top: 8px }
+    .ml_md_2{ margin-left: 8px }
+    .mb_md_2{ margin-bottom: 8px}
+    .mr_md_2{ margin-right: 8px }
+    .mx_md_2{ margin-left: 8px; margin-right: 8px }
+    .my_md_2{ margin-top: 8px; margin-bottom: 8px }
 
-    .pp_1_md{ padding: 1.55% }
-    .pt_1_md{ padding-top: 1.55%}
-    .pl_1_md{ padding-left: 1.55% }
-    .pb_1_md{ padding-bottom: 1.55%}
-    .pr_1_md{ padding-right: 1.55% }
-    .px_1_md{ padding-left: 1.55%; padding-right: 1.55% }
-    .py_1_md{ padding-top: 1.55%; padding-bottom: 1.55% }
+    .mm_md_3{ margin: 16px }
+    .mt_md_3{ margin-top: 16px }
+    .ml_md_3{ margin-left: 16px }
+    .mb_md_3{ margin-bottom: 16px}
+    .mr_md_3{ margin-right: 16px }
+    .mx_md_3{ margin-left: 16px; margin-right: 16px }
+    .my_md_3{ margin-top: 16px; margin-bottom: 16px }
 
-    .mm_2_md{ margin: 3.10% }
-    .mt_2_md{ margin-top: 3.10% }
-    .ml_2_md{ margin-left: 3.10% }
-    .mb_2_md{ margin-bottom: 3.10%}
-    .mr_2_md{ margin-right: 3.10% }
-    .mx_2_md{ margin-left: 3.10%; margin-right: 3.10% }
-    .my_2_md{ margin-top: 3.10%; margin-bottom: 3.10% }
+    .mm_md_4{ margin: 32px }
+    .mt_md_4{ margin-top: 32px }
+    .ml_md_4{ margin-left: 32px }
+    .mb_md_4{ margin-bottom: 32px}
+    .mr_md_4{ margin-right: 32px }
+    .mx_md_4{ margin-left: 32px; margin-right: 32px }
+    .my_md_4{ margin-top: 32px; margin-bottom: 32px }
 
-    .pp_2_md{ padding: 3.10% }
-    .pt_2_md{ padding-top: 3.10%}
-    .pl_2_md{ padding-left: 3.10% }
-    .pb_2_md{ padding-bottom: 3.10%}
-    .pr_2_md{ padding-right: 3.10% }
-    .px_2_md{ padding-left: 3.10%; padding-right: 3.10% }
-    .py_2_md{ padding-top: 3.10%; padding-bottom: 3.10% }
+    .mm_md_5{ margin: 64px  }
+    .mt_md_5{ margin-top: 64px }
+    .ml_md_5{ margin-left: 64px  }
+    .mb_md_5{ margin-bottom: 64px }
+    .mr_md_5{ margin-right: 64px  }
+    .mx_md_5{ margin-left: 64px ; margin-right: 64px  }
+    .my_md_5{ margin-top: 64px ; margin-bottom: 64px  }
 
-    .mm_3_md{ margin: 4.65% }
-    .mt_3_md{ margin-top: 4.65% }
-    .ml_3_md{ margin-left: 4.65% }
-    .mb_3_md{ margin-bottom: 4.65%}
-    .mr_3_md{ margin-right: 4.65% }
-    .mx_3_md{ margin-left: 4.65%; margin-right: 4.65% }
-    .my_3_md{ margin-top: 4.65%; margin-bottom: 4.65% }
+    .mm_md_6{ margin: 128px  }
+    .mt_md_6{ margin-top: 128px }
+    .ml_md_6{ margin-left: 128px  }
+    .mb_md_6{ margin-bottom: 128px }
+    .mr_md_6{ margin-right: 128px  }
+    .mx_md_6{ margin-left: 128px ; margin-right: 128px  }
+    .my_md_6{ margin-top: 128px ; margin-bottom: 128px  }
 
-    .pp_3_md{ padding: 4.65% }
-    .pt_3_md{ padding-top: 4.65%}
-    .pl_3_md{ padding-left: 4.65% }
-    .pb_3_md{ padding-bottom: 4.65%}
-    .pr_3_md{ padding-right: 4.65% }
-    .px_3_md{ padding-left: 4.65%; padding-right: 4.65% }
-    .py_3_md{ padding-top: 4.65%; padding-bottom: 4.65% }
+    .mm_md_7{ margin: 256px  }
+    .mt_md_7{ margin-top: 256px }
+    .ml_md_7{ margin-left: 256px  }
+    .mb_md_7{ margin-bottom: 256px }
+    .mr_md_7{ margin-right: 256px  }
+    .mx_md_7{ margin-left: 256px ; margin-right: 256px  }
+    .my_md_7{ margin-top: 256px ; margin-bottom: 256px  }
 
-    .mm_5_md{ margin: 7.75%  }
-    .mt_5_md{ margin-top: 7.75% }
-    .ml_5_md{ margin-left: 7.75%  }
-    .mb_5_md{ margin-bottom: 7.75% }
-    .mr_5_md{ margin-right: 7.75%  }
-    .mx_5_md{ margin-left: 7.75% ; margin-right: 7.75%  }
-    .my_5_md{ margin-top: 7.75% ; margin-bottom: 7.75%  }
+    .mm_md_8{ margin: 512px  }
+    .mt_md_8{ margin-top: 512px }
+    .ml_md_8{ margin-left: 512px  }
+    .mb_md_8{ margin-bottom: 512px }
+    .mr_md_8{ margin-right: 512px  }
+    .mx_md_8{ margin-left: 512px ; margin-right: 512px  }
+    .my_md_8{ margin-top: 512px ; margin-bottom: 512px  }
 
-    .pp_5_md{ padding: 7.75%  }
-    .pt_5_md{ padding-top: 7.75% }
-    .pl_5_md{ padding-left: 7.75%  }
-    .pb_5_md{ padding-bottom: 7.75% }
-    .pr_5_md{ padding-right: 7.75%  }
-    .px_5_md{ padding-left: 7.75% ; padding-right: 7.75%  }
-    .py_5_md{ padding-top: 7.75% ; padding-bottom: 7.75%  }
+    .pp_md_0{ padding: 0 }
+    .pt_md_0{ padding-top: 0 }
+    .pl_md_0{ padding-left: 0 }
+    .pb_md_0{ padding-bottom: 0}
+    .pr_md_0{ padding-right: 0 }
+    .px_md_0{ padding-left: 0; padding-right: 0 }
+    .py_md_0{ padding-top: 0; padding-bottom: 0 }
 
-    .mt_15_md{ margin-top: 15px}
-    .mb_15_md{ margin-bottom: 15px}
-    .pt_15_md{ padding-top: 15px}
-    .pb_15_md{ padding-bottom: 15px}
+    .pp_md_1{ padding: 4px }
+    .pt_md_1{ padding-top: 4px }
+    .pl_md_1{ padding-left: 4px }
+    .pb_md_1{ padding-bottom: 4px}
+    .pr_md_1{ padding-right: 4px }
+    .px_md_1{ padding-left: 4px; padding-right: 4px }
+    .py_md_1{ padding-top: 4px; padding-bottom: 4px }
 
-    .mt_20_md{ margin-top: 20px}
-    .mb_20_md{ margin-bottom: 20px}
-    .pt_20_md{ padding-top: 20px}
-    .pb_20_md{ padding-bottom: 20px}
+    .pp_md_2{ padding: 8px }
+    .pt_md_2{ padding-top: 8px }
+    .pl_md_2{ padding-left: 8px }
+    .pb_md_2{ padding-bottom: 8px}
+    .pr_md_2{ padding-right: 8px }
+    .px_md_2{ padding-left: 8px; padding-right: 8px }
+    .py_md_2{ padding-top: 8px; padding-bottom: 8px }
 
-    .mt_30_md{ margin-top: 30px}
-    .mb_30_md{ margin-bottom: 30px}
-    .pt_30_md{ padding-top: 30px}
-    .pb_30_md{ padding-bottom: 30px}
+    .pp_md_3{ padding: 16px }
+    .pt_md_3{ padding-top: 16px }
+    .pl_md_3{ padding-left: 16px }
+    .pb_md_3{ padding-bottom: 16px}
+    .pr_md_3{ padding-right: 16px }
+    .px_md_3{ padding-left: 16px; padding-right: 16px }
+    .py_md_3{ padding-top: 16px; padding-bottom: 16px }
 
-    .mt_40_md{ margin-top: 40px }
-    .mb_40_md{ margin-bottom: 40px }
-    .pt_40_md{ padding-top: 40px }
-    .pb_40_md{ padding-bottom: 40px }
+    .pp_md_4{ padding: 32px }
+    .pt_md_4{ padding-top: 32px }
+    .pl_md_4{ padding-left: 32px }
+    .pb_md_4{ padding-bottom: 32px}
+    .pr_md_4{ padding-right: 32px }
+    .px_md_4{ padding-left: 32px; padding-right: 32px }
+    .py_md_4{ padding-top: 32px; padding-bottom: 32px }
 
-    .mt_50_md{ margin-top: 50px }
-    .mb_50_md{ margin-bottom: 50px }
-    .pt_50_md{ padding-top: 50px }
-    .pb_50_md{ padding-bottom: 50px }
+    .pp_md_5{ padding: 64px  }
+    .pt_md_5{ padding-top: 64px }
+    .pl_md_5{ padding-left: 64px  }
+    .pb_md_5{ padding-bottom: 64px }
+    .pr_md_5{ padding-right: 64px  }
+    .px_md_5{ padding-left: 64px; padding-right: 64px  }
+    .py_md_5{ padding-top: 64px; padding-bottom: 64px  }
 
-    .mt_100_md{ margin-top: 100px }
-    .mb_100_md{ margin-bottom: 100px }
-    .pt_100_md{ padding-top: 100px }
-    .pb_100_md{ padding-bottom: 100px }
+    .pp_md_6{ padding: 128px  }
+    .pt_md_6{ padding-top: 128px }
+    .pl_md_6{ padding-left: 128px  }
+    .pb_md_6{ padding-bottom: 128px }
+    .pr_md_6{ padding-right: 128px  }
+    .px_md_6{ padding-left: 128px; padding-right: 128px  }
+    .py_md_6{ padding-top: 128px; padding-bottom: 128px  }
 
-    .mt_200_md{ margin-top: 200px }
-    .mb_200_md{ margin-bottom: 200px }
-    .pt_200_md{ padding-top: 200px }
-    .pb_200_md{ padding-bottom: 200px }
+    .pp_md_7{ padding: 256px  }
+    .pt_md_7{ padding-top: 256px }
+    .pl_md_7{ padding-left: 256px  }
+    .pb_md_7{ padding-bottom: 256px }
+    .pr_md_7{ padding-right: 256px  }
+    .px_md_7{ padding-left: 256px; padding-right: 256px  }
+    .py_md_7{ padding-top: 256px; padding-bottom: 256px  }
 
-    .mt_300_md{ margin-top: 300px }
-    .mb_300_md{ margin-bottom: 300px }
-    .pt_300_md{ padding-top: 300px }
-    .pb_300_md{ padding-bottom: 300px }
+    .pp_md_8{ padding: 512px  }
+    .pt_md_8{ padding-top: 512px }
+    .pl_md_8{ padding-left: 512px  }
+    .pb_md_8{ padding-bottom: 512px }
+    .pr_md_8{ padding-right: 512px  }
+    .px_md_8{ padding-left: 512px; padding-right: 512px  }
+    .py_md_8{ padding-top: 512px; padding-bottom: 512px  }
 
     .tx_c_md{text-align: center !important}
     .tx_l_md{text-align: left !important}
@@ -822,125 +870,149 @@ img, object, embed, video, iframe, iframe[style] {
     .gr_sm_12  { width: 100%; float: left; clear: both }
     .row_fluid .gr_sm_12  { width: 98.45%; float: left; clear: both }
 
-    .pp_0_ms{ margin: 0 }
-    .pt_0_ms{ margin-top: 0 }
-    .pl_0_ms{ margin-left: 0 }
-    .pb_0_ms{ margin-bottom: 0 }
-    .pr_0_ms{ margin-right: 0 }
-    .px_0_ms{ margin-left: 0; margin-right: 0 }
-    .py_0_ms{ margin-top: 0; margin-bottom: 0 }
+    .mm_sm_0{ margin: 0 }
+    .mt_sm_0{ margin-top: 0 }
+    .ml_sm_0{ margin-left: 0 }
+    .mb_sm_0{ margin-bottom: 0}
+    .mr_sm_0{ margin-right: 0 }
+    .mx_sm_0{ margin-left: 0; margin-right: 0 }
+    .my_sm_0{ margin-top: 0; margin-bottom: 0 }
 
-    .mm_0_ms{ margin: 0 }
-    .mt_0_ms{ margin-top: 0 }
-    .ml_0_ms{ margin-left: 0 }
-    .mb_0_ms{ margin-bottom: 0}
-    .mr_0_ms{ margin-right: 0 }
-    .mx_0_ms{ margin-left: 0; margin-right: 0 }
-    .my_0_ms{ margin-top: 0; margin-bottom: 0 }
+    .mm_sm_1{ margin: 4px }
+    .mt_sm_1{ margin-top: 4px }
+    .ml_sm_1{ margin-left: 4px }
+    .mb_sm_1{ margin-bottom: 4px}
+    .mr_sm_1{ margin-right: 4px }
+    .mx_sm_1{ margin-left: 4px; margin-right: 4px }
+    .my_sm_1{ margin-top: 4px; margin-bottom: 4px }
 
-    .mm_1_ms{ margin: 1.55% }
-    .mt_1_ms{ margin-top: 1.55% }
-    .ml_1_ms{ margin-left: 1.55% }
-    .mb_1_ms{ margin-bottom: 1.55%}
-    .mr_1_ms{ margin-right: 1.55% }
-    .mx_1_ms{ margin-left: 1.55%; margin-right: 1.55% }
-    .my_1_ms{ margin-top: 1.55%; margin-bottom: 1.55% }
+    .mm_sm_2{ margin: 8px }
+    .mt_sm_2{ margin-top: 8px }
+    .ml_sm_2{ margin-left: 8px }
+    .mb_sm_2{ margin-bottom: 8px}
+    .mr_sm_2{ margin-right: 8px }
+    .mx_sm_2{ margin-left: 8px; margin-right: 8px }
+    .my_sm_2{ margin-top: 8px; margin-bottom: 8px }
 
-    .pp_1_ms{ padding: 1.55% }
-    .pt_1_ms{ padding-top: 1.55%}
-    .pl_1_ms{ padding-left: 1.55% }
-    .pb_1_ms{ padding-bottom: 1.55%}
-    .pr_1_ms{ padding-right: 1.55% }
-    .px_1_ms{ padding-left: 1.55%; padding-right: 1.55% }
-    .py_1_ms{ padding-top: 1.55%; padding-bottom: 1.55% }
+    .mm_sm_3{ margin: 16px }
+    .mt_sm_3{ margin-top: 16px }
+    .ml_sm_3{ margin-left: 16px }
+    .mb_sm_3{ margin-bottom: 16px}
+    .mr_sm_3{ margin-right: 16px }
+    .mx_sm_3{ margin-left: 16px; margin-right: 16px }
+    .my_sm_3{ margin-top: 16px; margin-bottom: 16px }
 
-    .mm_2_ms{ margin: 3.10% }
-    .mt_2_ms{ margin-top: 3.10% }
-    .ml_2_ms{ margin-left: 3.10% }
-    .mb_2_ms{ margin-bottom: 3.10%}
-    .mr_2_ms{ margin-right: 3.10% }
-    .mx_2_ms{ margin-left: 3.10%; margin-right: 3.10% }
-    .my_2_ms{ margin-top: 3.10%; margin-bottom: 3.10% }
+    .mm_sm_4{ margin: 32px }
+    .mt_sm_4{ margin-top: 32px }
+    .ml_sm_4{ margin-left: 32px }
+    .mb_sm_4{ margin-bottom: 32px}
+    .mr_sm_4{ margin-right: 32px }
+    .mx_sm_4{ margin-left: 32px; margin-right: 32px }
+    .my_sm_4{ margin-top: 32px; margin-bottom: 32px }
 
-    .pp_2_ms{ padding: 3.10% }
-    .pt_2_ms{ padding-top: 3.10%}
-    .pl_2_ms{ padding-left: 3.10% }
-    .pb_2_ms{ padding-bottom: 3.10%}
-    .pr_2_ms{ padding-right: 3.10% }
-    .px_2_ms{ padding-left: 3.10%; padding-right: 3.10% }
-    .py_2_ms{ padding-top: 3.10%; padding-bottom: 3.10% }
+    .mm_sm_5{ margin: 64px  }
+    .mt_sm_5{ margin-top: 64px }
+    .ml_sm_5{ margin-left: 64px  }
+    .mb_sm_5{ margin-bottom: 64px }
+    .mr_sm_5{ margin-right: 64px  }
+    .mx_sm_5{ margin-left: 64px ; margin-right: 64px  }
+    .my_sm_5{ margin-top: 64px ; margin-bottom: 64px  }
 
-    .mm_3_ms{ margin: 4.65% }
-    .mt_3_ms{ margin-top: 4.65% }
-    .ml_3_ms{ margin-left: 4.65% }
-    .mb_3_ms{ margin-bottom: 4.65%}
-    .mr_3_ms{ margin-right: 4.65% }
-    .mx_3_ms{ margin-left: 4.65%; margin-right: 4.65% }
-    .my_3_ms{ margin-top: 4.65%; margin-bottom: 4.65% }
+    .mm_sm_6{ margin: 128px  }
+    .mt_sm_6{ margin-top: 128px }
+    .ml_sm_6{ margin-left: 128px  }
+    .mb_sm_6{ margin-bottom: 128px }
+    .mr_sm_6{ margin-right: 128px  }
+    .mx_sm_6{ margin-left: 128px ; margin-right: 128px  }
+    .my_sm_6{ margin-top: 128px ; margin-bottom: 128px  }
 
-    .pp_3_ms{ padding: 4.65% }
-    .pt_3_ms{ padding-top: 4.65%}
-    .pl_3_ms{ padding-left: 4.65% }
-    .pb_3_ms{ padding-bottom: 4.65%}
-    .pr_3_ms{ padding-right: 4.65% }
-    .px_3_ms{ padding-left: 4.65%; padding-right: 4.65% }
-    .py_3_ms{ padding-top: 4.65%; padding-bottom: 4.65% }
+    .mm_sm_7{ margin: 256px  }
+    .mt_sm_7{ margin-top: 256px }
+    .ml_sm_7{ margin-left: 256px  }
+    .mb_sm_7{ margin-bottom: 256px }
+    .mr_sm_7{ margin-right: 256px  }
+    .mx_sm_7{ margin-left: 256px ; margin-right: 256px  }
+    .my_sm_7{ margin-top: 256px ; margin-bottom: 256px  }
 
-    .mm_5_ms{ margin: 7.75%  }
-    .mt_5_ms{ margin-top: 7.75% }
-    .ml_5_ms{ margin-left: 7.75%  }
-    .mb_5_ms{ margin-bottom: 7.75% }
-    .mr_5_ms{ margin-right: 7.75%  }
-    .mx_5_ms{ margin-left: 7.75% ; margin-right: 7.75%  }
-    .my_5_ms{ margin-top: 7.75% ; margin-bottom: 7.75%  }
+    .mm_sm_8{ margin: 512px  }
+    .mt_sm_8{ margin-top: 512px }
+    .ml_sm_8{ margin-left: 512px  }
+    .mb_sm_8{ margin-bottom: 512px }
+    .mr_sm_8{ margin-right: 512px  }
+    .mx_sm_8{ margin-left: 512px ; margin-right: 512px  }
+    .my_sm_8{ margin-top: 512px ; margin-bottom: 512px  }
 
-    .pp_5_ms{ padding: 7.75%  }
-    .pt_5_ms{ padding-top: 7.75% }
-    .pl_5_ms{ padding-left: 7.75%  }
-    .pb_5_ms{ padding-bottom: 7.75% }
-    .pr_5_ms{ padding-right: 7.75%  }
-    .px_5_ms{ padding-left: 7.75% ; padding-right: 7.75%  }
-    .py_5_ms{ padding-top: 7.75% ; padding-bottom: 7.75%  }
+    .pp_sm_0{ padding: 0 }
+    .pt_sm_0{ padding-top: 0 }
+    .pl_sm_0{ padding-left: 0 }
+    .pb_sm_0{ padding-bottom: 0}
+    .pr_sm_0{ padding-right: 0 }
+    .px_sm_0{ padding-left: 0; padding-right: 0 }
+    .py_sm_0{ padding-top: 0; padding-bottom: 0 }
 
-    .mt_15_sm{ margin-top: 15px}
-    .mb_15_sm{ margin-bottom: 15px}
-    .pt_15_sm{ padding-top: 15px}
-    .pb_15_sm{ padding-bottom: 15px}
+    .pp_sm_1{ padding: 4px }
+    .pt_sm_1{ padding-top: 4px }
+    .pl_sm_1{ padding-left: 4px }
+    .pb_sm_1{ padding-bottom: 4px}
+    .pr_sm_1{ padding-right: 4px }
+    .px_sm_1{ padding-left: 4px; padding-right: 4px }
+    .py_sm_1{ padding-top: 4px; padding-bottom: 4px }
 
-    .mt_20_sm{ margin-top: 20px}
-    .mb_20_sm{ margin-bottom: 20px}
-    .pt_20_sm{ padding-top: 20px}
-    .pb_20_sm{ padding-bottom: 20px}
+    .pp_sm_2{ padding: 8px }
+    .pt_sm_2{ padding-top: 8px }
+    .pl_sm_2{ padding-left: 8px }
+    .pb_sm_2{ padding-bottom: 8px}
+    .pr_sm_2{ padding-right: 8px }
+    .px_sm_2{ padding-left: 8px; padding-right: 8px }
+    .py_sm_2{ padding-top: 8px; padding-bottom: 8px }
 
-    .mt_30_sm{ margin-top: 30px}
-    .mb_30_sm{ margin-bottom: 30px}
-    .pt_30_sm{ padding-top: 30px}
-    .pb_30_sm{ padding-bottom: 30px}
+    .pp_sm_3{ padding: 16px }
+    .pt_sm_3{ padding-top: 16px }
+    .pl_sm_3{ padding-left: 16px }
+    .pb_sm_3{ padding-bottom: 16px}
+    .pr_sm_3{ padding-right: 16px }
+    .px_sm_3{ padding-left: 16px; padding-right: 16px }
+    .py_sm_3{ padding-top: 16px; padding-bottom: 16px }
 
-    .mt_40_sm{ margin-top: 40px }
-    .mb_40_sm{ margin-bottom: 40px }
-    .pt_40_sm{ padding-top: 40px }
-    .pb_40_sm{ padding-bottom: 40px }
+    .pp_sm_4{ padding: 32px }
+    .pt_sm_4{ padding-top: 32px }
+    .pl_sm_4{ padding-left: 32px }
+    .pb_sm_4{ padding-bottom: 32px}
+    .pr_sm_4{ padding-right: 32px }
+    .px_sm_4{ padding-left: 32px; padding-right: 32px }
+    .py_sm_4{ padding-top: 32px; padding-bottom: 32px }
 
-    .mt_50_sm{ margin-top: 50px }
-    .mb_50_sm{ margin-bottom: 50px }
-    .pt_50_sm{ padding-top: 50px }
-    .pb_50_sm{ padding-bottom: 50px }
+    .pp_sm_5{ padding: 64px  }
+    .pt_sm_5{ padding-top: 64px }
+    .pl_sm_5{ padding-left: 64px  }
+    .pb_sm_5{ padding-bottom: 64px }
+    .pr_sm_5{ padding-right: 64px  }
+    .px_sm_5{ padding-left: 64px; padding-right: 64px  }
+    .py_sm_5{ padding-top: 64px; padding-bottom: 64px  }
 
-    .mt_100_sm{ margin-top: 100px }
-    .mb_100_sm{ margin-bottom: 100px }
-    .pt_100_sm{ padding-top: 100px }
-    .pb_100_sm{ padding-bottom: 100px }
+    .pp_sm_6{ padding: 128px  }
+    .pt_sm_6{ padding-top: 128px }
+    .pl_sm_6{ padding-left: 128px  }
+    .pb_sm_6{ padding-bottom: 128px }
+    .pr_sm_6{ padding-right: 128px  }
+    .px_sm_6{ padding-left: 128px; padding-right: 128px  }
+    .py_sm_6{ padding-top: 128px; padding-bottom: 128px  }
 
-    .mt_200_sm{ margin-top: 200px }
-    .mb_200_sm{ margin-bottom: 200px }
-    .pt_200_sm{ padding-top: 200px }
-    .pb_200_sm{ padding-bottom: 200px }
+    .pp_sm_7{ padding: 256px  }
+    .pt_sm_7{ padding-top: 256px }
+    .pl_sm_7{ padding-left: 256px  }
+    .pb_sm_7{ padding-bottom: 256px }
+    .pr_sm_7{ padding-right: 256px  }
+    .px_sm_7{ padding-left: 256px; padding-right: 256px  }
+    .py_sm_7{ padding-top: 256px; padding-bottom: 256px  }
 
-    .mt_300_sm{ margin-top: 300px }
-    .mb_300_sm{ margin-bottom: 300px }
-    .pt_300_sm{ padding-top: 300px }
-    .pb_300_sm{ padding-bottom: 300px }
+    .pp_sm_8{ padding: 512px  }
+    .pt_sm_8{ padding-top: 512px }
+    .pl_sm_8{ padding-left: 512px  }
+    .pb_sm_8{ padding-bottom: 512px }
+    .pr_sm_8{ padding-right: 512px  }
+    .px_sm_8{ padding-left: 512px; padding-right: 512px  }
+    .py_sm_8{ padding-top: 512px; padding-bottom: 512px  }
 
     .tx_c_sm{text-align: center !important}
     .tx_l_sm{text-align: left !important}
@@ -1017,14 +1089,6 @@ img, object, embed, video, iframe, iframe[style] {
 .fl_r{ float: right !important}
 .fl_n{ float: none !important}
 
-.pp_0{ margin: 0 }
-.pt_0{ margin-top: 0 }
-.pl_0{ margin-left: 0 } 
-.pb_0{ margin-bottom: 0 }
-.pr_0{ margin-right: 0 }
-.px_0{ margin-left: 0; margin-right: 0 }
-.py_0{ margin-top: 0; margin-bottom: 0 }
-
 .mm_0{ margin: 0 }
 .mt_0{ margin-top: 0 }
 .ml_0{ margin-left: 0 }
@@ -1033,109 +1097,141 @@ img, object, embed, video, iframe, iframe[style] {
 .mx_0{ margin-left: 0; margin-right: 0 }
 .my_0{ margin-top: 0; margin-bottom: 0 }
 
-.mm_1{ margin: 1.55% }
-.mt_1{ margin-top: 1.55% }
-.ml_1{ margin-left: 1.55% }
-.mb_1{ margin-bottom: 1.55%}
-.mr_1{ margin-right: 1.55% }
-.mx_1{ margin-left: 1.55%; margin-right: 1.55% }
-.my_1{ margin-top: 1.55%; margin-bottom: 1.55% }
+.mm_1{ margin: 4px }
+.mt_1{ margin-top: 4px }
+.ml_1{ margin-left: 4px }
+.mb_1{ margin-bottom: 4px}
+.mr_1{ margin-right: 4px }
+.mx_1{ margin-left: 4px; margin-right: 4px }
+.my_1{ margin-top: 4px; margin-bottom: 4px }
 
-.pp_1{ padding: 1.55% }
-.pt_1{ padding-top: 1.55%}
-.pl_1{ padding-left: 1.55% }
-.pb_1{ padding-bottom: 1.55% }
-.pr_1{ padding-right: 1.55% }
-.px_1{ padding-left: 1.55%; padding-right: 1.55% }
-.py_1{ padding-top: 1.55%; padding-bottom: 1.55% }
+.mm_2{ margin: 8px }
+.mt_2{ margin-top: 8px }
+.ml_2{ margin-left: 8px }
+.mb_2{ margin-bottom: 8px}
+.mr_2{ margin-right: 8px }
+.mx_2{ margin-left: 8px; margin-right: 8px }
+.my_2{ margin-top: 8px; margin-bottom: 8px }
 
-.mm_2{ margin: 3.10% }
-.mt_2{ margin-top: 3.10% }
-.ml_2{ margin-left: 3.10% }
-.mb_2{ margin-bottom: 3.10%}
-.mr_2{ margin-right: 3.10% }
-.mx_2{ margin-left: 3.10%; margin-right: 3.10% }
-.my_2{ margin-top: 3.10%; margin-bottom: 3.10% }
+.mm_3{ margin: 16px }
+.mt_3{ margin-top: 16px }
+.ml_3{ margin-left: 16px }
+.mb_3{ margin-bottom: 16px}
+.mr_3{ margin-right: 16px }
+.mx_3{ margin-left: 16px; margin-right: 16px }
+.my_3{ margin-top: 16px; margin-bottom: 16px }
 
-.pp_2{ padding: 3.10% }
-.pt_2{ padding-top: 3.10%}
-.pl_2{ padding-left: 3.10%  }
-.pb_2{ padding-bottom: 3.10%}
-.pr_2{ padding-right: 3.10% }
-.px_2{ padding-left: 3.10%; padding-right: 3.10% }
-.py_2{ padding-top: 3.10%; padding-bottom: 3.10% }
+.mm_4{ margin: 32px }
+.mt_4{ margin-top: 32px }
+.ml_4{ margin-left: 32px }
+.mb_4{ margin-bottom: 32px}
+.mr_4{ margin-right: 32px }
+.mx_4{ margin-left: 32px; margin-right: 32px }
+.my_4{ margin-top: 32px; margin-bottom: 32px }
 
-.mm_3{ margin: 4.65% }
-.mt_3{ margin-top: 4.65% }
-.ml_3{ margin-left: 4.65% }
-.mb_3{ margin-bottom: 4.65%}
-.mr_3{ margin-right: 4.65% }
-.mx_3{ margin-left: 4.65%; margin-right: 4.65% }
-.my_3{ margin-top: 4.65%; margin-bottom: 4.65% }
+.mm_5{ margin: 64px  }
+.mt_5{ margin-top: 64px }
+.ml_5{ margin-left: 64px  }
+.mb_5{ margin-bottom: 64px }
+.mr_5{ margin-right: 64px  }
+.mx_5{ margin-left: 64px ; margin-right: 64px  }
+.my_5{ margin-top: 64px ; margin-bottom: 64px  }
 
-.pp_3{ padding: 4.65% }
-.pt_3{ padding-top: 4.65%}
-.pl_3{ padding-left: 4.65% }
-.pb_3{ padding-bottom: 4.65%}
-.pr_3{ padding-right: 4.65% }
-.px_3{ padding-left: 4.65%; padding-right: 4.65% }
-.py_3{ padding-top: 4.65%; padding-bottom: 4.65% }
+.mm_6{ margin: 128px  }
+.mt_6{ margin-top: 128px }
+.ml_6{ margin-left: 128px  }
+.mb_6{ margin-bottom: 128px }
+.mr_6{ margin-right: 128px  }
+.mx_6{ margin-left: 128px ; margin-right: 128px  }
+.my_6{ margin-top: 128px ; margin-bottom: 128px  }
 
-.mm_5{ margin: 7.75%  }
-.mt_5{ margin-top: 7.75% }
-.ml_5{ margin-left: 7.75%  }
-.mb_5{ margin-bottom: 7.75% }
-.mr_5{ margin-right: 7.75%  }
-.mx_5{ margin-left: 7.75% ; margin-right: 7.75%  }
-.my_5{ margin-top: 7.75% ; margin-bottom: 7.75%  }
+.mm_7{ margin: 256px  }
+.mt_7{ margin-top: 256px }
+.ml_7{ margin-left: 256px  }
+.mb_7{ margin-bottom: 256px }
+.mr_7{ margin-right: 256px  }
+.mx_7{ margin-left: 256px ; margin-right: 256px  }
+.my_7{ margin-top: 256px ; margin-bottom: 256px  }
 
-.pp_5{ padding: 7.75%  }
-.pt_5{ padding-top: 7.75% }
-.pl_5{ padding-left: 7.75%  }
-.pb_5{ padding-bottom: 7.75% }
-.pr_5{ padding-right: 7.75%  }
-.px_5{ padding-left: 7.75% ; padding-right: 7.75%  }
-.py_5{ padding-top: 7.75% ; padding-bottom: 7.75%  }
+.mm_8{ margin: 512px  }
+.mt_8{ margin-top: 512px }
+.ml_8{ margin-left: 512px  }
+.mb_8{ margin-bottom: 512px }
+.mr_8{ margin-right: 512px  }
+.mx_8{ margin-left: 512px ; margin-right: 512px  }
+.my_8{ margin-top: 512px ; margin-bottom: 512px  }
 
-.mt_15{ margin-top: 15px}
-.mb_15{ margin-bottom: 15px}
-.pt_15{ padding-top: 15px}
-.pb_15{ padding-bottom: 15px}
+.pp_0{ padding: 0 }
+.pt_0{ padding-top: 0 }
+.pl_0{ padding-left: 0 }
+.pb_0{ padding-bottom: 0}
+.pr_0{ padding-right: 0 }
+.px_0{ padding-left: 0; padding-right: 0 }
+.py_0{ padding-top: 0; padding-bottom: 0 }
 
-.mt_20{ margin-top: 20px}
-.mb_20{ margin-bottom: 20px}
-.pt_20{ padding-top: 20px}
-.pb_20{ padding-bottom: 20px}
+.pp_1{ padding: 4px }
+.pt_1{ padding-top: 4px }
+.pl_1{ padding-left: 4px }
+.pb_1{ padding-bottom: 4px}
+.pr_1{ padding-right: 4px }
+.px_1{ padding-left: 4px; padding-right: 4px }
+.py_1{ padding-top: 4px; padding-bottom: 4px }
 
-.mt_30{ margin-top: 30px}
-.mb_30{ margin-bottom: 30px}
-.pt_30{ padding-top: 30px}
-.pb_30{ padding-bottom: 30px}
+.pp_2{ padding: 8px }
+.pt_2{ padding-top: 8px }
+.pl_2{ padding-left: 8px }
+.pb_2{ padding-bottom: 8px}
+.pr_2{ padding-right: 8px }
+.px_2{ padding-left: 8px; padding-right: 8px }
+.py_2{ padding-top: 8px; padding-bottom: 8px }
 
-.mt_40{ margin-top: 40px }
-.mb_40{ margin-bottom: 40px }
-.pt_40{ padding-top: 40px }
-.pb_40{ padding-bottom: 40px }
+.pp_3{ padding: 16px }
+.pt_3{ padding-top: 16px }
+.pl_3{ padding-left: 16px }
+.pb_3{ padding-bottom: 16px}
+.pr_3{ padding-right: 16px }
+.px_3{ padding-left: 16px; padding-right: 16px }
+.py_3{ padding-top: 16px; padding-bottom: 16px }
 
-.mt_50{ margin-top: 50px }
-.mb_50{ margin-bottom: 50px }
-.pt_50{ padding-top: 50px }
-.pb_50{ padding-bottom: 50px }
+.pp_4{ padding: 32px }
+.pt_4{ padding-top: 32px }
+.pl_4{ padding-left: 32px }
+.pb_4{ padding-bottom: 32px}
+.pr_4{ padding-right: 32px }
+.px_4{ padding-left: 32px; padding-right: 32px }
+.py_4{ padding-top: 32px; padding-bottom: 32px }
 
-.mt_100{ margin-top: 100px }
-.mb_100{ margin-bottom: 100px }
-.pt_100{ padding-top: 100px }
-.pb_100{ padding-bottom: 100px }
+.pp_5{ padding: 64px  }
+.pt_5{ padding-top: 64px }
+.pl_5{ padding-left: 64px  }
+.pb_5{ padding-bottom: 64px }
+.pr_5{ padding-right: 64px  }
+.px_5{ padding-left: 64px; padding-right: 64px  }
+.py_5{ padding-top: 64px; padding-bottom: 64px  }
 
-.mt_200{ margin-top: 200px }
-.mb_200{ margin-bottom: 200px }
-.pt_200{ padding-top: 200px }
-.pb_200{ padding-bottom: 200px }
+.pp_6{ padding: 128px  }
+.pt_6{ padding-top: 128px }
+.pl_6{ padding-left: 128px  }
+.pb_6{ padding-bottom: 128px }
+.pr_6{ padding-right: 128px  }
+.px_6{ padding-left: 128px; padding-right: 128px  }
+.py_6{ padding-top: 128px; padding-bottom: 128px  }
 
-.mt_300{ margin-top: 300px }
-.mb_300{ margin-bottom: 300px }
-.pt_300{ padding-top: 300px }
-.pb_300{ padding-bottom: 300px }
+.pp_7{ padding: 256px  }
+.pt_7{ padding-top: 256px }
+.pl_7{ padding-left: 256px  }
+.pb_7{ padding-bottom: 256px }
+.pr_7{ padding-right: 256px  }
+.px_7{ padding-left: 256px; padding-right: 256px  }
+.py_7{ padding-top: 256px; padding-bottom: 256px  }
+
+.pp_8{ padding: 512px  }
+.pt_8{ padding-top: 512px }
+.pl_8{ padding-left: 512px  }
+.pb_8{ padding-bottom: 512px }
+.pr_8{ padding-right: 512px  }
+.px_8{ padding-left: 512px; padding-right: 512px  }
+.py_8{ padding-top: 512px; padding-bottom: 512px  }
 
 .gr_x{
     width: 100% !important;
