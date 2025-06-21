@@ -310,10 +310,10 @@ input:focus, select:focus, textarea:focus {
 
 .bg_raw{background-color: transparent}
 
-.pn{cursor: pointer}
-.mv{cursor: move}
-.hl{cursor: help}
-.nl{cursor: not-allowed}
+.cr_pn{cursor: pointer}
+.cr_mv{cursor: move}
+.cr_hl{cursor: help}
+.cr_nl{cursor: not-allowed}
 
 .row, .row_b_none { margin-left: -1.55%; margin-bottom: 0.775% }
 
