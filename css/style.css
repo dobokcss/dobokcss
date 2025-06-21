@@ -57,8 +57,10 @@ legend{ padding: 0 5px }
 
 .pg_header .tagline{ color: #999 }
 
-.xl_block, .xl_show, .block, .show{ display: block }
-.xl_none,  .xl_hide, .hide, .none{ display: none}
+.ds_block{display: block}
+.ds_none{display: none}
+.ds_iblock{display: inline-block}
+.ds_initial{display: initial}
 
 .bd, .bt.bd{border: 1px solid}
 
@@ -1472,10 +1474,10 @@ max-height: 1000px
           font-weight: bold
         }
 
-
-
-    .gr_lg_block, .gr_md_show{ display: block }
-    .gr_lg_none,  .gr_md_hide{ display: none}
+    .ds_lg_block{display: block}
+    .ds_lg_none{display: none}
+    .ds_lg_iblock{display: inline-block}
+    .ds_lg_initial{display: initial}
 
     .row_fluid { 
         width: 100%; float: left; margin-left: 0; margin-bottom: 0 
@@ -1697,8 +1699,10 @@ max-height: 1000px
 
 @media only screen and (max-width: 719px) {
 
-    .gr_md_block, .gr_md_show{ display: block }
-    .gr_md_none,  .gr_md_hide{ display: none}
+    .ds_md_block{display: block}
+    .ds_md_none{display: none}
+    .ds_md_iblock{display: inline-block}
+    .ds_md_initial{display: initial}
 
     .gr_md_3   { width: 23.44% }
     .gr_md_4   { width: 31.77% }
@@ -1906,8 +1910,10 @@ max-height: 1000px
 
 @media only screen and (max-width: 500px) {
 
-    .gr_sm_block, .gr_sm_show{ display: block }
-    .gr_sm_none,  .gr_sm_hide{ display: none}
+    .ds_sm_block{display: block}
+    .ds_sm_none{display: none}
+    .ds_sm_iblock{display: inline-block}
+    .ds_sm_initial{display: initial}
 
     .gr_sm_3   { width: 23.44% }
     .gr_sm_4   { width: 31.77% }
