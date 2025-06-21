@@ -1296,8 +1296,8 @@ max-height: 1000px
 @media (max-width: 759px) { .gr_md_static  { width: 92%; } }
 @media (max-width: 540px) { .gr_sm_static  { width: 92%; } }
 
-@media only screen and (max-width: 890px) 
-{
+@media only screen and (max-width: 890px) {
+
     label[for="mn_x_bt"]{ display: block }
 
     #mn_x_bt:checked ~ .mn_x > ul { display: block }
@@ -1695,8 +1695,8 @@ max-height: 1000px
     .tx_hv_stn_lg:hover, .lk_stn_lg:hover{color: #000} 
 }
 
-@media only screen and (max-width: 719px) 
-{
+@media only screen and (max-width: 719px) {
+
     .gr_md_block, .gr_md_show{ display: block }
     .gr_md_none,  .gr_md_hide{ display: none}
 
@@ -1912,8 +1912,8 @@ max-height: 1000px
     .tx_hv_stn_md:hover, .lk_stn_md:hover{color: #000} 
 }
 
-@media only screen and (max-width: 500px)
-{
+@media only screen and (max-width: 500px) {
+
     .gr_sm_block, .gr_sm_show{ display: block }
     .gr_sm_none,  .gr_sm_hide{ display: none}
 
@@ -2129,8 +2129,8 @@ max-height: 1000px
     .tx_hv_stn_sm:hover, .lk_stn_sm:hover{color: #000} 
 }
 
-@media (min-width: 1221px) 
-{
+@media (min-width: 1221px) {
+
     .container, .gr_12{ width: 1196px}
     .container {
         margin-left: auto; margin-right: auto
