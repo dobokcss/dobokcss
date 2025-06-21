@@ -672,6 +672,9 @@ img, object, embed, video, iframe, iframe[style] {
 .gr_y_50 {min-height: 50%}
 .gr_y_25 {min-height: 25%}
 
+.vw_100{width: 100vw}
+.vh_100{height: 100vh}
+
 .tb, .tb_hv, .tb_border,
 .tb_striped{margin:2px; border-collapse:collapse}
 .tb th,.tb_hv th,
