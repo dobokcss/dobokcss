@@ -1233,6 +1233,16 @@ img, object, embed, video, iframe, iframe[style] {
 .px_8{ padding-left: 512px; padding-right: 512px  }
 .py_8{ padding-top: 512px; padding-bottom: 512px  }
 
+.gr_y_0{height: 0}
+.gr_y_1{min-height: 4px}
+.gr_y_2{min-height: 8px}
+.gr_y_3{min-height: 16px}
+.gr_y_4{min-height: 32px}
+.gr_y_5{min-height: 64px}
+.gr_y_6{min-height: 128px}
+.gr_y_7{min-height: 256px}
+.gr_y_8{min-height: 512px}
+
 .gr_x{
     width: 100% !important;
     margin-left: 0; margin-right: 0; 
