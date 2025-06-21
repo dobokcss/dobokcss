@@ -11,9 +11,9 @@
 
 :root {
     --prm: #40535b;
-    --scn: #912e2e;
+    --scn: #c00;
     --hv_prm: #323f44;
-    --hv_scn: #7c2a2a;
+    --hv_scn: #a00;
 }
 
 html, body {
@@ -292,17 +292,16 @@ input:focus, select:focus, textarea:focus {
 .bg_lgt, .bt_lgt{ background: #f6f6f6}
 .bg, .bg_stn, .bt_stn{ color: #444; background: #ccc}
 
-.bg_prm, .bg_scn{color: #f6f6f6 }
+.bg_prm, .bg_scn, .bg_hv_prm:hover,
+.bg_hv_scn:hover {color: #fff }
 
-.bt_prm:hover {color: #fff; background: var(--hv_prm) }
-.bt_scn:hover {color: #fff; background: var(--hv_scn) }
-.bt_lgt:hover {color: #000; background: #d6d6d6 }
-.bt_stn:hover {color: #000; background: #afafaf }
+.bg_lgt, .bg_stn, .bg_hv_lgt:hover,
+.bg_hv_stn:hover {color: #000 }
 
-.bt.bt_hv_prm:hover, .bg.bg_hv_prm:hover { color: #fff; background: var(--hv_prm)}
-.bt.bt_hv_scn:hover, .bg.bg_hv_scn:hover { color: #fff; background: var(--hv_scn)}
-.bt.bt_hv_lgt:hover, .bg.bg_hv_lgt:hover { color: #000; background: #d6d6d6}
-.bt.bt_hv_stn:hover, .bg.bg_hv_stn:hover { color: #000; background: #afafaf}
+.bt_prm:hover, .bg_hv_prm:hover {background: var(--hv_prm)}
+.bt_scn:hover, .bg_hv_scn:hover {background: var(--hv_scn)}
+.bt_lgt:hover, .bg_hv_lgt:hover {background: #d6d6d6}
+.bt_stn:hover, .bg_hv_stn:hover {background: #afafaf}
 
 .bg_alpha, .bg_alpha_hv:hover {
     background-color:rgb(0,0,0);
