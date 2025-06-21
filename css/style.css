@@ -1660,39 +1660,39 @@ max-height: 1000px
     .y_lg_50 {min-height: 50%}
     .y_lg_25 {min-height: 25%}
 
-    .tx_c_lg{text-align: center !important}
-    .tx_l_lg{text-align: left !important}
-    .tx_r_lg{text-align: right !important}
-    .tx_j_lg{text-align: justify !important}
+    .tx_lg_c{text-align: center !important}
+    .tx_lg_l{text-align: left !important}
+    .tx_lg_r{text-align: right !important}
+    .tx_lg_j{text-align: justify !important}
 
-    .tx_lc_lg{text-transform: lowercase !important}
-    .tx_uc_lg{text-transform: uppercase !important}
-    .tx_cp_lg{text-transform: capitalize !important}
-    .tx_tr_no{text-transition: none}
+    .tx_lg_lc{text-transform: lowercase !important}
+    .tx_lg_uc{text-transform: uppercase !important}
+    .tx_lg_cp{text-transform: capitalize !important}
+    .tx_lg_tr_no{text-transition: none}
 
-    .tx_mr_lg{font-size: 0.625em }
-    .tx_sm_lg{font-size: 0.75em }
-    .tx_md_lg{font-size: 1em}
+    .tx_lg_mr{font-size: 0.625em }
+    .tx_lg_sm{font-size: 0.75em }
+    .tx_lg_md{font-size: 1em}
     .tx_lg_lg{ font-size: 1.25em}
-    .tx_xlg_lg{font-size: 2.25em}
+    .tx_lg_xlg{font-size: 2.25em}
 
-    .tx_b_lg{ font-weight: bold}
-    .tx_i_lg{font-style: italic}
-    .tx_b_no_lg{ font-weight: normal}
-    .tx_i_no_lg{font-style: normal}
-    .tx_u_lg{text-decoration: underline}
-    .tx_d_no_lg{text-decoration: none}
-    .tx_o_lg{text-decoration: overline}
+    .tx_lg_b{ font-weight: bold}
+    .tx_lg_i{font-style: italic}
+    .tx_lg_b_no{ font-weight: normal}
+    .tx_lg_i_no{font-style: normal}
+    .tx_lg_u{text-decoration: underline}
+    .tx_lg_d_no{text-decoration: none}
+    .tx_lg_o{text-decoration: overline}
 
-    .tx_prm_lg, .lk_prm_lg{ color: var(--prm)}
-    .tx_scn_lg, .lk_scn_lg{color:var(--scn)}
-    .tx_lgt_lg, .lk_lgt_lg{color: #f6f6f6}
-    .tx_stn_lg, .lk_stn_lg{color: #ccc}
+    .tx_lg_prm, .lk_lg_prm{ color: var(--prm)}
+    .tx_lg_scn, .lk_lg_scn{color:var(--scn)}
+    .tx_lg_lgt, .lk_lg_lgt{color: #f6f6f6}
+    .tx_lg_stn, .lk_lg_stn{color: #ccc}
 
-    .tx_hv_prm_lg:hover, .lk_prm_lg:hover{ color: var(--prm)}
-    .tx_hv_scn_lg:hover, .lk_scn_lg:hover{color:var(--hv_scn)}
-    .tx_hv_lgt_lg:hover, .lk_lgt_lg:hover{color: #d6d6d6}
-    .tx_hv_stn_lg:hover, .lk_stn_lg:hover{color: #000} 
+    .tx_lg_hv_prm:hover, .lk_lg_prm:hover{ color: var(--prm)}
+    .tx_lg_hv_scn:hover, .lk_lg_scn:hover{color:var(--hv_scn)}
+    .tx_lg_hv_lgt:hover, .lk_lg_lgt:hover{color: #d6d6d6}
+    .tx_lg_hv_stn:hover, .lk_lg_stn:hover{color: #000}
 }
 
 @media only screen and (max-width: 719px) {
@@ -1877,39 +1877,31 @@ max-height: 1000px
     .y_md_50 {min-height: 50%}
     .y_md_25 {min-height: 25%}
 
-    .tx_c_md{text-align: center !important}
-    .tx_l_md{text-align: left !important}
-    .tx_r_md{text-align: right !important}
-    .tx_j_md{text-align: justify !important}
+    .tx_md_c{text-align: center !important}
+    .tx_md_l{text-align: left !important}
+    .tx_md_r{text-align: right !important}
+    .tx_md_j{text-align: justify !important}
 
-    .tx_lc_md{text-transform: lowercase !important}
-    .tx_uc_md{text-transform: uppercase !important}
-    .tx_cp_md{text-transform: capitalize !important}
-    .tx_tr_no{text-transition: none}
+    .tx_md_lc{text-transform: lowercase !important}
+    .tx_md_uc{text-transform: uppercase !important}
+    .tx_md_cp{text-transform: capitalize !important}
+    .tx_md_tr_no{text-transition: none}
 
-    .tx_mr_md{font-size: 0.625em }
-    .tx_sm_md{font-size: 0.75em }
+    .tx_md_mr{font-size: 0.625em }
+    .tx_md_sm{font-size: 0.75em }
     .tx_md_md{font-size: 1em}
-    .tx_lg_md{ font-size: 1.25em}
-    .tx_xlg_md{font-size: 2.25em}
+    .tx_md_lg{ font-size: 1.25em}
+    .tx_md_xlg{font-size: 2.25em}
 
-    .bold_md{ font-weight: bold}
-    .italic_md{font-style: italic}
-    .bold_none_md{ font-weight: normal}
-    .italic_none_md{font-style: normal}
-    .underline_md{text-decoration: underline}
-    .decoration_none_md{text-decoration: none}
-    .overline_md{text-decoration: overline}
+    .tx_md_prm, .lk_md_prm{ color: var(--prm)}
+    .tx_md_scn, .lk_md_scn{color:var(--scn)}
+    .tx_md_lgt, .lk_md_lgt{color: #f6f6f6}
+    .tx_md_stn, .lk_md_stn{color: #ccc}
 
-    .tx_prm_md, .lk_prm_md{ color: var(--prm)}
-    .tx_scn_md, .lk_scn_md{color:var(--scn)}
-    .tx_lgt_md, .lk_lgt_md{color: #f6f6f6}
-    .tx_stn_md, .lk_stn_md{color: #ccc}
-
-    .tx_hv_prm_md:hover, .lk_prm_md:hover{ color: var(--prm)}
-    .tx_hv_scn_md:hover, .lk_scn_md:hover{color:var(--hv_scn)}
-    .tx_hv_lgt_md:hover, .lk_lgt_md:hover{color: #d6d6d6}
-    .tx_hv_stn_md:hover, .lk_stn_md:hover{color: #000} 
+    .tx_md_hv_prm:hover, .lk_md_prm:hover{ color: var(--prm)}
+    .tx_md_hv_scn:hover, .lk_md_scn:hover{color:var(--hv_scn)}
+    .tx_md_hv_lgt:hover, .lk_md_lgt:hover{color: #d6d6d6}
+    .tx_md_hv_stn:hover, .lk_md_stn:hover{color: #000}
 }
 
 @media only screen and (max-width: 500px) {
@@ -2068,15 +2060,15 @@ max-height: 1000px
     .px_sm_8{ padding-left: 512px; padding-right: 512px  }
     .py_sm_8{ padding-top: 512px; padding-bottom: 512px  }
 
-    .y_md_0{height: 0}
-    .y_md_1{min-height: 4px}
-    .y_md_2{min-height: 8px}
-    .y_md_3{min-height: 16px}
-    .y_md_4{min-height: 32px}
-    .y_md_5{min-height: 64px}
-    .y_md_6{min-height: 128px}
-    .y_md_7{min-height: 256px}
-    .y_md_8{min-height: 512px}
+    .y_sm_0{height: 0}
+    .y_sm_1{min-height: 4px}
+    .y_sm_2{min-height: 8px}
+    .y_sm_3{min-height: 16px}
+    .y_sm_4{min-height: 32px}
+    .y_sm_5{min-height: 64px}
+    .y_sm_6{min-height: 128px}
+    .y_sm_7{min-height: 256px}
+    .y_sm_8{min-height: 512px}
 
     .x_sm_100{
         width: 100% !important;
@@ -2094,39 +2086,39 @@ max-height: 1000px
     .y_sm_50 {min-height: 50%}
     .y_sm_25 {min-height: 25%}
 
-    .tx_c_sm{text-align: center !important}
-    .tx_l_sm{text-align: left !important}
-    .tx_r_sm{text-align: right !important}
-    .tx_j_sm{text-align: justify !important}
+    .tx_sm_c{text-align: center !important}
+    .tx_sm_l{text-align: left !important}
+    .tx_sm_r{text-align: right !important}
+    .tx_sm_j{text-align: justify !important}
 
-    .tx_lowercase_sm{text-transform: lowercase !important}
-    .tx_uppercase_sm{text-transform: uppercase !important}
-    .tx_capitalize_sm{text-transform: capitalize !important}
-    .tx_transform_none{text-transition: none}
+    .tx_sm_lc{text-transform: lowercase !important}
+    .tx_sm_uc{text-transform: uppercase !important}
+    .tx_sm_cp{text-transform: capitalize !important}
+    .tx_sm_tr_no{text-transition: none}
 
-    .tx_mr_sm{font-size: 0.625em }
-    .tx_sma_sm{font-size: 0.75em }
-    .tx_md_sm{font-size: 1em}
-    .tx_lg_sm{ font-size: 1.25em}
-    .tx_xlg_sm{font-size: 2.25em}
+    .tx_sm_mr{font-size: 0.625em }
+    .tx_sm_sm{font-size: 0.75em }
+    .tx_sm_md{font-size: 1em}
+    .tx_sm_lg{ font-size: 1.25em}
+    .tx_sm_xlg{font-size: 2.25em}
 
-    .tx_b_sm{ font-weight: bold}
-    .tx_i_sm{font-style: italic}
-    .tx_b_no_sm{ font-weight: normal}
-    .tx_i_no_sm{font-style: normal}
-    .tx_u_sm{text-decoration: underline}
-    .tx_d_no_sm{text-decoration: none}
-    .tx_o_sm{text-decoration: overline}
+    .tx_sm_b{ font-weight: bold}
+    .tx_sm_i{font-style: italic}
+    .tx_sm_b_no{ font-weight: normal}
+    .tx_sm_i_no{font-style: normal}
+    .tx_sm_u{text-decoration: underline}
+    .tx_sm_d_no{text-decoration: none}
+    .tx_sm_o{text-decoration: overline}
 
-    .tx_prm_sm, .lk_prm_sm{ color: var(--prm)}
-    .tx_scn_sm, .lk_scn_sm{color:var(--scn)}
-    .tx_lgt_sm, .lk_lgt_sm{color: #f6f6f6}
-    .tx_stn_sm, .lk_stn_sm{color: #ccc}
+    .tx_sm_prm, .lk_sm_prm{ color: var(--prm)}
+    .tx_sm_scn, .lk_sm_scn{color:var(--scn)}
+    .tx_sm_lgt, .lk_sm_lgt{color: #f6f6f6}
+    .tx_sm_stn, .lk_sm_stn{color: #ccc}
 
-    .tx_hv_prm_sm:hover, .lk_prm_sm:hover{ color: var(--prm)}
-    .tx_hv_scn_sm:hover, .lk_scn_sm:hover{color:var(--hv_scn)}
-    .tx_hv_lgt_sm:hover, .lk_lgt_sm:hover{color: #d6d6d6}
-    .tx_hv_stn_sm:hover, .lk_stn_sm:hover{color: #000} 
+    .tx_sm_hv_prm:hover, .lk_sm_prm:hover{ color: var(--prm)}
+    .tx_sm_hv_scn:hover, .lk_sm_scn:hover{color:var(--hv_scn)}
+    .tx_sm_hv_lgt:hover, .lk_sm_lgt:hover{color: #d6d6d6}
+    .tx_sm_hv_stn:hover, .lk_sm_stn:hover{color: #000}
 }
 
 @media (min-width: 1221px) {
