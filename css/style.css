@@ -642,15 +642,15 @@ img, object, embed, video, iframe, iframe[style] {
 .px_8{ padding-left: 512px; padding-right: 512px  }
 .py_8{ padding-top: 512px; padding-bottom: 512px  }
 
-.gr_y_0{height: 0}
-.gr_y_1{min-height: 4px}
-.gr_y_2{min-height: 8px}
-.gr_y_3{min-height: 16px}
-.gr_y_4{min-height: 32px}
-.gr_y_5{min-height: 64px}
-.gr_y_6{min-height: 128px}
-.gr_y_7{min-height: 256px}
-.gr_y_8{min-height: 512px}
+.y_0{height: 0}
+.y_1{min-height: 4px}
+.y_2{min-height: 8px}
+.y_3{min-height: 16px}
+.y_4{min-height: 32px}
+.y_5{min-height: 64px}
+.y_6{min-height: 128px}
+.y_7{min-height: 256px}
+.y_8{min-height: 512px}
 
 .x_100{
     width: 100% !important;
@@ -1634,15 +1634,15 @@ max-height: 1000px
     .px_lg_8{ padding-left: 512px; padding-right: 512px  }
     .py_lg_8{ padding-top: 512px; padding-bottom: 512px  }
 
-    .gr_lg_y_0{height: 0}
-    .gr_lg_y_1{min-height: 4px}
-    .gr_lg_y_2{min-height: 8px}
-    .gr_lg_y_3{min-height: 16px}
-    .gr_lg_y_4{min-height: 32px}
-    .gr_lg_y_5{min-height: 64px}
-    .gr_lg_y_6{min-height: 128px}
-    .gr_lg_y_7{min-height: 256px}
-    .gr_lg_y_8{min-height: 512px}
+    .y_lg_0{height: 0}
+    .y_lg_1{min-height: 4px}
+    .y_lg_2{min-height: 8px}
+    .y_lg_3{min-height: 16px}
+    .y_lg_4{min-height: 32px}
+    .y_lg_5{min-height: 64px}
+    .y_lg_6{min-height: 128px}
+    .y_lg_7{min-height: 256px}
+    .y_lg_8{min-height: 512px}
 
     .x_lg_100{
         width: 100% !important;
@@ -1851,15 +1851,15 @@ max-height: 1000px
     .px_md_8{ padding-left: 512px; padding-right: 512px  }
     .py_md_8{ padding-top: 512px; padding-bottom: 512px  }
 
-    .gr_md_y_0{height: 0}
-    .gr_md_y_1{min-height: 4px}
-    .gr_md_y_2{min-height: 8px}
-    .gr_md_y_3{min-height: 16px}
-    .gr_md_y_4{min-height: 32px}
-    .gr_md_y_5{min-height: 64px}
-    .gr_md_y_6{min-height: 128px}
-    .gr_md_y_7{min-height: 256px}
-    .gr_md_y_8{min-height: 512px}
+    .y_md_0{height: 0}
+    .y_md_1{min-height: 4px}
+    .y_md_2{min-height: 8px}
+    .y_md_3{min-height: 16px}
+    .y_md_4{min-height: 32px}
+    .y_md_5{min-height: 64px}
+    .y_md_6{min-height: 128px}
+    .y_md_7{min-height: 256px}
+    .y_md_8{min-height: 512px}
 
     .x_md_100{
         width: 100% !important;
@@ -2068,15 +2068,15 @@ max-height: 1000px
     .px_sm_8{ padding-left: 512px; padding-right: 512px  }
     .py_sm_8{ padding-top: 512px; padding-bottom: 512px  }
 
-    .gr_sm_y_0{height: 0}
-    .gr_sm_y_1{min-height: 4px}
-    .gr_sm_y_2{min-height: 8px}
-    .gr_sm_y_3{min-height: 16px}
-    .gr_sm_y_4{min-height: 32px}
-    .gr_sm_y_5{min-height: 64px}
-    .gr_sm_y_6{min-height: 128px}
-    .gr_sm_y_7{min-height: 256px}
-    .gr_sm_y_8{min-height: 512px}
+    .y_md_0{height: 0}
+    .y_md_1{min-height: 4px}
+    .y_md_2{min-height: 8px}
+    .y_md_3{min-height: 16px}
+    .y_md_4{min-height: 32px}
+    .y_md_5{min-height: 64px}
+    .y_md_6{min-height: 128px}
+    .y_md_7{min-height: 256px}
+    .y_md_8{min-height: 512px}
 
     .x_sm_100{
         width: 100% !important;
