@@ -642,6 +642,16 @@ img, object, embed, video, iframe, iframe[style] {
     .gr_lg_y_7{min-height: 256px}
     .gr_lg_y_8{min-height: 512px}
 
+    .gr_lg_x_100{width: 100%}
+    .gr_lg_x_75 {width: 75%}
+    .gr_lg_x_50 {width: 50%}
+    .gr_lg_x_25 {width: 25%}
+
+    .gr_lg_y_100{height: 100%}
+    .gr_lg_y_75 {min-height: 75%}
+    .gr_lg_y_50 {min-height: 50%}
+    .gr_lg_y_25 {min-height: 25%}
+
     .tx_c_lg{text-align: center !important}
     .tx_l_lg{text-align: left !important}
     .tx_r_lg{text-align: right !important}
@@ -843,6 +853,16 @@ img, object, embed, video, iframe, iframe[style] {
     .gr_md_y_7{min-height: 256px}
     .gr_md_y_8{min-height: 512px}
 
+    .gr_md_x_100{width: 100%}
+    .gr_md_x_75 {width: 75%}
+    .gr_md_x_50 {width: 50%}
+    .gr_md_x_25 {width: 25%}
+
+    .gr_md_y_100{height: 100%}
+    .gr_md_y_75 {min-height: 75%}
+    .gr_md_y_50 {min-height: 50%}
+    .gr_md_y_25 {min-height: 25%}
+
     .tx_c_md{text-align: center !important}
     .tx_l_md{text-align: left !important}
     .tx_r_md{text-align: right !important}
@@ -1043,6 +1063,16 @@ img, object, embed, video, iframe, iframe[style] {
     .gr_sm_y_6{min-height: 128px}
     .gr_sm_y_7{min-height: 256px}
     .gr_sm_y_8{min-height: 512px}
+
+    .gr_sm_x_100{width: 100%}
+    .gr_sm_x_75 {width: 75%}
+    .gr_sm_x_50 {width: 50%}
+    .gr_sm_x_25 {width: 25%}
+
+    .gr_sm_y_100{height: 100%}
+    .gr_sm_y_75 {min-height: 75%}
+    .gr_sm_y_50 {min-height: 50%}
+    .gr_sm_y_25 {min-height: 25%}
 
     .tx_c_sm{text-align: center !important}
     .tx_l_sm{text-align: left !important}
@@ -1281,6 +1311,17 @@ img, object, embed, video, iframe, iframe[style] {
 }
 
 .gr_a{ width: auto !important }
+
+
+.gr_x_100{width: 100%}
+.gr_x_75 {width: 75%}
+.gr_x_50 {width: 50%}
+.gr_x_25 {width: 25%}
+
+.gr_y_100{height: 100%}
+.gr_y_75 {min-height: 75%}
+.gr_y_50 {min-height: 50%}
+.gr_y_25 {min-height: 25%}
 
 .tb, .tb_hv, .tb_border,
 .tb_striped{margin:2px; border-collapse:collapse}
