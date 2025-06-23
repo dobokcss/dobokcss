@@ -1911,12 +1911,12 @@ max-height: 1000px
     .tx_sm_d_no{text-decoration: none}
     .tx_sm_o{text-decoration: overline}
 
-    .tx_sm_prm, .lk_sm_prm{ color: var(--prm)}
+    .tx_sm_prm, .lk_sm_prm{color: var(--prm)}
     .tx_sm_scn, .lk_sm_scn{color:var(--scn)}
     .tx_sm_lgt, .lk_sm_lgt{color: #f6f6f6}
     .tx_sm_ntl, .lk_sm_ntl{color: #ccc}
 
-    .tx_sm_hv_prm:hover, .lk_sm_prm:hover{ color: var(--prm)}
+    .tx_sm_hv_prm:hover, .lk_sm_prm:hover{color: var(--prm)}
     .tx_sm_hv_scn:hover, .lk_sm_scn:hover{color:var(--hv_scn)}
     .tx_sm_hv_lgt:hover, .lk_sm_lgt:hover{color: #d6d6d6}
     .tx_sm_hv_ntl:hover, .lk_sm_ntl:hover{color: #000}
@@ -2122,12 +2122,12 @@ max-height: 1000px
     .tx_md_lg{ font-size: 1.25em}
     .tx_md_xlg{font-size: 2.25em}
 
-    .tx_md_prm, .lk_md_prm{ color: var(--prm)}
+    .tx_md_prm, .lk_md_prm{color: var(--prm)}
     .tx_md_scn, .lk_md_scn{color:var(--scn)}
     .tx_md_lgt, .lk_md_lgt{color: #f6f6f6}
     .tx_md_ntl, .lk_md_ntl{color: #ccc}
 
-    .tx_md_hv_prm:hover, .lk_md_prm:hover{ color: var(--prm)}
+    .tx_md_hv_prm:hover, .lk_md_prm:hover{color: var(--prm)}
     .tx_md_hv_scn:hover, .lk_md_scn:hover{color:var(--hv_scn)}
     .tx_md_hv_lgt:hover, .lk_md_lgt:hover{color: #d6d6d6}
     .tx_md_hv_ntl:hover, .lk_md_ntl:hover{color: #000}
