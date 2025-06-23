@@ -23,7 +23,7 @@ html, body {
 }
 
 body{ 
-    color: #333;
+    color: #222;
     background-color:#fff;
     font-family:Verdana, Arial, Helvetica, sans-serif;
     font-size: 1em;
@@ -90,28 +90,28 @@ legend{ padding: 0 5px }
     border-bottom: none 0
 }
 
-.bt.bd_prm, .bd_prm, .wait.bd_prm,
+.bt.bd_prm, .bd_prm, .load.bd_prm,
 .bd_t_prm, .bd_r_prm, .bd_l_prm, .bd_b_prm,
 .bd_t_prm_0, .bd_r_prm_0, .bd_l_prm_0, .bd_b_prm_0 {
     color: var(--prm);
     border-color: var(--prm)
 }
 
-.bt.bd_scn, .bd_scn, .wait.bd_scn,
+.bt.bd_scn, .bd_scn, .load.bd_scn,
 .bd_t_scn, .bd_r_scn, .bd_l_scn, .bd_b_scn,
 .bd_t_scn_0, .bd_r_scn_0, .bd_l_scn_0, .bd_b_scn_0 {
     color: var(--scn);
     border-color: var(--scn)
 }
 
-.bt.bd_lgt, .bd_lgt, .wait.bd_lgt,
+.bt.bd_lgt, .bd_lgt, .load.bd_lgt,
 .bd_t_lgt, .bd_r_lgt, .bd_l_lgt, .bd_b_lgt,
 .bd_t_lgt_0, .bd_r_lgt_0, .bd_l_lgt_0, .bd_b_lgt_0 {
     color: #666;
     border-color: #f6f6f6
 }
 
-.bt.bd_ntl, .bd_ntl, .wait.bd_ntl,
+.bt.bd_ntl, .bd_ntl, .load.bd_ntl,
 .bd_t_ntl, .bd_r_ntl, .bd_l_ntl, .bd_b_ntl,
 .bd_t_ntl_0, .bd_r_ntl_0, .bd_l_ntl_0, .bd_b_ntl_0 {
     color: #666;
@@ -1260,35 +1260,35 @@ max-height: 1000px
 }
 
 
-.wait {
+.load {
     border: 5px solid #ccc;
     border-bottom-color: transparent !important;
     border-radius: 50%;
     box-sizing: border-box;
-    animation: rotation 1s linear infinite;
+    animation: load 1s linear infinite;
     color: transparent;
     display: inline-block;
 }
 
-.wait_sm {
+.load_sm {
     width: 15px;
     height: 15px;
     border-width: 2px
 }
 
-.wait_md {
+.load_md {
     width: 25px;
     height: 25px;
     border-width: 3px
 }
 
-.wait_lg {
+.load_lg {
     width: 48px;
     height: 48px;
 }
 
 
-@keyframes rotation {
+@keyframes load {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
