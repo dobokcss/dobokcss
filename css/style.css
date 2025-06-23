@@ -41,20 +41,11 @@ h3{font-size: 1.5em}
 fieldset{ border: 1px solid #ccc }
 legend{ padding: 0 5px }
 
-.pg_header{
-    width: 100%;
-    float: left;
-    padding: 10px 0 20px;
-    margin-bottom: 15px;
-    clear: both
-}
-
 .fold{
     width: 100%;
     float: left;
     padding-top: 10px;
-    padding-bottom: 50px;
-    margin-bottom: 25px
+    padding-bottom: 75px
 }
 
 .pg_header .tagline{ color: #999 }
@@ -66,80 +57,25 @@ legend{ padding: 0 5px }
 
 .bd, .bt.bd{border: 1px solid}
 
-.bd_t_prm, .bd_t_scn, .bd_t_lgt, .bd_t_ntl {
-    border-right: none 0; 
-    border-bottom: none 0; 
-    border-left: none 0
-}
-
-.bd_r_prm, .bd_r_scn, .bd_r_lgt, .bd_r_ntl {
-    border-bottom: none 0; 
-    border-left: none 0; 
-    border-top: none 0
-}
-
-.bd_b_prm, .bd_b_scn, .bd_b_lgt, .bd_b_ntl {
-    border-top: none 0;
-    border-left: none 0; 
-    border-right: none 0
-}
-
-.bd_l_prm, .bd_l_scn, .bd_l_lgt, .bd_l_ntl {
-    border-top: none 0; 
-    border-right: none 0; 
-    border-bottom: none 0
-}
-
-.bt.bd_prm, .bd_prm, .load.bd_prm,
-.bd_t_prm, .bd_r_prm, .bd_l_prm, .bd_b_prm,
-.bd_t_prm_0, .bd_r_prm_0, .bd_l_prm_0, .bd_b_prm_0 {
+.bt.bd_prm, .bd_prm, .load.load_prm {
     color: var(--prm);
     border-color: var(--prm)
 }
 
-.bt.bd_scn, .bd_scn, .load.bd_scn,
-.bd_t_scn, .bd_r_scn, .bd_l_scn, .bd_b_scn,
-.bd_t_scn_0, .bd_r_scn_0, .bd_l_scn_0, .bd_b_scn_0 {
+.bt.bd_scn, .bd_scn, .load.load_scn {
     color: var(--scn);
     border-color: var(--scn)
 }
 
-.bt.bd_lgt, .bd_lgt, .load.bd_lgt,
-.bd_t_lgt, .bd_r_lgt, .bd_l_lgt, .bd_b_lgt,
-.bd_t_lgt_0, .bd_r_lgt_0, .bd_l_lgt_0, .bd_b_lgt_0 {
+
+.bt.bd_lgt, .bd_lgt, .load.load_lgt {
     color: #666;
     border-color: #f6f6f6
 }
 
-.bt.bd_ntl, .bd_ntl, .load.bd_ntl,
-.bd_t_ntl, .bd_r_ntl, .bd_l_ntl, .bd_b_ntl,
-.bd_t_ntl_0, .bd_r_ntl_0, .bd_l_ntl_0, .bd_b_ntl_0 {
+.bt.bd_ntl, .bd_ntl, .load.load_ntl {
     color: #666;
     border-color: #ccc
-}
-
-.bd_y_prm, .bd_y_scn, .bd_y_lgt, .bd_y_ntl {
-    border-left: 0 none; border-right: 0 none 
-}
-
-.bd_x_prm, .bd_x_scn, .bd_x_lgt, .bd_x_ntl {
-    border-top: 0 none; border-bottom: 0 none 
-}
-
-.bd_t_prm_0, .bd_t_scn_0, .bd_t_lgt_0, .bd_t_ntl_0{
-    border-top: 0 none
-}
-
-.bd_r_prm_0, .bd_r_scn_0, .bd_r_lgt_0, .bd_r_ntl_0{
-    border-right: 0 none
-}
-
-.bd_b_prm_0, .bd_b_scn_0, .bd_b_lgt_0, .bd_b_ntl_0 {
-    border-bottom: 0 none
-}
-
-.bd_l_prm_0, .bd_l_scn_0, .bd_l_lgt_0, .bd_l_ntl_0{
-    border-left: 0 none
 }
 
 .rd_circle{
@@ -302,12 +238,12 @@ input:focus, select:focus, textarea:focus {
 .bg_lgt, .bg_ntl, .bg_hv_lgt:hover,
 .bg_hv_ntl:hover {color: #000 }
 
-.bt_prm:hover, .bg_hv_prm:hover {background: var(--hv_prm)}
-.bt_scn:hover, .bg_hv_scn:hover {background: var(--hv_scn)}
-.bt_lgt:hover, .bg_hv_lgt:hover {background: #d6d6d6}
-.bt_ntl:hover, .bg_hv_ntl:hover {background: #afafaf}
+.bt_prm:hover, .bg_hv_prm:hover, .bd.bd_hv_prm:hover{background: var(--hv_prm)}
+.bt_scn:hover, .bg_hv_scn:hover, .bd.bd_hv_scn:hover{background: var(--hv_scn)}
+.bt_lgt:hover, .bg_hv_lgt:hover, .bd.bd_hv_lgt:hover{background: #d6d6d6}
+.bt_ntl:hover, .bg_hv_ntl:hover, .bd.bd_hv_ntl:hover{background: #afafaf}
 
-.bg_alpha, .bg_alpha_hv:hover {
+.bg_alpha, .bg_hv_alpha:hover {
     background-color:rgb(0,0,0);
     background-color:rgba(0,0,0,0.4)
 }
