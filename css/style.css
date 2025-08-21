@@ -175,6 +175,56 @@ input:focus, select:focus, textarea:focus {
 .row:after {clear: both}
 
 
+.pa {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  justify-content: center;
+  gap: 6px
+}
+
+.pa li { margin: 0 }
+
+.pa a {
+  display: inline-block;
+  padding: 12px 24px;
+  background: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  transition: background 0.2s ease, border-color 0.2s ease
+}
+
+.pa.sm a { padding: 8px 16px }
+.pa.lg a { padding: 20px 45px }
+
+.pa a:hover {
+  background: #e9ecef;
+  border-color: #bbb
+}
+
+.pa a.active {
+  background: #ccc;
+  color: #000;
+  border-color: #ccc;
+  font-weight: bold;
+  cursor: default
+}
+
+.pa.pa_ac_prm a.active, 
+.pa.pa_ac_scn a.active { color: var(--wht)} 
+
+.pa.pa_ac_prm a.active { background: var(--prm); border-color: var(--prm) }
+.pa.pa_ac_scn a.active { background: var(--scn); border-color: var(--scn) }
+
+.pa a:disabled {
+  pointer-events: none;
+  opacity: 0.5
+}
+
 .lt_breadcrumb li::before{ content: '> '}
 
 .lt_breadcrumb li:first-child::before { content: '' }
